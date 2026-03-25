@@ -1,11 +1,25 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
-import matplotlib.pyplot as plt
+from pyvis.network import Network
+import numpy as np
 
-valid_categories = [21, 20, 24, 22, 23, 26, 28] #video blogging, gaming, entertainment, people and blogs, comedy, howto and style, science and technology
+def is_mostly_english(text):
+    if len(text) == 0:
+        return False
+    return sum(c.isascii() for c in text) / len(text) > 0.9
 
+french_stopwords = [
+    "le", "la", "les", "de", "du", "des", "un", "une", "et", "en",
+    "je", "tu", "il", "elle", "nous", "vous", "ils", "elles",
+    "ce", "qui", "que", "quoi", "ou", "où", "est", "sur", "avec"
+]
+
+valid_categories = [21, 22, 23, 26] #video blogging, people and blogs, comedy, howto and style
+#removed 20 is gaming
+#removed enterntainment 24
+#removed science and technology 28
 df = pd.read_csv("CAvideos.csv")
 
 #sorting data
@@ -14,11 +28,15 @@ df = df.sort_values('trending_date') #keep more recent videos
 df = df.drop_duplicates(subset='video_id', keep='first') #remove all video duplicates
 df = df.sort_values('views', ascending=False) #sort by views
 df = df[df['category_id'].isin(valid_categories)] #keep videos only in categories valid_categories
-df = df[~df['title'].str.contains("trailer", case=False, na=False)] #remove movie trailers, sometimes it's in people and blogs
-df = df[~df['title'].str.contains("teaser", case=False, na=False)] #remove movie teasers
-df = df[~df['title'].str.contains("music video", case=False, na=False)] #remove music videos
-df = df[~df['title'].str.contains("series", case=False, na=False)] #remove movie teasers
-df = df.head(2000) #take first 1000 most popular views
+
+exclude_titles = ["trailer", "teaser", "music video", "series", "getting over it", "galaxy s9", "episode", "épisode", "youtube rewind"]
+exclude_channels = ["Youtube Spotlight", "KSI", "Philip DeFranco", "Samsung", "HUM TV", "ARY Digital"]
+title_mask = ~df['title'].str.contains('|'.join(exclude_titles), case=False, na=False)
+channel_mask = ~df['channel_title'].str.contains('|'.join(exclude_channels), case=False, na=False) #remove certain channels
+#only take english titles
+df["text"] = df["title"]
+df = df[df["text"].apply(is_mostly_english)].reset_index(drop=True)
+df = df.head(5000) #take 5000 most popular videos after filtering
 
 print(len(df))
 
@@ -27,56 +45,69 @@ creators = df[['video_id','channel_title','title','tags','category_id','trending
 df.to_csv("filtered_youtube_trending.csv") #write data to new csv file
 
 #removes stop words (the, an, etc), combines title and tags and calculates the similarity matrix
-vectorizer = TfidfVectorizer(stop_words='english')
-df["text"] = df["title"] + " " + df["tags"] 
+combined_stopwords = list(ENGLISH_STOP_WORDS) + french_stopwords
+vectorizer = TfidfVectorizer(stop_words=combined_stopwords)
 tfidf_matrix = vectorizer.fit_transform(df["text"])
 similarity_matrix = cosine_similarity(tfidf_matrix)
 
 print(similarity_matrix)
 
-#creates graph and add creators as nodes
+dates = df['trending_date'].values.astype('datetime64[D]')
+categories = df['category_id'].values
+channels = df['channel_title'].values
+
+rows, cols = np.triu_indices(len(df), k=1)
+
+sims       = similarity_matrix[rows, cols]
+time_diffs = (dates[cols] - dates[rows]).astype(int)
+same_cat   = categories[rows] == categories[cols]
+diff_chan  = channels[rows] != channels[cols]
+
+mask = (sims > 0.5) & same_cat & diff_chan & (time_diffs > 0) & (time_diffs <= 14)
+
+#apply mask to get only valid pairs
+valid_rows = rows[mask]
+valid_cols = cols[mask]
+valid_sims = sims[mask]
+
+#build graph and print edges
 G = nx.DiGraph()
 for creator in df['channel_title'].unique():
     G.add_node(creator)
 
-# Print all edges with video titles
-for i in range(len(df)):
-    for j in range(i+1, len(df)):
-        time_diff = (df.iloc[j]['trending_date'] - df.iloc[i]['trending_date']).days
-        creator_a = df.iloc[i]['channel_title']
-        creator_b = df.iloc[j]['channel_title']
+for i, j, sim in zip(valid_rows, valid_cols, valid_sims):
+    creator_a, creator_b = channels[i], channels[j]
+    print(f"{creator_a} -> {creator_b}")
+    print(f"    {df.iloc[i]['title']}  -->  {df.iloc[j]['title']}")
+    print(f"    similarity = {sim:.2f}")
+    print(f"    category = {categories[i]}\n")
+    G.add_edge(creator_a, creator_b)
 
-        if creator_a == creator_b:
-            continue
-        
-        sim = similarity_matrix[i][j]
-        
-        if (sim > 0.15 and df.iloc[i]['category_id'] == df.iloc[j]['category_id'] and 0 < time_diff <= 7):
-            title_a = df.iloc[i]['title']
-            title_b = df.iloc[j]['title']
-            print(f"{creator_a} -> {creator_b}")
-            print(f"    {title_a}  -->  {title_b}")
-            print(f"    similarity = {sim:.2f}\n")
-            G.add_edge(creator_a, creator_b)
-
-#removing the creators that have no relations to other creators
-G.remove_nodes_from(list(nx.isolates(G)))     
+G.remove_nodes_from(list(nx.isolates(G)))
 
 print("Nodes:", G.number_of_nodes())
 print("Edges:", G.number_of_edges())
 
-plt.figure(figsize=(12,12))
+category_colors = {
+    21: '#e74c3c',  # video blogging
+    22: '#3498db',  # entertainment
+    23: '#2ecc71',  # people & blogs
+    26: '#f39c12',  # comedy
+}
 
-pos = nx.spring_layout(G)
+category_map = dict(zip(df['channel_title'], df['category_id']))
 
-nx.draw(
-    G,
-    pos,
-    with_labels=True,
-    node_size=50,
-    font_size=6
-)
+net = Network(height="950px", width="100%", directed=True, bgcolor="#1a1a2e", font_color="white")
 
-plt.savefig("youtube_network.png", dpi=300)
+for node in G.nodes():
+    cat = category_map.get(node, 0)
+    color = category_colors.get(cat, '#cccccc')
+    
+    net.add_node(node, label=node, color=color, title=f"{node}\nCategory: {cat}")
 
-plt.show()
+for src, dst in G.edges():
+    net.add_edge(src, dst, color="rgba(255,255,255,0.3)", arrows="to")
+
+net.show_buttons(filter_=['physics'])
+net.save_graph("youtube_network.html")
+print("Saved to youtube_network.html")

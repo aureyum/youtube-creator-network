@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#2ecc71", "font": {"color": "white"}, "id": "The Tonight Show Starring Jimmy Fallon", "label": "The Tonight Show Starring Jimmy Fallon", "shape": "dot", "title": "The Tonight Show Starring Jimmy Fallon\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Jung Hyun Ran", "label": "Jung Hyun Ran", "shape": "dot", "title": "Jung Hyun Ran\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "5-Minute Crafts", "label": "5-Minute Crafts", "shape": "dot", "title": "5-Minute Crafts\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "The ACE Family", "label": "The ACE Family", "shape": "dot", "title": "The ACE Family\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "TheAngryGrandpaShow", "label": "TheAngryGrandpaShow", "shape": "dot", "title": "TheAngryGrandpaShow\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "BuzzFeed Celeb", "label": "BuzzFeed Celeb", "shape": "dot", "title": "BuzzFeed Celeb\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "PewDiePie", "label": "PewDiePie", "shape": "dot", "title": "PewDiePie\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Troom Troom", "label": "Troom Troom", "shape": "dot", "title": "Troom Troom\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "CaseyNeistat", "label": "CaseyNeistat", "shape": "dot", "title": "CaseyNeistat\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "NikkieTutorials", "label": "NikkieTutorials", "shape": "dot", "title": "NikkieTutorials\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Jimmy Kimmel Live", "label": "Jimmy Kimmel Live", "shape": "dot", "title": "Jimmy Kimmel Live\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Late Night with Seth Meyers", "label": "Late Night with Seth Meyers", "shape": "dot", "title": "Late Night with Seth Meyers\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "H3 Podcast Highlights", "label": "H3 Podcast Highlights", "shape": "dot", "title": "H3 Podcast Highlights\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "ComedyShortsGamer", "label": "ComedyShortsGamer", "shape": "dot", "title": "ComedyShortsGamer\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "jacksfilms", "label": "jacksfilms", "shape": "dot", "title": "jacksfilms\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Amixem", "label": "Amixem", "shape": "dot", "title": "Amixem\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Lolywood", "label": "Lolywood", "shape": "dot", "title": "Lolywood\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Team Edge", "label": "Team Edge", "shape": "dot", "title": "Team Edge\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art", "label": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art", "shape": "dot", "title": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art\nCategory: 26"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Troom Troom SELECT", "label": "Troom Troom SELECT", "shape": "dot", "title": "Troom Troom SELECT\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Eh Bee Family", "label": "Eh Bee Family", "shape": "dot", "title": "Eh Bee Family\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Anwar Jibawi", "label": "Anwar Jibawi", "shape": "dot", "title": "Anwar Jibawi\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Manny Mua", "label": "Manny Mua", "shape": "dot", "title": "Manny Mua\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "I Hate Everything", "label": "I Hate Everything", "shape": "dot", "title": "I Hate Everything\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "JRE Clips", "label": "JRE Clips", "shape": "dot", "title": "JRE Clips\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Inanna Sarkis", "label": "Inanna Sarkis", "shape": "dot", "title": "Inanna Sarkis\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "PowerfulJRE", "label": "PowerfulJRE", "shape": "dot", "title": "PowerfulJRE\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Joe Rogan Fan Page", "label": "Joe Rogan Fan Page", "shape": "dot", "title": "Joe Rogan Fan Page\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Pat la r\u00e9alisation", "label": "Pat la r\u00e9alisation", "shape": "dot", "title": "Pat la r\u00e9alisation\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "MoreSidemen", "label": "MoreSidemen", "shape": "dot", "title": "MoreSidemen\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "CYRIL /SUPERKONAR", "label": "CYRIL /SUPERKONAR", "shape": "dot", "title": "CYRIL /SUPERKONAR\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "justdenise", "label": "justdenise", "shape": "dot", "title": "justdenise\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Dolan Dark", "label": "Dolan Dark", "shape": "dot", "title": "Dolan Dark\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "SPS Proudly Present", "label": "SPS Proudly Present", "shape": "dot", "title": "SPS Proudly Present\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Young Don The Sauce God", "label": "Young Don The Sauce God", "shape": "dot", "title": "Young Don The Sauce God\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "GamingWithJen", "label": "GamingWithJen", "shape": "dot", "title": "GamingWithJen\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Alissa Ashley", "label": "Alissa Ashley", "shape": "dot", "title": "Alissa Ashley\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "SootHouse", "label": "SootHouse", "shape": "dot", "title": "SootHouse\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Comedy Central UK", "label": "Comedy Central UK", "shape": "dot", "title": "Comedy Central UK\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Neplanet Football", "label": "Neplanet Football", "shape": "dot", "title": "Neplanet Football\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "MIN MIN", "label": "MIN MIN", "shape": "dot", "title": "MIN MIN\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "WillNE", "label": "WillNE", "shape": "dot", "title": "WillNE\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Patricia Bright", "label": "Patricia Bright", "shape": "dot", "title": "Patricia Bright\nCategory: 26"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "KathleenLights", "label": "KathleenLights", "shape": "dot", "title": "KathleenLights\nCategory: 26"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "How To Cake It", "label": "How To Cake It", "shape": "dot", "title": "How To Cake It\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Montreux Comedy", "label": "Montreux Comedy", "shape": "dot", "title": "Montreux Comedy\nCategory: 23"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "La Mezzanine", "label": "La Mezzanine", "shape": "dot", "title": "La Mezzanine\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Smosh Pit", "label": "Smosh Pit", "shape": "dot", "title": "Smosh Pit\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Philly D", "label": "Philly D", "shape": "dot", "title": "Philly D\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Row Network", "label": "Row Network", "shape": "dot", "title": "Row Network\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "KidBehindACamera", "label": "KidBehindACamera", "shape": "dot", "title": "KidBehindACamera\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Elvis the Alien", "label": "Elvis the Alien", "shape": "dot", "title": "Elvis the Alien\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Christen Dominique", "label": "Christen Dominique", "shape": "dot", "title": "Christen Dominique\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "ImAllexx", "label": "ImAllexx", "shape": "dot", "title": "ImAllexx\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Cody Ko", "label": "Cody Ko", "shape": "dot", "title": "Cody Ko\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Merry Christmas", "label": "Merry Christmas", "shape": "dot", "title": "Merry Christmas\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "George E. Creed", "label": "George E. Creed", "shape": "dot", "title": "George E. Creed\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Kyle Exum", "label": "Kyle Exum", "shape": "dot", "title": "Kyle Exum\nCategory: 23"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Casey Holmes", "label": "Casey Holmes", "shape": "dot", "title": "Casey Holmes\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "vlogbrothers", "label": "vlogbrothers", "shape": "dot", "title": "vlogbrothers\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "24 Oras News GMA", "label": "24 Oras News GMA", "shape": "dot", "title": "24 Oras News GMA\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Jenn Im", "label": "Jenn Im", "shape": "dot", "title": "Jenn Im\nCategory: 26"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Khalil Ls", "label": "Khalil Ls", "shape": "dot", "title": "Khalil Ls\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "SHYDUX MEDIA", "label": "SHYDUX MEDIA", "shape": "dot", "title": "SHYDUX MEDIA\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Fox News Live Stream", "label": "Fox News Live Stream", "shape": "dot", "title": "Fox News Live Stream\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "manna7654", "label": "manna7654", "shape": "dot", "title": "manna7654\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Alex Sanchez", "label": "Alex Sanchez", "shape": "dot", "title": "Alex Sanchez\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Elijah Price", "label": "Elijah Price", "shape": "dot", "title": "Elijah Price\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "ThingsToKnow", "label": "ThingsToKnow", "shape": "dot", "title": "ThingsToKnow\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Man About Cake", "label": "Man About Cake", "shape": "dot", "title": "Man About Cake\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "24 Oras News", "label": "24 Oras News", "shape": "dot", "title": "24 Oras News\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Hawkz80", "label": "Hawkz80", "shape": "dot", "title": "Hawkz80\nCategory: 22"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Nicol Concilio", "label": "Nicol Concilio", "shape": "dot", "title": "Nicol Concilio\nCategory: 26"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Country Christmas Music", "label": "Country Christmas Music", "shape": "dot", "title": "Country Christmas Music\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "ikawikawikawikaw", "label": "ikawikawikawikaw", "shape": "dot", "title": "ikawikawikawikaw\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Asa Medina", "label": "Asa Medina", "shape": "dot", "title": "Asa Medina\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "artis storm", "label": "artis storm", "shape": "dot", "title": "artis storm\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Xue Zhang", "label": "Xue Zhang", "shape": "dot", "title": "Xue Zhang\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "aakshi mehra", "label": "aakshi mehra", "shape": "dot", "title": "aakshi mehra\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "TvLive Fun", "label": "TvLive Fun", "shape": "dot", "title": "TvLive Fun\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Derek Guyton", "label": "Derek Guyton", "shape": "dot", "title": "Derek Guyton\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Any Bill Maher Fans", "label": "Any Bill Maher Fans", "shape": "dot", "title": "Any Bill Maher Fans\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Dennis Boyd", "label": "Dennis Boyd", "shape": "dot", "title": "Dennis Boyd\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Todd in the Shadows", "label": "Todd in the Shadows", "shape": "dot", "title": "Todd in the Shadows\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Lucifer\u0027s Angel", "label": "Lucifer\u0027s Angel", "shape": "dot", "title": "Lucifer\u0027s Angel\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "TVT Network", "label": "TVT Network", "shape": "dot", "title": "TVT Network\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Alff Batt", "label": "Alff Batt", "shape": "dot", "title": "Alff Batt\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Cesur D\u00fc\u015f\u00fcnce", "label": "Cesur D\u00fc\u015f\u00fcnce", "shape": "dot", "title": "Cesur D\u00fc\u015f\u00fcnce\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "turk2doubleoh8", "label": "turk2doubleoh8", "shape": "dot", "title": "turk2doubleoh8\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "FLuffeeTalks", "label": "FLuffeeTalks", "shape": "dot", "title": "FLuffeeTalks\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Saner Sone", "label": "Saner Sone", "shape": "dot", "title": "Saner Sone\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Michael Wertham", "label": "Michael Wertham", "shape": "dot", "title": "Michael Wertham\nCategory: 22"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "98.7 The Bull", "label": "98.7 The Bull", "shape": "dot", "title": "98.7 The Bull\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "M\u00fcge ile Her\u015fey", "label": "M\u00fcge ile Her\u015fey", "shape": "dot", "title": "M\u00fcge ile Her\u015fey\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Herry Saputra", "label": "Herry Saputra", "shape": "dot", "title": "Herry Saputra\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Angelina Merker", "label": "Angelina Merker", "shape": "dot", "title": "Angelina Merker\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "hazy horizons", "label": "hazy horizons", "shape": "dot", "title": "hazy horizons\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Doug Ketchum", "label": "Doug Ketchum", "shape": "dot", "title": "Doug Ketchum\nCategory: 22"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Tonight Show Starring Jimmy Fallon", "to": "Kyle Exum"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "5-Minute Crafts", "to": "Troom Troom SELECT"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The ACE Family", "to": "Philly D"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "TheAngryGrandpaShow", "to": "KidBehindACamera"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "BuzzFeed Celeb", "to": "justdenise"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PewDiePie", "to": "jacksfilms"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PewDiePie", "to": "CYRIL /SUPERKONAR"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PewDiePie", "to": "ImAllexx"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PewDiePie", "to": "Young Don The Sauce God"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PewDiePie", "to": "Dolan Dark"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Troom Troom", "to": "Troom Troom SELECT"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "CaseyNeistat", "to": "MoreSidemen"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "CaseyNeistat", "to": "Smosh Pit"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "CaseyNeistat", "to": "H3 Podcast Highlights"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "NikkieTutorials", "to": "Alissa Ashley"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "NikkieTutorials", "to": "Patricia Bright"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "NikkieTutorials", "to": "Nicol Concilio"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jimmy Kimmel Live", "to": "Khalil Ls"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Late Night with Seth Meyers", "to": "Comedy Central UK"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ComedyShortsGamer", "to": "WillNE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "jacksfilms", "to": "98.7 The Bull"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Amixem", "to": "Montreux Comedy"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Lolywood", "to": "Pat la r\u00e9alisation"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Team Edge", "to": "FLuffeeTalks"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art", "to": "Troom Troom"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Troom Troom SELECT", "to": "Troom Troom"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Eh Bee Family", "to": "Elvis the Alien"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Eh Bee Family", "to": "Any Bill Maher Fans"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Manny Mua", "to": "Jenn Im"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Manny Mua", "to": "Christen Dominique"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "I Hate Everything", "to": "jacksfilms"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Inanna Sarkis", "to": "Anwar Jibawi"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "PowerfulJRE", "to": "Cody Ko"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Joe Rogan Fan Page", "to": "JRE Clips"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "CYRIL /SUPERKONAR", "to": "WillNE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "SPS Proudly Present", "to": "Neplanet Football"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "GamingWithJen", "to": "vlogbrothers"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Alissa Ashley", "to": "Patricia Bright"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "MIN MIN", "to": "Jung Hyun Ran"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WillNE", "to": "Smosh Pit"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "How To Cake It", "to": "Man About Cake"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "La Mezzanine", "to": "SootHouse"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Row Network", "to": "Todd in the Shadows"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Christen Dominique", "to": "KathleenLights"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Merry Christmas", "to": "George E. Creed"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Merry Christmas", "to": "Country Christmas Music"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Casey Holmes", "to": "KathleenLights"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "vlogbrothers", "to": "SHYDUX MEDIA"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "24 Oras News GMA", "to": "24 Oras News"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Fox News Live Stream", "to": "Dennis Boyd"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "manna7654", "to": "Doug Ketchum"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Elijah Price", "to": "TVT Network"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Elijah Price", "to": "manna7654"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ThingsToKnow", "to": "Hawkz80"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ThingsToKnow", "to": "Any Bill Maher Fans"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ikawikawikawikaw", "to": "Alff Batt"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ikawikawikawikaw", "to": "M\u00fcge ile Her\u015fey"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Asa Medina", "to": "TvLive Fun"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "artis storm", "to": "Any Bill Maher Fans"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Xue Zhang", "to": "hazy horizons"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "aakshi mehra", "to": "Lucifer\u0027s Angel"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Derek Guyton", "to": "Alex Sanchez"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Dennis Boyd", "to": "Derek Guyton"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "TVT Network", "to": "manna7654"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "TVT Network", "to": "Doug Ketchum"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "TVT Network", "to": "Herry Saputra"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Alff Batt", "to": "Saner Sone"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Alff Batt", "to": "M\u00fcge ile Her\u015fey"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Cesur D\u00fc\u015f\u00fcnce", "to": "Michael Wertham"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "turk2doubleoh8", "to": "Angelina Merker"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
