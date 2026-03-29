@@ -1,0 +1,744 @@
+{
+  "edges": [
+    {
+      "source": "TheAngryGrandpaShow",
+      "target": "KidBehindACamera",
+      "similarity": 0.64,
+      "category_id": 22,
+      "source_title": "RIP ANGRY GRANDPA",
+      "target_title": "GOODBYE ANGRY GRANDPA",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "jacksfilms",
+      "similarity": 0.68,
+      "category_id": 23,
+      "source_title": "Why I'm not in YouTube Rewind 2017",
+      "target_title": "I fixed YouTube Rewind",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-11"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "ComradeWarbear",
+      "similarity": 0.64,
+      "category_id": 23,
+      "source_title": "Why I'm not in YouTube Rewind 2017",
+      "target_title": "Youtube Rewind 2017 (A more accurate remake)",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-10"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "CYRIL /SUPERKONAR",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "Why I'm not in YouTube Rewind 2017",
+      "target_title": "LE YOUTUBE SHOW",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-22"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "ImAllexx",
+      "similarity": 0.56,
+      "category_id": 23,
+      "source_title": "Why I'm not in YouTube Rewind 2017",
+      "target_title": "YouTube Rewind Hates Its Creators",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-14"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "Young Don The Sauce God",
+      "similarity": 0.51,
+      "category_id": 23,
+      "source_title": "YOU LAUGH, YOU TERRIFIED",
+      "target_title": "I WAS TERRIFIED! - Animated Story",
+      "source_date": "2018-04-17",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "CaseyNeistat",
+      "target": "MoreSidemen",
+      "similarity": 0.6,
+      "category_id": 22,
+      "source_title": "about Logan Paul",
+      "target_title": "WILL KSI FIGHT LOGAN PAUL OR JAKE PAUL? (Sidemen Podcast)",
+      "source_date": "2018-02-10",
+      "target_date": "2018-02-11"
+    },
+    {
+      "source": "CaseyNeistat",
+      "target": "Bart Baker",
+      "similarity": 0.76,
+      "category_id": 22,
+      "source_title": "about Logan Paul",
+      "target_title": "LOGAN PAUL IS BACK! PARODY",
+      "source_date": "2018-02-10",
+      "target_date": "2018-02-16"
+    },
+    {
+      "source": "CaseyNeistat",
+      "target": "Smosh Pit",
+      "similarity": 0.53,
+      "category_id": 22,
+      "source_title": "about Logan Paul",
+      "target_title": "CALLING OUT LOGAN PAUL, JAKE PAUL, JENNA MARBLES, AND THE REST OF YOUTUBE!",
+      "source_date": "2018-02-10",
+      "target_date": "2018-02-11"
+    },
+    {
+      "source": "CaseyNeistat",
+      "target": "H3 Podcast Highlights",
+      "similarity": 0.59,
+      "category_id": 22,
+      "source_title": "about Logan Paul",
+      "target_title": "H3H3 On Logan Paul Demonetization",
+      "source_date": "2018-02-10",
+      "target_date": "2018-02-14"
+    },
+    {
+      "source": "PewDiePie",
+      "target": "Dolan Dark",
+      "similarity": 0.54,
+      "category_id": 23,
+      "source_title": "NET NEUTRALITY MEMES",
+      "target_title": "Memes V",
+      "source_date": "2017-12-24",
+      "target_date": "2018-01-04"
+    },
+    {
+      "source": "TheAngryGrandpaShow",
+      "target": "KidBehindACamera",
+      "similarity": 0.58,
+      "category_id": 22,
+      "source_title": "ANGRY GRANDPA TRIBUTE VIDEO",
+      "target_title": "GOODBYE ANGRY GRANDPA",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "ComedyShortsGamer",
+      "target": "WillNE",
+      "similarity": 0.7,
+      "category_id": 22,
+      "source_title": "THE BEST NIGHT OF MY LIFE (KSI vs Joe Weller)",
+      "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
+      "source_date": "2018-02-05",
+      "target_date": "2018-02-06"
+    },
+    {
+      "source": "Markiplier",
+      "target": "Smosh Pit",
+      "similarity": 0.52,
+      "category_id": 23,
+      "source_title": "Try Not To Laugh Challenge #13",
+      "target_title": "TRY NOT TO LAUGH CHALLENGE #5 w/ GUS JOHNSON",
+      "source_date": "2018-03-21",
+      "target_date": "2018-03-28"
+    },
+    {
+      "source": "Amixem",
+      "target": "Montreux Comedy",
+      "similarity": 0.7,
+      "category_id": 23,
+      "source_title": "LES PIRES ANNONCES SUR LEBONCOIN ! #8",
+      "target_title": "Amixem et Pierre Croce - Les pires annonces LeBonCoin !",
+      "source_date": "2017-12-04",
+      "target_date": "2017-12-14"
+    },
+    {
+      "source": "Blossom",
+      "target": "Smosh",
+      "similarity": 0.6,
+      "category_id": 26,
+      "source_title": "Valentines Day Special | Valentine Hacks & Adorable Gift Ideas For Your Valentine by Blossom",
+      "target_title": "EVERY VALENTINE'S DAY EVER",
+      "source_date": "2018-02-11",
+      "target_date": "2018-02-15"
+    },
+    {
+      "source": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art",
+      "target": "Troom Troom",
+      "similarity": 0.52,
+      "category_id": 26,
+      "source_title": "DIY Edible Makeup Pranks! DIY Makeup Tutorial with 10 Funny Pranks and Life Hacks",
+      "target_title": "7 DIY Weird Makeup Ideas / Christmas Pranks!",
+      "source_date": "2017-12-10",
+      "target_date": "2017-12-20"
+    },
+    {
+      "source": "Meet Arnold",
+      "target": "Smosh",
+      "similarity": 0.52,
+      "category_id": 22,
+      "source_title": "If You Jump In A Free-Falling Elevator",
+      "target_title": "EVERY ELEVATOR EVER",
+      "source_date": "2018-01-28",
+      "target_date": "2018-01-30"
+    },
+    {
+      "source": "5-Minute Crafts",
+      "target": "Troom Troom SELECT",
+      "similarity": 0.6,
+      "category_id": 26,
+      "source_title": "35 EPIC GLUE GUN LIFE HACKS || HOT GLUE CRAFTS COMPILATION",
+      "target_title": "14 Hot Glue Gun Life Hacks For Crafting",
+      "source_date": "2018-02-12",
+      "target_date": "2018-02-21"
+    },
+    {
+      "source": "Troom Troom SELECT",
+      "target": "Troom Troom",
+      "similarity": 0.51,
+      "category_id": 26,
+      "source_title": "13 Funny Student Pranks On Teacher! School Pranks!",
+      "target_title": "16 Funny School Pranks And Life Hacks",
+      "source_date": "2018-05-29",
+      "target_date": "2018-06-01"
+    },
+    {
+      "source": "NikkieTutorials",
+      "target": "Alissa Ashley",
+      "similarity": 0.79,
+      "category_id": 26,
+      "source_title": "TARTE SHAPE TAPE FOUNDATION?! First Impressions + Demo",
+      "target_title": "NEW Tarte Shape Tape Foundation..Are They Serious?",
+      "source_date": "2018-01-17",
+      "target_date": "2018-01-18"
+    },
+    {
+      "source": "NikkieTutorials",
+      "target": "Patricia Bright",
+      "similarity": 0.59,
+      "category_id": 26,
+      "source_title": "TARTE SHAPE TAPE FOUNDATION?! First Impressions + Demo",
+      "target_title": "REACTING TO THE NEW TARTE SHAPE TAPE FOUNDATION...I DIDNT EXPECT THIS!",
+      "source_date": "2018-01-17",
+      "target_date": "2018-01-21"
+    },
+    {
+      "source": "Eh Bee Family",
+      "target": "Elvis the Alien",
+      "similarity": 0.55,
+      "category_id": 22,
+      "source_title": "DEAR LOGAN PAUL...",
+      "target_title": "I Do Not Like Logan Paul",
+      "source_date": "2018-01-03",
+      "target_date": "2018-01-04"
+    },
+    {
+      "source": "Liza Koshy Too",
+      "target": "Draw with Jazza",
+      "similarity": 0.66,
+      "category_id": 23,
+      "source_title": "GINGERBREAD HOUSE WITH NO HANDS CHALLENGE!!",
+      "target_title": "EPIC GINGERBREAD HOUSE CHALLENGE!!",
+      "source_date": "2017-12-11",
+      "target_date": "2017-12-25"
+    },
+    {
+      "source": "Lolywood",
+      "target": "Pat la r\u00e9alisation",
+      "similarity": 0.78,
+      "category_id": 23,
+      "source_title": "L'oral du Bac (vu par un Prof)",
+      "target_title": "L'ORAL DU BAC VU PAR UN \u00c9L\u00c9VE",
+      "source_date": "2018-06-10",
+      "target_date": "2018-06-11"
+    },
+    {
+      "source": "I Hate Everything",
+      "target": "jacksfilms",
+      "similarity": 0.56,
+      "category_id": 23,
+      "source_title": "I HATE YOUTUBE REWIND 2017",
+      "target_title": "I fixed YouTube Rewind",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-11"
+    },
+    {
+      "source": "I Hate Everything",
+      "target": "ComradeWarbear",
+      "similarity": 0.53,
+      "category_id": 23,
+      "source_title": "I HATE YOUTUBE REWIND 2017",
+      "target_title": "Youtube Rewind 2017 (A more accurate remake)",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-10"
+    },
+    {
+      "source": "consumer",
+      "target": "Royal Wedding",
+      "similarity": 0.54,
+      "category_id": 23,
+      "source_title": "John Oliver - Royal Wedding",
+      "target_title": "Yes, Meghan Did Curtsy for Queen at the Royal Wedding | by Royal Wedding",
+      "source_date": "2018-05-22",
+      "target_date": "2018-05-23"
+    },
+    {
+      "source": "NikkieTutorials",
+      "target": "Nicol Concilio",
+      "similarity": 0.64,
+      "category_id": 26,
+      "source_title": "DOING NICOLE RICHIE'S MAKEUP?!",
+      "target_title": "BLINDFOLDED MAKEUP CHALLENGE WITH NICOLE RICHIE",
+      "source_date": "2018-02-09",
+      "target_date": "2018-02-17"
+    },
+    {
+      "source": "Smosh",
+      "target": "jackisanerd",
+      "similarity": 0.57,
+      "category_id": 23,
+      "source_title": "EVERY VALENTINE'S DAY EVER",
+      "target_title": "Day 0",
+      "source_date": "2018-02-15",
+      "target_date": "2018-02-28"
+    },
+    {
+      "source": "ComedyShortsGamer",
+      "target": "WillNE",
+      "similarity": 0.64,
+      "category_id": 22,
+      "source_title": "KSI VS JOE WELLER LEAKED FOOTAGE",
+      "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
+      "source_date": "2018-01-28",
+      "target_date": "2018-02-06"
+    },
+    {
+      "source": "Troom Troom",
+      "target": "Troom Troom SELECT",
+      "similarity": 0.6,
+      "category_id": 26,
+      "source_title": "9 Funny Edible Pranks! / Pranks Wars!",
+      "target_title": "15 Morning Routine Pranks! Funny Pranks!",
+      "source_date": "2018-04-25",
+      "target_date": "2018-04-27"
+    },
+    {
+      "source": "The ACE Family",
+      "target": "Philly D",
+      "similarity": 0.55,
+      "category_id": 22,
+      "source_title": "IM SORRY CATHERINE!!!",
+      "target_title": "Very Sorry.",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-28"
+    },
+    {
+      "source": "The Tonight Show Starring Jimmy Fallon",
+      "target": "Kyle Exum",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "Offset & Metro Boomin Perform Ric Flair Drip with the Real Ric Flair",
+      "target_title": "Mr. Drip (Ric Flair Drip Parody) #PREEXUMSEASON",
+      "source_date": "2018-04-19",
+      "target_date": "2018-05-03"
+    },
+    {
+      "source": "Alissa Ashley",
+      "target": "Patricia Bright",
+      "similarity": 0.74,
+      "category_id": 26,
+      "source_title": "NEW Tarte Shape Tape Foundation..Are They Serious?",
+      "target_title": "REACTING TO THE NEW TARTE SHAPE TAPE FOUNDATION...I DIDNT EXPECT THIS!",
+      "source_date": "2018-01-18",
+      "target_date": "2018-01-21"
+    },
+    {
+      "source": "Manny Mua",
+      "target": "Jenn Im",
+      "similarity": 0.72,
+      "category_id": 26,
+      "source_title": "FEBRUARY FAVORITES AND FLOPS! February you did THAT!",
+      "target_title": "February Favorites 2018",
+      "source_date": "2018-02-27",
+      "target_date": "2018-03-02"
+    },
+    {
+      "source": "Late Night with Seth Meyers",
+      "target": "Comedy Central UK",
+      "similarity": 0.51,
+      "category_id": 23,
+      "source_title": "The Women's March and the Government Shutdown: A Closer Look",
+      "target_title": "The Daily Show | Who Won The Government Shutdown?",
+      "source_date": "2018-01-23",
+      "target_date": "2018-01-26"
+    },
+    {
+      "source": "LawTWINZ",
+      "target": "Jnel Comedy",
+      "similarity": 0.52,
+      "category_id": 22,
+      "source_title": "Childish Gambino - This Is America (Official Video) - REACTION",
+      "target_title": "Childish Gambino This Is America PARODY (This Is Jamaica) @JnelComedy",
+      "source_date": "2018-05-10",
+      "target_date": "2018-05-24"
+    },
+    {
+      "source": "Kim Kardashian West",
+      "target": "Carli Bybel",
+      "similarity": 0.57,
+      "category_id": 22,
+      "source_title": "KKW BEAUTY: Conceal, Bake, Brighten with Mario Dedivanovic",
+      "target_title": "TRYING THE NEW KKW CONCEAL, BAKE & BRIGHTEN! Carli Bybel",
+      "source_date": "2018-03-24",
+      "target_date": "2018-04-02"
+    },
+    {
+      "source": "MIN MIN",
+      "target": "Jung Hyun Ran",
+      "similarity": 0.9,
+      "category_id": 22,
+      "source_title": "[ENGSUB] RUN BTS! EP. 49",
+      "target_title": "[ENGSUB] Run BTS! - EP.49 Behind the scene",
+      "source_date": "2018-04-18",
+      "target_date": "2018-04-20"
+    },
+    {
+      "source": "Drake",
+      "target": "OfficialDjMurda",
+      "similarity": 0.75,
+      "category_id": 22,
+      "source_title": "Drake - God's Plan (Official Audio)",
+      "target_title": "Drake - Gods Plan (Official Audio)",
+      "source_date": "2018-01-26",
+      "target_date": "2018-02-07"
+    },
+    {
+      "source": "Manny Mua",
+      "target": "Christen Dominique",
+      "similarity": 0.53,
+      "category_id": 26,
+      "source_title": "FULL FACE USING LOWEST RATED SEPHORA MAKEUP!",
+      "target_title": "TESTING LOW RATED VS HIGH RATED SEPHORA MAKEUP!",
+      "source_date": "2018-02-15",
+      "target_date": "2018-02-25"
+    },
+    {
+      "source": "Team Edge",
+      "target": "FLuffeeTalks",
+      "similarity": 0.62,
+      "category_id": 23,
+      "source_title": "Shoot The Elf On A Shelf!!",
+      "target_title": "Horrible Elf on the Shelf Ideas!",
+      "source_date": "2017-12-19",
+      "target_date": "2017-12-20"
+    },
+    {
+      "source": "CYRIL /SUPERKONAR",
+      "target": "WillNE",
+      "similarity": 0.8,
+      "category_id": 23,
+      "source_title": "LE YOUTUBE SHOW",
+      "target_title": "YOUTUBE 2017...",
+      "source_date": "2017-12-22",
+      "target_date": "2017-12-30"
+    },
+    {
+      "source": "MIN MIN",
+      "target": "Jung Hyun Ran",
+      "similarity": 0.71,
+      "category_id": 22,
+      "source_title": "[ENGSUB] RUN BTS! EP. 43",
+      "target_title": "[ENGSUB] Run BTS! - EP.45",
+      "source_date": "2018-03-07",
+      "target_date": "2018-03-21"
+    },
+    {
+      "source": "La Mezzanine",
+      "target": "SootHouse",
+      "similarity": 0.56,
+      "category_id": 23,
+      "source_title": "STOCK 3",
+      "target_title": "Captioning Stock Images",
+      "source_date": "2018-01-17",
+      "target_date": "2018-01-22"
+    },
+    {
+      "source": "Graham The Christian",
+      "target": "Charisma on Command",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "Mark Zuckerberg Memes Galore",
+      "target_title": "Why Mark Zuckerberg Seems Evil",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-17"
+    },
+    {
+      "source": "BuzzFeed Celeb",
+      "target": "Tasty",
+      "similarity": 0.55,
+      "category_id": 22,
+      "source_title": "The Cast Of Black Panther Plays Would You Rather",
+      "target_title": "What Would They Eat In Black Panther?",
+      "source_date": "2018-02-17",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "BuzzFeed Celeb",
+      "target": "justdenise",
+      "similarity": 0.63,
+      "category_id": 22,
+      "source_title": "The Cast Of Black Panther Plays Would You Rather",
+      "target_title": "Black Panther Cast | Funny Moments 2018",
+      "source_date": "2018-02-17",
+      "target_date": "2018-02-20"
+    },
+    {
+      "source": "Row Network",
+      "target": "Todd in the Shadows",
+      "similarity": 0.59,
+      "category_id": 22,
+      "source_title": "Drake   God's Plan \u26a1 Lyrics",
+      "target_title": "POP SONG REVIEW: God's Plan by Drake",
+      "source_date": "2018-04-06",
+      "target_date": "2018-04-16"
+    },
+    {
+      "source": "How To Cake It",
+      "target": "Man About Cake",
+      "similarity": 0.51,
+      "category_id": 26,
+      "source_title": "Giant Cakesicle Cake | How To Cake It",
+      "target_title": "Smoothie Bowl Cake | Man About Cake",
+      "source_date": "2018-06-07",
+      "target_date": "2018-06-13"
+    },
+    {
+      "source": "Elvis the Alien",
+      "target": "ImAllexx",
+      "similarity": 0.56,
+      "category_id": 22,
+      "source_title": "I Do Not Like Logan Paul",
+      "target_title": "Defending Logan Paul",
+      "source_date": "2018-01-04",
+      "target_date": "2018-01-06"
+    },
+    {
+      "source": "Joe Rogan Fan Page",
+      "target": "JRE Clips",
+      "similarity": 0.8,
+      "category_id": 22,
+      "source_title": "Joe Rogan on Brendan Schaub's Controversial Comments - I can't defend him",
+      "target_title": "Joe Rogan - Brendan Schaub Apologizes For Controversial Comments",
+      "source_date": "2018-03-30",
+      "target_date": "2018-04-05"
+    },
+    {
+      "source": "Comedy Central UK",
+      "target": "Charisma on Command",
+      "similarity": 0.51,
+      "category_id": 23,
+      "source_title": "Mark Zuckerberg Is Very, Very Sorry | The Daily Show With Trevor Noah",
+      "target_title": "Why Mark Zuckerberg Seems Evil",
+      "source_date": "2018-04-15",
+      "target_date": "2018-04-17"
+    },
+    {
+      "source": "WillNE",
+      "target": "Smosh Pit",
+      "similarity": 0.57,
+      "category_id": 22,
+      "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
+      "target_title": "WE RUINED CHRISTMAS! (The Show w/ No Name)",
+      "source_date": "2017-12-05",
+      "target_date": "2017-12-14"
+    },
+    {
+      "source": "WillNE",
+      "target": "Eddy Burback",
+      "similarity": 0.57,
+      "category_id": 22,
+      "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
+      "target_title": "This is Why My Christmas is Ruined",
+      "source_date": "2017-12-05",
+      "target_date": "2017-12-19"
+    },
+    {
+      "source": "GamingWithJen",
+      "target": "vlogbrothers",
+      "similarity": 0.65,
+      "category_id": 22,
+      "source_title": "THIS HOUSE COST 1 BILLION DOLLARS?!?",
+      "target_title": "What Can't a Billion Dollars Buy?",
+      "source_date": "2018-02-02",
+      "target_date": "2018-02-14"
+    },
+    {
+      "source": "consumer",
+      "target": "MercerReport",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "John Oliver - Trudeau in India",
+      "target_title": "Rick's Rant - Trudeau in India",
+      "source_date": "2018-02-27",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "PowerfulJRE",
+      "target": "Cody Ko",
+      "similarity": 0.56,
+      "category_id": 22,
+      "source_title": "Joe Rogan Experience - 2017 Year in Review",
+      "target_title": "2017 In Review",
+      "source_date": "2018-01-01",
+      "target_date": "2018-01-02"
+    },
+    {
+      "source": "Christen Dominique",
+      "target": "KathleenLights",
+      "similarity": 0.77,
+      "category_id": 26,
+      "source_title": "Holiday Glam Makeup & Hair Tutorial",
+      "target_title": "EASY GLAM | Holiday Makeup Tutorial",
+      "source_date": "2017-12-11",
+      "target_date": "2017-12-23"
+    },
+    {
+      "source": "jacksfilms",
+      "target": "98.7 The Bull",
+      "similarity": 0.57,
+      "category_id": 23,
+      "source_title": "SOLVED: Yanny or Laurel",
+      "target_title": "Yanny or Laurel?  Hear it the other way!",
+      "source_date": "2018-05-16",
+      "target_date": "2018-05-17"
+    },
+    {
+      "source": "The Key of Awesome",
+      "target": "TheSorryGirls",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "THE LAST KEY OF AWESOME",
+      "target_title": "LOW-KEY + HIGH-KEY VALENTINE'S DAY IDEAS",
+      "source_date": "2018-02-05",
+      "target_date": "2018-02-12"
+    },
+    {
+      "source": "JRE Clips",
+      "target": "Tasty",
+      "similarity": 0.56,
+      "category_id": 22,
+      "source_title": "Joe Rogan on the Black Panther Controversy",
+      "target_title": "What Would They Eat In Black Panther?",
+      "source_date": "2018-02-16",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "24 Oras News GMA",
+      "target": "24 Oras News",
+      "similarity": 0.63,
+      "category_id": 22,
+      "source_title": "24 Oras January 28, 2018",
+      "target_title": "24 Oras February 2, 2018",
+      "source_date": "2018-01-28",
+      "target_date": "2018-02-02"
+    },
+    {
+      "source": "Jenna Julien",
+      "target": "H3 Podcast Highlights",
+      "similarity": 0.5,
+      "category_id": 23,
+      "source_title": "Podcast #169 - Logan Paul",
+      "target_title": "Logan Paul Fan Calls Into the H3 Podcast",
+      "source_date": "2018-01-09",
+      "target_date": "2018-01-20"
+    },
+    {
+      "source": "Smosh Pit",
+      "target": "SuperMega",
+      "similarity": 0.52,
+      "category_id": 22,
+      "source_title": "DRAWING POKEMON FROM MEMORY (Squad Vlogs)",
+      "target_title": "DRUNK DRAWING POKEMON",
+      "source_date": "2018-06-08",
+      "target_date": "2018-06-14"
+    },
+    {
+      "source": "ABC Television Stations",
+      "target": "98.7 The Bull",
+      "similarity": 0.89,
+      "category_id": 22,
+      "source_title": "Do you hear Yanny or Laurel?",
+      "target_title": "Yanny or Laurel?  Hear it the other way!",
+      "source_date": "2018-05-16",
+      "target_date": "2018-05-17"
+    },
+    {
+      "source": "Casey Holmes",
+      "target": "KathleenLights",
+      "similarity": 0.6,
+      "category_id": 26,
+      "source_title": "CURRENT FULL COVERAGE / DRUGSTORE FOUNDATION ROUTINE |  Casey Holmes",
+      "target_title": "CURRENT GO TO MAKEUP ROUTINE  (No Foundation)",
+      "source_date": "2018-03-12",
+      "target_date": "2018-03-20"
+    },
+    {
+      "source": "Xue Zhang",
+      "target": "Indah 412",
+      "similarity": 0.51,
+      "category_id": 22,
+      "source_title": "Scott Moir and Tessa Virtue 2018 PyeongChang Short Dance World Record",
+      "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "source_date": "2018-02-20",
+      "target_date": "2018-02-22"
+    },
+    {
+      "source": "aakshi mehra",
+      "target": "Lucifer's Angel",
+      "similarity": 0.55,
+      "category_id": 22,
+      "source_title": "Spiderman death scene in infinity war",
+      "target_title": "Spider-Man\u2019s death- Infinity War",
+      "source_date": "2018-04-30",
+      "target_date": "2018-05-02"
+    },
+    {
+      "source": "New Channel",
+      "target": "black bull",
+      "similarity": 0.63,
+      "category_id": 22,
+      "source_title": "Judge \u2022 Judy \u2022 February 2018 \u2708 11",
+      "target_title": "Judge Judy February 2018 Top Amazing Cases \u2708 94",
+      "source_date": "2018-02-19",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "hazy horizons",
+      "target": "Indah 412",
+      "similarity": 0.53,
+      "category_id": 22,
+      "source_title": "Tessa Virtue & Scott Moir - OG IE interview BBC",
+      "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "source_date": "2018-02-21",
+      "target_date": "2018-02-22"
+    },
+    {
+      "source": "OfficialDjMurda",
+      "target": "Cloudy",
+      "similarity": 0.75,
+      "category_id": 22,
+      "source_title": "Drake - Gods Plan (Official Audio)",
+      "target_title": "Drake - God's Plan (Official Audio)",
+      "source_date": "2018-02-07",
+      "target_date": "2018-02-10"
+    },
+    {
+      "source": "Indah 412",
+      "target": "Slicky59",
+      "similarity": 0.52,
+      "category_id": 22,
+      "source_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "target_title": "Jay and Dan's Side Seats with Tessa Virtue & Scott Moir - February 20, 2018",
+      "source_date": "2018-02-22",
+      "target_date": "2018-02-27"
+    }
+  ]
+}
