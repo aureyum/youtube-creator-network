@@ -13,7 +13,7 @@
     {
       "source": "PewDiePie",
       "target": "jacksfilms",
-      "similarity": 0.68,
+      "similarity": 0.71,
       "category_id": 23,
       "source_title": "Why I'm not in YouTube Rewind 2017",
       "target_title": "I fixed YouTube Rewind",
@@ -51,6 +51,16 @@
       "target_date": "2017-12-14"
     },
     {
+      "source": "AsapSCIENCE",
+      "target": "Jimmy Kimmel Live",
+      "similarity": 0.57,
+      "category_id": 28,
+      "source_title": "Do You Hear Yanny or Laurel? (SOLVED with SCIENCE)",
+      "target_title": "Laurel vs. Yanny",
+      "source_date": "2018-05-17",
+      "target_date": "2018-05-18"
+    },
+    {
       "source": "PewDiePie",
       "target": "Young Don The Sauce God",
       "similarity": 0.51,
@@ -58,6 +68,16 @@
       "source_title": "YOU LAUGH, YOU TERRIFIED",
       "target_title": "I WAS TERRIFIED! - Animated Story",
       "source_date": "2018-04-17",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "ashish chanchlani vines",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.52,
+      "category_id": 23,
+      "source_title": "Avengers Infinity War with Ashish Chanchlani",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-22",
       "target_date": "2018-04-29"
     },
     {
@@ -93,7 +113,7 @@
     {
       "source": "CaseyNeistat",
       "target": "H3 Podcast Highlights",
-      "similarity": 0.59,
+      "similarity": 0.6,
       "category_id": 22,
       "source_title": "about Logan Paul",
       "target_title": "H3H3 On Logan Paul Demonetization",
@@ -103,7 +123,7 @@
     {
       "source": "PewDiePie",
       "target": "Dolan Dark",
-      "similarity": 0.54,
+      "similarity": 0.55,
       "category_id": 23,
       "source_title": "NET NEUTRALITY MEMES",
       "target_title": "Memes V",
@@ -121,9 +141,19 @@
       "target_date": "2017-12-16"
     },
     {
+      "source": "The Late Show with Stephen Colbert",
+      "target": "Linus Tech Tips",
+      "similarity": 0.52,
+      "category_id": 22,
+      "source_title": "'Fox & Friends' Couldn't Get Trump Off The Phone",
+      "target_title": "The Phone Apple Couldn't Make...",
+      "source_date": "2018-04-28",
+      "target_date": "2018-05-06"
+    },
+    {
       "source": "ComedyShortsGamer",
       "target": "WillNE",
-      "similarity": 0.7,
+      "similarity": 0.72,
       "category_id": 22,
       "source_title": "THE BEST NIGHT OF MY LIFE (KSI vs Joe Weller)",
       "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
@@ -133,7 +163,7 @@
     {
       "source": "Markiplier",
       "target": "Smosh Pit",
-      "similarity": 0.52,
+      "similarity": 0.54,
       "category_id": 23,
       "source_title": "Try Not To Laugh Challenge #13",
       "target_title": "TRY NOT TO LAUGH CHALLENGE #5 w/ GUS JOHNSON",
@@ -143,7 +173,7 @@
     {
       "source": "Amixem",
       "target": "Montreux Comedy",
-      "similarity": 0.7,
+      "similarity": 0.69,
       "category_id": 23,
       "source_title": "LES PIRES ANNONCES SUR LEBONCOIN ! #8",
       "target_title": "Amixem et Pierre Croce - Les pires annonces LeBonCoin !",
@@ -163,7 +193,7 @@
     {
       "source": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art",
       "target": "Troom Troom",
-      "similarity": 0.52,
+      "similarity": 0.53,
       "category_id": 26,
       "source_title": "DIY Edible Makeup Pranks! DIY Makeup Tutorial with 10 Funny Pranks and Life Hacks",
       "target_title": "7 DIY Weird Makeup Ideas / Christmas Pranks!",
@@ -173,7 +203,7 @@
     {
       "source": "Meet Arnold",
       "target": "Smosh",
-      "similarity": 0.52,
+      "similarity": 0.54,
       "category_id": 22,
       "source_title": "If You Jump In A Free-Falling Elevator",
       "target_title": "EVERY ELEVATOR EVER",
@@ -203,7 +233,7 @@
     {
       "source": "NikkieTutorials",
       "target": "Alissa Ashley",
-      "similarity": 0.79,
+      "similarity": 0.8,
       "category_id": 26,
       "source_title": "TARTE SHAPE TAPE FOUNDATION?! First Impressions + Demo",
       "target_title": "NEW Tarte Shape Tape Foundation..Are They Serious?",
@@ -223,7 +253,7 @@
     {
       "source": "Eh Bee Family",
       "target": "Elvis the Alien",
-      "similarity": 0.55,
+      "similarity": 0.59,
       "category_id": 22,
       "source_title": "DEAR LOGAN PAUL...",
       "target_title": "I Do Not Like Logan Paul",
@@ -231,9 +261,19 @@
       "target_date": "2018-01-04"
     },
     {
+      "source": "Eh Bee Family",
+      "target": "ImAllexx",
+      "similarity": 0.5,
+      "category_id": 22,
+      "source_title": "DEAR LOGAN PAUL...",
+      "target_title": "Defending Logan Paul",
+      "source_date": "2018-01-03",
+      "target_date": "2018-01-06"
+    },
+    {
       "source": "Liza Koshy Too",
       "target": "Draw with Jazza",
-      "similarity": 0.66,
+      "similarity": 0.67,
       "category_id": 23,
       "source_title": "GINGERBREAD HOUSE WITH NO HANDS CHALLENGE!!",
       "target_title": "EPIC GINGERBREAD HOUSE CHALLENGE!!",
@@ -243,7 +283,7 @@
     {
       "source": "Lolywood",
       "target": "Pat la r\u00e9alisation",
-      "similarity": 0.78,
+      "similarity": 0.77,
       "category_id": 23,
       "source_title": "L'oral du Bac (vu par un Prof)",
       "target_title": "L'ORAL DU BAC VU PAR UN \u00c9L\u00c9VE",
@@ -251,9 +291,19 @@
       "target_date": "2018-06-11"
     },
     {
+      "source": "The Verge",
+      "target": "Elon Musk Viral Videos",
+      "similarity": 0.54,
+      "category_id": 28,
+      "source_title": "Elon Musk on how Falcon Heavy will change space travel",
+      "target_title": "Elon Musk Extremely Emotional Reaction To Falcon Heavy Launch",
+      "source_date": "2018-02-08",
+      "target_date": "2018-02-12"
+    },
+    {
       "source": "I Hate Everything",
       "target": "jacksfilms",
-      "similarity": 0.56,
+      "similarity": 0.59,
       "category_id": 23,
       "source_title": "I HATE YOUTUBE REWIND 2017",
       "target_title": "I fixed YouTube Rewind",
@@ -271,6 +321,16 @@
       "target_date": "2017-12-10"
     },
     {
+      "source": "Jimmy Kimmel Live",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.6,
+      "category_id": 23,
+      "source_title": "Cast of Avengers: Infinity War Draws Their Characters",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-28",
+      "target_date": "2018-04-29"
+    },
+    {
       "source": "consumer",
       "target": "Royal Wedding",
       "similarity": 0.54,
@@ -283,7 +343,7 @@
     {
       "source": "NikkieTutorials",
       "target": "Nicol Concilio",
-      "similarity": 0.64,
+      "similarity": 0.65,
       "category_id": 26,
       "source_title": "DOING NICOLE RICHIE'S MAKEUP?!",
       "target_title": "BLINDFOLDED MAKEUP CHALLENGE WITH NICOLE RICHIE",
@@ -293,7 +353,7 @@
     {
       "source": "Smosh",
       "target": "jackisanerd",
-      "similarity": 0.57,
+      "similarity": 0.56,
       "category_id": 23,
       "source_title": "EVERY VALENTINE'S DAY EVER",
       "target_title": "Day 0",
@@ -301,9 +361,29 @@
       "target_date": "2018-02-28"
     },
     {
+      "source": "#Mind Warehouse",
+      "target": "Jordan B Peterson",
+      "similarity": 0.52,
+      "category_id": 27,
+      "source_title": "APRIL 18TH, 2018. WHAT WILL HAPPEN?",
+      "target_title": "April 2018 Q & A",
+      "source_date": "2018-04-18",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "Google Developers",
+      "target": "IISuperwomanII",
+      "similarity": 0.54,
+      "category_id": 28,
+      "source_title": "Google I/O'18: Google Keynote",
+      "target_title": "Why You Should Never Google Your Date",
+      "source_date": "2018-05-09",
+      "target_date": "2018-05-15"
+    },
+    {
       "source": "ComedyShortsGamer",
       "target": "WillNE",
-      "similarity": 0.64,
+      "similarity": 0.66,
       "category_id": 22,
       "source_title": "KSI VS JOE WELLER LEAKED FOOTAGE",
       "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
@@ -311,9 +391,19 @@
       "target_date": "2018-02-06"
     },
     {
+      "source": "FailArmy",
+      "target": "Jordan B Peterson",
+      "similarity": 0.52,
+      "category_id": 23,
+      "source_title": "Out Of Nowhere: Didn't See That Coming!!! (April 2018) | FailArmy",
+      "target_title": "April 2018 Q & A",
+      "source_date": "2018-04-18",
+      "target_date": "2018-04-29"
+    },
+    {
       "source": "Troom Troom",
       "target": "Troom Troom SELECT",
-      "similarity": 0.6,
+      "similarity": 0.61,
       "category_id": 26,
       "source_title": "9 Funny Edible Pranks! / Pranks Wars!",
       "target_title": "15 Morning Routine Pranks! Funny Pranks!",
@@ -331,6 +421,16 @@
       "target_date": "2018-01-28"
     },
     {
+      "source": "Marques Brownlee",
+      "target": "CollegeHumor",
+      "similarity": 0.51,
+      "category_id": 28,
+      "source_title": "What's On My Phone: 2018!",
+      "target_title": "Your Phone Is Dying",
+      "source_date": "2018-02-06",
+      "target_date": "2018-02-09"
+    },
+    {
       "source": "The Tonight Show Starring Jimmy Fallon",
       "target": "Kyle Exum",
       "similarity": 0.55,
@@ -339,6 +439,26 @@
       "target_title": "Mr. Drip (Ric Flair Drip Parody) #PREEXUMSEASON",
       "source_date": "2018-04-19",
       "target_date": "2018-05-03"
+    },
+    {
+      "source": "Great Big Story",
+      "target": "secureteam10",
+      "similarity": 0.55,
+      "category_id": 22,
+      "source_title": "The Most Famous Actor You\u2019ve Never Seen",
+      "target_title": "I've Never Seen Anything Like This..",
+      "source_date": "2018-03-04",
+      "target_date": "2018-03-06"
+    },
+    {
+      "source": "Troom Troom",
+      "target": "Cracked",
+      "similarity": 0.51,
+      "category_id": 26,
+      "source_title": "14 Back To School Life Hacks",
+      "target_title": "4 Life Hacks that Will Ruin Your Life",
+      "source_date": "2017-11-25",
+      "target_date": "2017-12-05"
     },
     {
       "source": "Alissa Ashley",
@@ -351,9 +471,19 @@
       "target_date": "2018-01-21"
     },
     {
+      "source": "secureteam10",
+      "target": "Lenarr Young",
+      "similarity": 0.51,
+      "category_id": 28,
+      "source_title": "SOMETHING Happened While He Was In Space..",
+      "target_title": "What just happened",
+      "source_date": "2018-03-16",
+      "target_date": "2018-03-20"
+    },
+    {
       "source": "Manny Mua",
       "target": "Jenn Im",
-      "similarity": 0.72,
+      "similarity": 0.73,
       "category_id": 26,
       "source_title": "FEBRUARY FAVORITES AND FLOPS! February you did THAT!",
       "target_title": "February Favorites 2018",
@@ -363,7 +493,7 @@
     {
       "source": "Late Night with Seth Meyers",
       "target": "Comedy Central UK",
-      "similarity": 0.51,
+      "similarity": 0.5,
       "category_id": 23,
       "source_title": "The Women's March and the Government Shutdown: A Closer Look",
       "target_title": "The Daily Show | Who Won The Government Shutdown?",
@@ -391,6 +521,16 @@
       "target_date": "2018-04-02"
     },
     {
+      "source": "The Infographics Show",
+      "target": "MatthewSantoro",
+      "similarity": 0.51,
+      "category_id": 27,
+      "source_title": "What Are The Weirdest Unsolved Internet Mysteries?",
+      "target_title": "10 Strangest Mysteries That Remain Unsolved",
+      "source_date": "2018-02-13",
+      "target_date": "2018-02-18"
+    },
+    {
       "source": "MIN MIN",
       "target": "Jung Hyun Ran",
       "similarity": 0.9,
@@ -411,9 +551,19 @@
       "target_date": "2018-02-07"
     },
     {
+      "source": "Tasty",
+      "target": "BuzzFeedVideo",
+      "similarity": 0.51,
+      "category_id": 22,
+      "source_title": "Homemade Vs. Fast Food: Fried Chicken",
+      "target_title": "What Is Indian Fried Chicken?",
+      "source_date": "2018-03-05",
+      "target_date": "2018-03-18"
+    },
+    {
       "source": "Manny Mua",
       "target": "Christen Dominique",
-      "similarity": 0.53,
+      "similarity": 0.54,
       "category_id": 26,
       "source_title": "FULL FACE USING LOWEST RATED SEPHORA MAKEUP!",
       "target_title": "TESTING LOW RATED VS HIGH RATED SEPHORA MAKEUP!",
@@ -431,6 +581,16 @@
       "target_date": "2017-12-20"
     },
     {
+      "source": "Marques Brownlee",
+      "target": "Christine Sydelko",
+      "similarity": 0.5,
+      "category_id": 28,
+      "source_title": "New Year New MKBHD!",
+      "target_title": "NEW YEAR NEW ME (w/ Colleen Ballinger)",
+      "source_date": "2018-01-03",
+      "target_date": "2018-01-16"
+    },
+    {
       "source": "CYRIL /SUPERKONAR",
       "target": "WillNE",
       "similarity": 0.8,
@@ -443,12 +603,32 @@
     {
       "source": "MIN MIN",
       "target": "Jung Hyun Ran",
-      "similarity": 0.71,
+      "similarity": 0.72,
       "category_id": 22,
       "source_title": "[ENGSUB] RUN BTS! EP. 43",
       "target_title": "[ENGSUB] Run BTS! - EP.45",
       "source_date": "2018-03-07",
       "target_date": "2018-03-21"
+    },
+    {
+      "source": "Marques Brownlee",
+      "target": "iJustine",
+      "similarity": 0.61,
+      "category_id": 28,
+      "source_title": "iMac Pro Setup Tour 2018!",
+      "target_title": "Which iMac Pro did I get?",
+      "source_date": "2018-01-05",
+      "target_date": "2018-01-17"
+    },
+    {
+      "source": "CollegeHumor",
+      "target": "Jordan B Peterson",
+      "similarity": 0.5,
+      "category_id": 23,
+      "source_title": "Tips for a Fun New Year\u2019s Eve",
+      "target_title": "New Year's Q and A",
+      "source_date": "2017-12-31",
+      "target_date": "2018-01-02"
     },
     {
       "source": "La Mezzanine",
@@ -473,7 +653,7 @@
     {
       "source": "BuzzFeed Celeb",
       "target": "Tasty",
-      "similarity": 0.55,
+      "similarity": 0.56,
       "category_id": 22,
       "source_title": "The Cast Of Black Panther Plays Would You Rather",
       "target_title": "What Would They Eat In Black Panther?",
@@ -503,7 +683,7 @@
     {
       "source": "How To Cake It",
       "target": "Man About Cake",
-      "similarity": 0.51,
+      "similarity": 0.52,
       "category_id": 26,
       "source_title": "Giant Cakesicle Cake | How To Cake It",
       "target_title": "Smoothie Bowl Cake | Man About Cake",
@@ -511,9 +691,19 @@
       "target_date": "2018-06-13"
     },
     {
+      "source": "secureteam10",
+      "target": "StevenCrowder",
+      "similarity": 0.54,
+      "category_id": 28,
+      "source_title": "Nothing You See Here Is Real",
+      "target_title": "REAL CONVERSATIONS: Kwanzaa Isn't Real | Change My Mind",
+      "source_date": "2017-12-15",
+      "target_date": "2017-12-19"
+    },
+    {
       "source": "Elvis the Alien",
       "target": "ImAllexx",
-      "similarity": 0.56,
+      "similarity": 0.58,
       "category_id": 22,
       "source_title": "I Do Not Like Logan Paul",
       "target_title": "Defending Logan Paul",
@@ -523,7 +713,7 @@
     {
       "source": "Joe Rogan Fan Page",
       "target": "JRE Clips",
-      "similarity": 0.8,
+      "similarity": 0.81,
       "category_id": 22,
       "source_title": "Joe Rogan on Brendan Schaub's Controversial Comments - I can't defend him",
       "target_title": "Joe Rogan - Brendan Schaub Apologizes For Controversial Comments",
@@ -543,7 +733,7 @@
     {
       "source": "WillNE",
       "target": "Smosh Pit",
-      "similarity": 0.57,
+      "similarity": 0.55,
       "category_id": 22,
       "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
       "target_title": "WE RUINED CHRISTMAS! (The Show w/ No Name)",
@@ -553,7 +743,7 @@
     {
       "source": "WillNE",
       "target": "Eddy Burback",
-      "similarity": 0.57,
+      "similarity": 0.55,
       "category_id": 22,
       "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
       "target_title": "This is Why My Christmas is Ruined",
@@ -563,7 +753,7 @@
     {
       "source": "GamingWithJen",
       "target": "vlogbrothers",
-      "similarity": 0.65,
+      "similarity": 0.67,
       "category_id": 22,
       "source_title": "THIS HOUSE COST 1 BILLION DOLLARS?!?",
       "target_title": "What Can't a Billion Dollars Buy?",
@@ -573,7 +763,7 @@
     {
       "source": "consumer",
       "target": "MercerReport",
-      "similarity": 0.55,
+      "similarity": 0.51,
       "category_id": 23,
       "source_title": "John Oliver - Trudeau in India",
       "target_title": "Rick's Rant - Trudeau in India",
@@ -583,12 +773,22 @@
     {
       "source": "PowerfulJRE",
       "target": "Cody Ko",
-      "similarity": 0.56,
+      "similarity": 0.54,
       "category_id": 22,
       "source_title": "Joe Rogan Experience - 2017 Year in Review",
       "target_title": "2017 In Review",
       "source_date": "2018-01-01",
       "target_date": "2018-01-02"
+    },
+    {
+      "source": "The Food Ranger",
+      "target": "Mark Wiens",
+      "similarity": 0.56,
+      "category_id": 19,
+      "source_title": "Mexican STREET FOOD Tour in Oaxaca, Mexico | BEST Street Food in Mexico + HUGE Mexican Breakfast!",
+      "target_title": "Extreme MEXICO CITY STREET FOOD TOUR with 5 Mexican Guys CDMX!",
+      "source_date": "2018-03-04",
+      "target_date": "2018-03-12"
     },
     {
       "source": "Christen Dominique",
@@ -602,8 +802,18 @@
     },
     {
       "source": "jacksfilms",
+      "target": "CNET",
+      "similarity": 0.53,
+      "category_id": 23,
+      "source_title": "SOLVED: Yanny or Laurel",
+      "target_title": "Yanny vs Laurel debate explained",
+      "source_date": "2018-05-16",
+      "target_date": "2018-05-17"
+    },
+    {
+      "source": "jacksfilms",
       "target": "98.7 The Bull",
-      "similarity": 0.57,
+      "similarity": 0.55,
       "category_id": 23,
       "source_title": "SOLVED: Yanny or Laurel",
       "target_title": "Yanny or Laurel?  Hear it the other way!",
@@ -643,7 +853,7 @@
     {
       "source": "Jenna Julien",
       "target": "H3 Podcast Highlights",
-      "similarity": 0.5,
+      "similarity": 0.51,
       "category_id": 23,
       "source_title": "Podcast #169 - Logan Paul",
       "target_title": "Logan Paul Fan Calls Into the H3 Podcast",
@@ -653,7 +863,7 @@
     {
       "source": "Smosh Pit",
       "target": "SuperMega",
-      "similarity": 0.52,
+      "similarity": 0.53,
       "category_id": 22,
       "source_title": "DRAWING POKEMON FROM MEMORY (Squad Vlogs)",
       "target_title": "DRUNK DRAWING POKEMON",
@@ -661,9 +871,39 @@
       "target_date": "2018-06-14"
     },
     {
+      "source": "Team Coco",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.55,
+      "category_id": 23,
+      "source_title": "The Avengers: Infinity War Cast Spoils The Movie  - CONAN on TBS",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-27",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "Eh Bee Family",
+      "target": "Jordan B Peterson",
+      "similarity": 0.73,
+      "category_id": 22,
+      "source_title": "HAPPY NEW YEAR!!",
+      "target_title": "New Year's Q and A",
+      "source_date": "2018-01-01",
+      "target_date": "2018-01-02"
+    },
+    {
+      "source": "ABC Television Stations",
+      "target": "CNET",
+      "similarity": 0.56,
+      "category_id": 22,
+      "source_title": "Do you hear Yanny or Laurel?",
+      "target_title": "Yanny vs Laurel debate explained",
+      "source_date": "2018-05-16",
+      "target_date": "2018-05-17"
+    },
+    {
       "source": "ABC Television Stations",
       "target": "98.7 The Bull",
-      "similarity": 0.89,
+      "similarity": 0.88,
       "category_id": 22,
       "source_title": "Do you hear Yanny or Laurel?",
       "target_title": "Yanny or Laurel?  Hear it the other way!",
@@ -681,9 +921,19 @@
       "target_date": "2018-03-20"
     },
     {
+      "source": "US Military News",
+      "target": "US Defense News",
+      "similarity": 0.96,
+      "category_id": 28,
+      "source_title": "Alert: Scientists ALARMED as Drone Reveals Mysterious CRACKS in Hawaii Kilauea Volcano",
+      "target_title": "Hawaii Volcano: Scientists ALARMED as Drone Reveals Mysterious CRACKS in Kilauea",
+      "source_date": "2018-06-03",
+      "target_date": "2018-06-04"
+    },
+    {
       "source": "Xue Zhang",
       "target": "Indah 412",
-      "similarity": 0.51,
+      "similarity": 0.52,
       "category_id": 22,
       "source_title": "Scott Moir and Tessa Virtue 2018 PyeongChang Short Dance World Record",
       "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
@@ -693,7 +943,7 @@
     {
       "source": "aakshi mehra",
       "target": "Lucifer's Angel",
-      "similarity": 0.55,
+      "similarity": 0.54,
       "category_id": 22,
       "source_title": "Spiderman death scene in infinity war",
       "target_title": "Spider-Man\u2019s death- Infinity War",
@@ -703,7 +953,7 @@
     {
       "source": "New Channel",
       "target": "black bull",
-      "similarity": 0.63,
+      "similarity": 0.64,
       "category_id": 22,
       "source_title": "Judge \u2022 Judy \u2022 February 2018 \u2708 11",
       "target_title": "Judge Judy February 2018 Top Amazing Cases \u2708 94",
@@ -713,7 +963,7 @@
     {
       "source": "hazy horizons",
       "target": "Indah 412",
-      "similarity": 0.53,
+      "similarity": 0.54,
       "category_id": 22,
       "source_title": "Tessa Virtue & Scott Moir - OG IE interview BBC",
       "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
