@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#8e44ad", "font": {"color": "white"}, "id": "The New Yorker", "label": "The New Yorker", "shape": "dot", "title": "The New Yorker"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "LE ROI DES RATS", "label": "LE ROI DES RATS", "shape": "dot", "title": "LE ROI DES RATS"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Mark Dice", "label": "Mark Dice", "shape": "dot", "title": "Mark Dice"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Trisha Meury", "label": "Trisha Meury", "shape": "dot", "title": "Trisha Meury"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "MrRexOG", "label": "MrRexOG", "shape": "dot", "title": "MrRexOG"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "MrTigresa", "label": "MrTigresa", "shape": "dot", "title": "MrTigresa"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Leninhatop", "label": "Leninhatop", "shape": "dot", "title": "Leninhatop"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "VOA News", "label": "VOA News", "shape": "dot", "title": "VOA News"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "NPK Channel", "label": "NPK Channel", "shape": "dot", "title": "NPK Channel"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "FOX 10 Phoenix", "label": "FOX 10 Phoenix", "shape": "dot", "title": "FOX 10 Phoenix"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "ABS-CBN News", "label": "ABS-CBN News", "shape": "dot", "title": "ABS-CBN News"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Anonymous Official", "label": "Anonymous Official", "shape": "dot", "title": "Anonymous Official"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "USA News", "label": "USA News", "shape": "dot", "title": "USA News"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "50 Stars", "label": "50 Stars", "shape": "dot", "title": "50 Stars"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Erin Nelson", "label": "Erin Nelson", "shape": "dot", "title": "Erin Nelson"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "The View", "label": "The View", "shape": "dot", "title": "The View"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "starr jones", "label": "starr jones", "shape": "dot", "title": "starr jones"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "CNNMoney", "label": "CNNMoney", "shape": "dot", "title": "CNNMoney"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Lanki Thuy", "label": "Lanki Thuy", "shape": "dot", "title": "Lanki Thuy"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Sargon of Akkad", "label": "Sargon of Akkad", "shape": "dot", "title": "Sargon of Akkad"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "callumandbrandonvids", "label": "callumandbrandonvids", "shape": "dot", "title": "callumandbrandonvids"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "News Room", "label": "News Room", "shape": "dot", "title": "News Room"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Jesse Roach", "label": "Jesse Roach", "shape": "dot", "title": "Jesse Roach"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "TheaaaMC", "label": "TheaaaMC", "shape": "dot", "title": "TheaaaMC"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Nostalgia Blast", "label": "Nostalgia Blast", "shape": "dot", "title": "Nostalgia Blast"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Conservative Network", "label": "Conservative Network", "shape": "dot", "title": "Conservative Network"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "SKY NEWS", "label": "SKY NEWS", "shape": "dot", "title": "SKY NEWS"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Jason A", "label": "Jason A", "shape": "dot", "title": "Jason A"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Daily Mail", "label": "Daily Mail", "shape": "dot", "title": "Daily Mail"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Power \u0026 Politics", "label": "Power \u0026 Politics", "shape": "dot", "title": "Power \u0026 Politics"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Royal Insider", "label": "Royal Insider", "shape": "dot", "title": "Royal Insider"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "The Star Online", "label": "The Star Online", "shape": "dot", "title": "The Star Online"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Breaking Political News", "label": "Breaking Political News", "shape": "dot", "title": "Breaking Political News"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Washington Post", "label": "Washington Post", "shape": "dot", "title": "Washington Post"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "NDTV", "label": "NDTV", "shape": "dot", "title": "NDTV"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "John Kuckian", "label": "John Kuckian", "shape": "dot", "title": "John Kuckian"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "MaddyxDoll", "label": "MaddyxDoll", "shape": "dot", "title": "MaddyxDoll"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "TheKeriandThorneshow", "label": "TheKeriandThorneshow", "shape": "dot", "title": "TheKeriandThorneshow"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "The Liberty Hound", "label": "The Liberty Hound", "shape": "dot", "title": "The Liberty Hound"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Stefan Molyneux", "label": "Stefan Molyneux", "shape": "dot", "title": "Stefan Molyneux"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Nickelodeon US", "label": "Nickelodeon US", "shape": "dot", "title": "Nickelodeon US"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "Ellen Blum", "label": "Ellen Blum", "shape": "dot", "title": "Ellen Blum"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "ELFluv13", "label": "ELFluv13", "shape": "dot", "title": "ELFluv13"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "USA TODAY", "label": "USA TODAY", "shape": "dot", "title": "USA TODAY"}, {"color": "#8e44ad", "font": {"color": "white"}, "id": "CBC News", "label": "CBC News", "shape": "dot", "title": "CBC News"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "MrRexOG", "title": "Similarity: 0.87\nSource: The Last Word With Lawrence O\u0027Donnell December 11, 2017| Lawrence O\u0027Donnell MSNBC Today 12/11/2017\nTarget: The Last Word With Lawrence O\u0027Donnell December 20, 2017| Lawrence O\u0027Donnell MSNBC Today 12/20/2017\nDate: 2017-12-12 \u2192 2017-12-21", "to": "starr jones"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Leninhatop", "title": "Similarity: 0.9\nSource: CNN Live Stream HD - CNN News Live 24/7\nTarget: CNN News Live Stream HD\nDate: 2018-02-15 \u2192 2018-02-20", "to": "Ellen Blum"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Anonymous Official", "title": "Similarity: 0.66\nSource: Anonymous - Something Biblical is Happening Worldwide... (2018-2019)\nTarget: Something Biblical is Happening in 2018!\nDate: 2018-05-03 \u2192 2018-05-07", "to": "Jason A"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Erin Nelson", "title": "Similarity: 0.53\nSource: Rachel Maddow Show 12/16/2017|Maddow Show TRMS Law School December 16, 2017\nTarget: Rachel Maddow Show December 22, 2017 | Rachel Maddow MSNBC Today 12/22/17 DONALD TRUMP\nDate: 2017-12-17 \u2192 2017-12-23", "to": "Lanki Thuy"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Sargon of Akkad", "title": "Similarity: 0.6\nSource: Why Did Cathy Newman Lose to Jordan Peterson?\nTarget: Tucker Carlson and Jordan Peterson REACT to the VIRAL Cathy Newman Interview\nDate: 2018-01-20 \u2192 2018-01-26", "to": "The Liberty Hound"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Sargon of Akkad", "title": "Similarity: 0.69\nSource: Why Did Cathy Newman Lose to Jordan Peterson?\nTarget: Best reactions to Jordan Peterson and Cathy Newman\u0027s debate\nDate: 2018-01-20 \u2192 2018-01-26", "to": "50 Stars"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "callumandbrandonvids", "title": "Similarity: 0.94\nSource: CNN News Live Stream - Ultra HD\nTarget: CNN Live Stream - Ultra HD\nDate: 2017-12-20 \u2192 2017-12-29", "to": "MaddyxDoll"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "callumandbrandonvids", "title": "Similarity: 0.78\nSource: CNN News Live Stream - Ultra HD\nTarget: CNN Live Stream HD\nDate: 2017-12-20 \u2192 2017-12-28", "to": "ELFluv13"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "News Room", "title": "Similarity: 0.78\nSource: CNN Live Stream HD\nTarget: CNN News Live Stream - Ultra HD\nDate: 2017-12-13 \u2192 2017-12-20", "to": "callumandbrandonvids"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "News Room", "title": "Similarity: 0.92\nSource: CNN Live Stream HD\nTarget: CNN News Live Stream HD\nDate: 2017-12-13 \u2192 2017-12-16", "to": "Trisha Meury"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jesse Roach", "title": "Similarity: 0.65\nSource: Real Time with Bill Maher 5/4/18\nTarget: Real Time with Bill Maher: May 11, 2018 (HBO) FULL VIDEO\nDate: 2018-05-06 \u2192 2018-05-12", "to": "MrTigresa"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "TheaaaMC", "title": "Similarity: 0.81\nSource: CNN Live Stream HD - CNN News Live 24/7\nTarget: CNN News Live Stream HD - President Trump News Live\nDate: 2018-02-09 \u2192 2018-02-18", "to": "TheKeriandThorneshow"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "SKY NEWS", "title": "Similarity: 0.59\nSource: CNN New Day Jake Tapper 01/14/18 - CNN PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 14, 2018\nTarget: BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018\nDate: 2018-01-16 \u2192 2018-01-23", "to": "Breaking Political News"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Breaking Political News", "title": "Similarity: 0.58\nSource: BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018\nTarget: CNN News Live HD - Trump Breaking News Today\nDate: 2018-01-23 \u2192 2018-02-02", "to": "Nickelodeon US"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Stefan Molyneux", "title": "Similarity: 0.57\nSource: THE MEMO HAS BEEN RELEASED\nTarget: SECOND MEMO SENATE MEMO Just Released HITS THE DEEP STATE HARD!! Here Are The Findings\nDate: 2018-02-03 \u2192 2018-02-07", "to": "Power \u0026 Politics"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

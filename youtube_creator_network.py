@@ -6,6 +6,7 @@ from pyvis.network import Network
 import numpy as np
 import json
 from networkx.algorithms import community
+import os
 
 #function to check if a text is mostly English (at least 90% ASCII characters)
 def is_mostly_english(text):
@@ -269,6 +270,11 @@ categories_to_plot = {
     28: "science and technology",
     29: "Nonprofits & Activism"
 }
+
+#create folders
+os.makedirs("graphs/communities", exist_ok=True)
+os.makedirs("graphs/categories", exist_ok=True)
+
 #building visualization with pyvis
 net = Network(height="950px", width="100%", directed=True, bgcolor="#1a1a2e", font_color="white")
 
@@ -294,7 +300,7 @@ for src, dst in G.edges():
     net.add_edge(src, dst, color="rgba(255,255,255,0.3)", arrows="to", title=edge_tooltip)
 
 net.show_buttons(filter_=['physics'])
-net.save_graph("youtube_network.html")
+net.save_graph("graphs/youtube_network.html")
 print("Saved to youtube_network.html")
 
 #get community subgraphs and visualize separately
@@ -324,7 +330,7 @@ for i, comm in enumerate(communities):
         comm_net.add_edge(src, dst, color="rgba(255,255,255,0.3)", arrows="to", title=edge_tooltip)
     
     comm_net.show_buttons(filter_=['physics'])
-    filename = f"community_{i}.html"
+    filename = f"graphs/communities/community_{i}.html"
     comm_net.save_graph(filename)
     print(f"Saved to {filename}")
 
@@ -350,6 +356,6 @@ for cat_id, cat_name in categories_to_plot.items():
         sub_net.add_edge(src, dst, color="rgba(255,255,255,0.3)", arrows="to", title=edge_tooltip)
 
     sub_net.show_buttons(filter_=['physics'])
-    filename = f"network_cat_{cat_id}.html"
+    filename = f"graphs/categories/network_cat_{cat_id}.html"
     sub_net.save_graph(filename)
     print(f"Saved to {filename}")
