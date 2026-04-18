@@ -1,20 +1,1976 @@
 {
+  "nodes": [
+    {
+      "id": "Marvel Entertainment",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "YouTube Spotlight",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Universal Pictures",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "KSI",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "amazon",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Action Lab",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "TheEllenShow",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Warner Bros. Pictures",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Tonight Show Starring Jimmy Fallon",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "FilmSelect Trailer",
+      "category_id": 24,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "5-Minute Crafts",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Sony Pictures Entertainment",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Washington Post",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "id": "WWE",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Star Wars",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "The Late Late Show with James Corden",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "jacksepticeye",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "ashish chanchlani vines",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "PewDiePie",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "id": "FOX 10 Phoenix",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "Sidemen",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Unbox Therapy",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "BuzzFeed Celeb",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Blossom",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Troom Troom",
+      "category_id": 26,
+      "in_degree": 2,
+      "out_degree": 1
+    },
+    {
+      "id": "BuzzFeedVideo",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "AsapSCIENCE",
+      "category_id": 28,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "The New Yorker",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Mnet K-POP",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "NikkieTutorials",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "ABS-CBN Entertainment",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Jimmy Kimmel Live",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "FBE",
+      "category_id": 24,
+      "in_degree": 9,
+      "out_degree": 0
+    },
+    {
+      "id": "RiceGum",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "JennaMarbles",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Game Theorists",
+      "category_id": 20,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "Wrestling Time",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Breakfast Club Power 105.1 FM",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "The Late Show with Stephen Colbert",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Netflix",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Nostalgia Blast",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "BBC",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "BRIGHT SIDE",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "ELFluv13",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Pics Tube",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Nicki Swift",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Late Night with Seth Meyers",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Samsung",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "CNNMoney",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "9 Media",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Markiplier",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "id": "ComedyShortsGamer",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "jacksfilms",
+      "category_id": 23,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "id": "HollywoodLife",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Marques Brownlee",
+      "category_id": 28,
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    {
+      "id": "DanTDM",
+      "category_id": 20,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Amixem",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "We Got This Covered",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Team Edge",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "SuperLuigiLogan",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "JoanJetsetter",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Troom Troom SELECT",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "Jaclyn Hill",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Star Online",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Tasty",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Alex Van",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Smosh",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "IISuperwomanII",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Looper",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "BOOMPANOT.COM",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Tibo InShape",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Skip and Shannon: UNDISPUTED",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MoreWolfie",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "EasyTech",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "Lost Pause",
+      "category_id": 20,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "IGN",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "Good Mythical Morning",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Linus Tech Tips",
+      "category_id": 28,
+      "in_degree": 3,
+      "out_degree": 1
+    },
+    {
+      "id": "INSIDER",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Mashed",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Verge",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "id": "EverythingApplePro",
+      "category_id": 24,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "id": "ZIAS!",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "True Geordie",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Manny Mua",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "What's Inside?",
+      "category_id": 27,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "I Hate Everything",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "CollegeHumor",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "JRE Clips",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "REACT",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Motion Station",
+      "category_id": 17,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "TheTalko",
+      "category_id": 24,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "CNET",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "HUM TV",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Google Developers",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The View",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Zoella",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Domics",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "VOA News",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "Joe Rogan Fan Page",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Graham The Christian",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MoreSidemen",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "MMA WORLD",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "NBA on TNT",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "AlexRamiGaming",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Entertainment Tonight",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "CBC News",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Tech Insider",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Elon Musk Viral Videos",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Dani Ochoa",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "JMX",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Wass Freestyle",
+      "category_id": 17,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Jeremy Jahns",
+      "category_id": 24,
+      "in_degree": 3,
+      "out_degree": 4
+    },
+    {
+      "id": "Good Morning America",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Chris Stuckmann",
+      "category_id": 24,
+      "in_degree": 5,
+      "out_degree": 4
+    },
+    {
+      "id": "Top Clips YT",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "USA TODAY",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "RDCworld1",
+      "category_id": 24,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "id": "ET Canada",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "justdenise",
+      "category_id": 22,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "StevenCrowder",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Royal Insider",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "AzzyLand",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "HUM TV Dramas",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "secureteam10",
+      "category_id": 28,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Caspar",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "GameGrumps",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "ItsYeBoi",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Shine On Media",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Alissa Ashley",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Rich Ferguson",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Elhiwar Ettounsi",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "ASMR Darling",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "FoundFlix",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Comedy Central UK",
+      "category_id": 23,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "id": "Media Muse",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Scoop",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Daily Mail",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MTV News",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "NDTV",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Sorrow TV",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Arica Hutton",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "LawTWINZ",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "EA Star Wars",
+      "category_id": 20,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Kim Kardashian West",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "liisataylor",
+      "category_id": 22,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "Mark Wiens",
+      "category_id": 19,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "ABS-CBN News",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "WillNE",
+      "category_id": 23,
+      "in_degree": 3,
+      "out_degree": 2
+    },
+    {
+      "id": "LE ROI DES RATS",
+      "category_id": 25,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "id": "The Food Ranger",
+      "category_id": 19,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Patricia Bright",
+      "category_id": 26,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "KathleenLights",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "PopBuzz",
+      "category_id": 24,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "iJustine",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "TBJZL",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Mark Dice",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Sargon of Akkad",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "id": "MuchDank",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Fumble",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Ian Kung",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "NPK Channel",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Cow Chop",
+      "category_id": 20,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "Donald J. Trump Topic",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Uosof Ahmadi",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Power 106 Los Angeles",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "The Liberty Hound",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "RWANDA5 TV",
+      "category_id": 22,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "id": "Cracked",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "How To Cake It",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Watch What Happens Live with Andy Cohen",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Montreux Comedy",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Dose of Truth",
+      "category_id": 27,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "City Dreamer",
+      "category_id": 24,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "id": "Smosh Pit",
+      "category_id": 22,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "YourMovieSucksDOTorg",
+      "category_id": 24,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "id": "Smosh Games",
+      "category_id": 20,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "id": "Row Network",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "We The Unicorns",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "CaptainSparklez",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "Anonymous Official",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Elvis the Alien",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Christen Dominique",
+      "category_id": 26,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "Kapamilya Trending",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "ImAllexx",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "News Room",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "id": "Melvin F.",
+      "category_id": 22,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "Carli Bybel",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Dave Lee",
+      "category_id": 28,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Good Mythical MORE",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "JayBlac",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Philly D",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "MMA and More",
+      "category_id": 17,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Furious Trailer",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MessYourself",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Trump Latest News Tonight",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "callumandbrandonvids",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "NellyGotBored",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Jordan B Peterson",
+      "category_id": 27,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "DailyTop10s",
+      "category_id": 27,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "CBC Sports",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Eat Bulaga!",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Casey Holmes",
+      "category_id": 26,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Charisma on Command",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Meghan Markle & Prince Harry News",
+      "category_id": 24,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "id": "Politics News",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "The Key of Awesome",
+      "category_id": 23,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Federica Balsamo",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "50 Stars",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Desus & Mero",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Conservatism",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "rishie",
+      "category_id": 17,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "BRISxLIFE",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "JustKiddingParty",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "BUILD Series",
+      "category_id": 24,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "John Kuckian",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "MR.World Updates",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "MM7Games",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "LIVEKellyandRyan",
+      "category_id": 24,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "24 Oras News GMA",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Jason A",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Annoying Orange",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Trisha Meury",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "TheSorryGirls",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Bijuu Mike",
+      "category_id": 20,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "Conservative Network",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "TheaaaMC",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "AB Network",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Sugar Pine 7",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Stefan Molyneux",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "vlogbrothers",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Gorkhaland 24x7",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "AlDUB",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "USA News",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "HouseholdHacker",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Alex Sanchez",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "What's Trending",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "G-Eazy",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "BigBoyTV",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Man About Cake",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "24 Oras News",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Rachel Kim",
+      "category_id": 24,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "id": "Stephen Fanz",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Sierra and Alex",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Nicol Concilio",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Happy Win",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "axrevolution",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Slazo",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "ikawikawikawikaw",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Asa Medina",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "TheKeriandThorneshow",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Jesse Roach",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MsMojo",
+      "category_id": 24,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "TheCubician",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "MaddyxDoll",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Erin Nelson",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Brand Sins",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Xue Zhang",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "aakshi mehra",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "UberHaxorNova",
+      "category_id": 20,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "WildSpartanz",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "TvLive Fun",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Form of Therapy",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Labes Ettounsia",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "id": "Todd in the Shadows",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Power & Politics",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Steve TV Show",
+      "category_id": 24,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "id": "Quang Tran",
+      "category_id": 24,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Lucifer's Angel",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "emilynoel83",
+      "category_id": 26,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "SKY NEWS",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Breaking Political News",
+      "category_id": 25,
+      "in_degree": 2,
+      "out_degree": 1
+    },
+    {
+      "id": "Cavaliers Webmaster",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Alff Batt",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "id": "Cesur D\u00fc\u015f\u00fcnce",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Marvel Studios Movies",
+      "category_id": 29,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "id": "Garebear Gaming",
+      "category_id": 20,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "id": "Lingyin",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Saner Sone",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Lanki Thuy",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Michael Wertham",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "M\u00fcge ile Her\u015fey",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Nickelodeon US",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "UNiTEDDK",
+      "category_id": 2,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Radio-Canada Sports",
+      "category_id": 17,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "id": "Leninhatop",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "MrTigresa",
+      "category_id": 25,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "id": "MrRexOG",
+      "category_id": 25,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "Ellen Blum",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "OfficialDjMurda",
+      "category_id": 22,
+      "in_degree": 0,
+      "out_degree": 1
+    },
+    {
+      "id": "starr jones",
+      "category_id": 25,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Cloudy",
+      "category_id": 22,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "Slicky59",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "22 Minutes",
+      "category_id": 23,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "680 NEWS",
+      "category_id": 22,
+      "in_degree": 2,
+      "out_degree": 0
+    }
+  ],
   "edges": [
     {
-      "source": "TheAngryGrandpaShow",
-      "target": "KidBehindACamera",
-      "similarity": 0.64,
-      "category_id": 22,
-      "source_title": "RIP ANGRY GRANDPA",
-      "target_title": "GOODBYE ANGRY GRANDPA",
-      "source_date": "2017-12-12",
+      "source": "Marvel Entertainment",
+      "target": "FBE",
+      "similarity": 0.55,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Marvel Studios' Avengers: Infinity War Official Trailer",
+      "target_title": "ELDERS REACT TO AVENGERS: INFINITY WAR TRAILER",
+      "source_date": "2017-11-30",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "YouTube Spotlight",
+      "target": "LE ROI DES RATS",
+      "similarity": 0.51,
+      "source_category_id": 24,
+      "target_category_id": 25,
+      "source_title": "YouTube Rewind: The Shape of 2017 | #YouTubeRewind",
+      "target_title": "LE VRAI YOUTUBE REWIND 2017",
+      "source_date": "2017-12-07",
       "target_date": "2017-12-16"
+    },
+    {
+      "source": "Marvel Entertainment",
+      "target": "9 Media",
+      "similarity": 0.66,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Marvel Studios' Avengers: Infinity War - Official Trailer",
+      "target_title": "AVENGERS INFINITY WAR The End Of Vision Trailer (2018) Marvel",
+      "source_date": "2018-03-17",
+      "target_date": "2018-03-25"
+    },
+    {
+      "source": "Marvel Entertainment",
+      "target": "FBE",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Marvel Studios' Avengers: Infinity War - Official Trailer",
+      "target_title": "YOUTUBERS REACT TO AVENGERS: INFINITY WAR TRAILER",
+      "source_date": "2018-03-17",
+      "target_date": "2018-03-21"
+    },
+    {
+      "source": "amazon",
+      "target": "Top Clips YT",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Alexa Loses Her Voice \u2013 Amazon Super Bowl LII Commercial",
+      "target_title": "NFL Super Bowl LII Commercial 2018",
+      "source_date": "2018-02-03",
+      "target_date": "2018-02-06"
+    },
+    {
+      "source": "The Action Lab",
+      "target": "FBE",
+      "similarity": 0.66,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Mirror-Polished Japanese Foil Ball Challenge Crushed in a Hydraulic Press-What's Inside?",
+      "target_title": "TEENS REACT TO MIRROR-POLISHED JAPANESE FOIL BALL CHALLENGE",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-19"
+    },
+    {
+      "source": "Warner Bros. Pictures",
+      "target": "Good Mythical Morning",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Fantastic Beasts: The Crimes of Grindelwald - Official Teaser Trailer",
+      "target_title": "Fantastic Beasts Trailer Quiz",
+      "source_date": "2018-03-15",
+      "target_date": "2018-03-23"
+    },
+    {
+      "source": "Washington Post",
+      "target": "RWANDA5 TV",
+      "similarity": 0.6,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "Watch live: The royal wedding of Prince Harry and Meghan Markle",
+      "target_title": "30 things went wrong from royal wedding //  Prince Harry and Meghan Markle weeding",
+      "source_date": "2018-05-20",
+      "target_date": "2018-05-25"
+    },
+    {
+      "source": "Washington Post",
+      "target": "TheTalko",
+      "similarity": 0.71,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Watch live: The royal wedding of Prince Harry and Meghan Markle",
+      "target_title": "Meghan Markle And Prince Harry Make Their First Official Appearance Since The Royal Wedding",
+      "source_date": "2018-05-20",
+      "target_date": "2018-05-23"
+    },
+    {
+      "source": "Washington Post",
+      "target": "Meghan Markle & Prince Harry News",
+      "similarity": 0.57,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Watch live: The royal wedding of Prince Harry and Meghan Markle",
+      "target_title": "Meghan Markle & Prince Harry Are On Honeymoon In CANADA / Latest Royal News",
+      "source_date": "2018-05-20",
+      "target_date": "2018-05-29"
+    },
+    {
+      "source": "Washington Post",
+      "target": "City Dreamer",
+      "similarity": 0.54,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Watch live: The royal wedding of Prince Harry and Meghan Markle",
+      "target_title": "Meghan Markle: A look Inside her new life with Prince Harry",
+      "source_date": "2018-05-20",
+      "target_date": "2018-05-30"
+    },
+    {
+      "source": "The Tonight Show Starring Jimmy Fallon",
+      "target": "AB Network",
+      "similarity": 0.52,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War Cast Sings The Marvel Bunch",
+      "target_title": "Marvel's Avengers Infinity War cast reacts to the mean trolls about them on tweet || Cast Gone Crazy",
+      "source_date": "2018-04-29",
+      "target_date": "2018-05-07"
+    },
+    {
+      "source": "jacksepticeye",
+      "target": "PopBuzz",
+      "similarity": 0.65,
+      "source_category_id": 20,
+      "target_category_id": 24,
+      "source_title": "Playing Deadpool With Ryan Reynolds!",
+      "target_title": "Ryan Reynolds Reveals What Deadpool Would Have Done In \u2018Avengers: Infinity War\u2019",
+      "source_date": "2018-05-16",
+      "target_date": "2018-05-20"
+    },
+    {
+      "source": "FOX 10 Phoenix",
+      "target": "RWANDA5 TV",
+      "similarity": 0.6,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "FULL CEREMONY: Prince Harry and Meghan Markle Royal Wedding",
+      "target_title": "30 things went wrong from royal wedding //  Prince Harry and Meghan Markle weeding",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-25"
+    },
+    {
+      "source": "FOX 10 Phoenix",
+      "target": "Meghan Markle & Prince Harry News",
+      "similarity": 0.57,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "FULL CEREMONY: Prince Harry and Meghan Markle Royal Wedding",
+      "target_title": "Meghan Markle & Prince Harry Are On Honeymoon In CANADA / Latest Royal News",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-29"
+    },
+    {
+      "source": "FOX 10 Phoenix",
+      "target": "City Dreamer",
+      "similarity": 0.54,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "FULL CEREMONY: Prince Harry and Meghan Markle Royal Wedding",
+      "target_title": "Meghan Markle: A look Inside her new life with Prince Harry",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-30"
+    },
+    {
+      "source": "Sidemen",
+      "target": "TBJZL",
+      "similarity": 0.82,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "Sidemen FC vs YouTube Allstars Charity Match Livestream",
+      "target_title": "THINGS YOU DIDN'T SEE IN THE SIDEMEN FC VS YOUTUBE ALLSTARS CHARITY MATCH",
+      "source_date": "2018-06-03",
+      "target_date": "2018-06-08"
     },
     {
       "source": "PewDiePie",
       "target": "jacksfilms",
-      "similarity": 0.71,
-      "category_id": 23,
+      "similarity": 0.68,
+      "source_category_id": 23,
+      "target_category_id": 23,
       "source_title": "Why I'm not in YouTube Rewind 2017",
       "target_title": "I fixed YouTube Rewind",
       "source_date": "2017-12-08",
@@ -22,169 +1978,417 @@
     },
     {
       "source": "PewDiePie",
-      "target": "ComradeWarbear",
-      "similarity": 0.64,
-      "category_id": 23,
-      "source_title": "Why I'm not in YouTube Rewind 2017",
-      "target_title": "Youtube Rewind 2017 (A more accurate remake)",
-      "source_date": "2017-12-08",
-      "target_date": "2017-12-10"
-    },
-    {
-      "source": "PewDiePie",
-      "target": "CYRIL /SUPERKONAR",
-      "similarity": 0.55,
-      "category_id": 23,
-      "source_title": "Why I'm not in YouTube Rewind 2017",
-      "target_title": "LE YOUTUBE SHOW",
-      "source_date": "2017-12-08",
-      "target_date": "2017-12-22"
-    },
-    {
-      "source": "PewDiePie",
       "target": "ImAllexx",
       "similarity": 0.56,
-      "category_id": 23,
+      "source_category_id": 23,
+      "target_category_id": 23,
       "source_title": "Why I'm not in YouTube Rewind 2017",
       "target_title": "YouTube Rewind Hates Its Creators",
       "source_date": "2017-12-08",
       "target_date": "2017-12-14"
     },
     {
-      "source": "AsapSCIENCE",
-      "target": "Jimmy Kimmel Live",
-      "similarity": 0.57,
-      "category_id": 28,
-      "source_title": "Do You Hear Yanny or Laurel? (SOLVED with SCIENCE)",
-      "target_title": "Laurel vs. Yanny",
-      "source_date": "2018-05-17",
-      "target_date": "2018-05-18"
+      "source": "PewDiePie",
+      "target": "LE ROI DES RATS",
+      "similarity": 0.81,
+      "source_category_id": 23,
+      "target_category_id": 25,
+      "source_title": "Why I'm not in YouTube Rewind 2017",
+      "target_title": "LE VRAI YOUTUBE REWIND 2017",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-16"
     },
     {
-      "source": "PewDiePie",
-      "target": "Young Don The Sauce God",
-      "similarity": 0.51,
-      "category_id": 23,
-      "source_title": "YOU LAUGH, YOU TERRIFIED",
-      "target_title": "I WAS TERRIFIED! - Animated Story",
-      "source_date": "2018-04-17",
-      "target_date": "2018-04-29"
+      "source": "The New Yorker",
+      "target": "TheTalko",
+      "similarity": 0.75,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Royal Weddings, Then and Now: Princess Diana, Kate Middleton, and Meghan Markle | The New Yorker",
+      "target_title": "Royal Weddings Then Vs. Now: Meghan Markle, Kate Middleton, Princess Diana, Queen Elizabeth II",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-28"
+    },
+    {
+      "source": "Marvel Entertainment",
+      "target": "FBE",
+      "similarity": 0.6,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War Trailer Tease",
+      "target_title": "ELDERS REACT TO AVENGERS: INFINITY WAR TRAILER",
+      "source_date": "2017-11-29",
+      "target_date": "2017-12-06"
     },
     {
       "source": "ashish chanchlani vines",
-      "target": "Marvel Studios Movies",
-      "similarity": 0.52,
-      "category_id": 23,
+      "target": "RDCworld1",
+      "similarity": 0.55,
+      "source_category_id": 23,
+      "target_category_id": 24,
       "source_title": "Avengers Infinity War with Ashish Chanchlani",
-      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "target_title": "BLACK AVENGERS 3: INFINITY WAR",
       "source_date": "2018-04-22",
-      "target_date": "2018-04-29"
+      "target_date": "2018-04-30"
     },
     {
-      "source": "CaseyNeistat",
-      "target": "MoreSidemen",
-      "similarity": 0.6,
-      "category_id": 22,
-      "source_title": "about Logan Paul",
-      "target_title": "WILL KSI FIGHT LOGAN PAUL OR JAKE PAUL? (Sidemen Podcast)",
-      "source_date": "2018-02-10",
-      "target_date": "2018-02-11"
+      "source": "ashish chanchlani vines",
+      "target": "Smosh Games",
+      "similarity": 0.58,
+      "source_category_id": 23,
+      "target_category_id": 20,
+      "source_title": "Avengers Infinity War with Ashish Chanchlani",
+      "target_title": "AVENGERS INFINITY WAR THE GAME",
+      "source_date": "2018-04-22",
+      "target_date": "2018-04-30"
     },
     {
-      "source": "CaseyNeistat",
-      "target": "Bart Baker",
-      "similarity": 0.76,
-      "category_id": 22,
-      "source_title": "about Logan Paul",
-      "target_title": "LOGAN PAUL IS BACK! PARODY",
-      "source_date": "2018-02-10",
-      "target_date": "2018-02-16"
+      "source": "Universal Pictures",
+      "target": "IGN",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Jurassic World: Fallen Kingdom - Trailer Thursday (Run) (HD)",
+      "target_title": "Everything You May Have Missed in the Jurassic World: Fallen Kingdom Trailer",
+      "source_date": "2017-12-05",
+      "target_date": "2017-12-09"
     },
     {
-      "source": "CaseyNeistat",
-      "target": "Smosh Pit",
+      "source": "Universal Pictures",
+      "target": "FilmSelect Trailer",
+      "similarity": 0.72,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Jurassic World: Fallen Kingdom - Trailer Thursday (Run) (HD)",
+      "target_title": "JURASSIC WORLD 2: Fallen Kingdom Trailer (Extended) 2018",
+      "source_date": "2017-12-05",
+      "target_date": "2017-12-08"
+    },
+    {
+      "source": "KSI",
+      "target": "WillNE",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "KSI VS JOE WELLER PRESS CONFERENCE/FACE OFF/WEIGH IN",
+      "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
+      "source_date": "2018-02-03",
+      "target_date": "2018-02-06"
+    },
+    {
+      "source": "WWE",
+      "target": "Wrestling Time",
+      "similarity": 0.58,
+      "source_category_id": 17,
+      "target_category_id": 24,
+      "source_title": "Triple H returns to join Team Raw at Survivor Series: Raw, Nov. 13, 2017",
+      "target_title": "Survivor series 2017 | RAW Team Vs Smackdown Team 5 on 5",
+      "source_date": "2017-11-15",
+      "target_date": "2017-11-21"
+    },
+    {
+      "source": "JennaMarbles",
+      "target": "Linus Tech Tips",
+      "similarity": 0.55,
+      "source_category_id": 23,
+      "target_category_id": 28,
+      "source_title": "We Bought A House",
+      "target_title": "I can SEE what you Bought Online!",
+      "source_date": "2018-05-18",
+      "target_date": "2018-05-22"
+    },
+    {
+      "source": "Mnet K-POP",
+      "target": "FBE",
       "similarity": 0.53,
-      "category_id": 22,
-      "source_title": "about Logan Paul",
-      "target_title": "CALLING OUT LOGAN PAUL, JAKE PAUL, JENNA MARBLES, AND THE REST OF YOUTUBE!",
-      "source_date": "2018-02-10",
-      "target_date": "2018-02-11"
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "\ubc29\ud0c4\uc18c\ub144\ub2e8 - FAKE LOVE (BTS - FAKE LOVE) \u2502BTS COMEBACK SHOW 180524 180524",
+      "target_title": "ELDERS REACT TO BTS - FAKE LOVE",
+      "source_date": "2018-05-25",
+      "target_date": "2018-06-02"
     },
     {
-      "source": "CaseyNeistat",
-      "target": "H3 Podcast Highlights",
-      "similarity": 0.6,
-      "category_id": 22,
-      "source_title": "about Logan Paul",
-      "target_title": "H3H3 On Logan Paul Demonetization",
-      "source_date": "2018-02-10",
-      "target_date": "2018-02-14"
+      "source": "Jimmy Kimmel Live",
+      "target": "RDCworld1",
+      "similarity": 0.5,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War Cast Reveals What They Stole from the Set",
+      "target_title": "BLACK AVENGERS 3: INFINITY WAR",
+      "source_date": "2018-04-27",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Jimmy Kimmel Live",
+      "target": "Smosh Games",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "Avengers: Infinity War Cast Reveals What They Stole from the Set",
+      "target_title": "AVENGERS INFINITY WAR THE GAME",
+      "source_date": "2018-04-27",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Nostalgia Blast",
+      "target": "Steve TV Show",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Wendy Williams Talks About Khlo\u00e9 Kardashian and Tristan Thompson Cheating",
+      "target_title": "Can Khloe Kardashian Really Forgive Tristan Thompson For Cheating?",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-21"
+    },
+    {
+      "source": "Sidemen",
+      "target": "MoreSidemen",
+      "similarity": 0.58,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "SIDEMEN ULTIMATE FOOTBALL CHALLENGE!",
+      "target_title": "FUNNIEST SIDEMEN FOOTBALL MOMENTS!",
+      "source_date": "2018-03-15",
+      "target_date": "2018-03-21"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "AlexRamiGaming",
+      "similarity": 0.53,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Did I Find Fortnite's SECRET Lore (Fortnite Battle Royale)",
+      "target_title": "FORTNITE WORLD RECORD 2,732 SOLO WINS - New Fortnite Skins (Fortnite Battle Royale) Fortnite Live",
+      "source_date": "2018-03-26",
+      "target_date": "2018-04-05"
     },
     {
       "source": "PewDiePie",
-      "target": "Dolan Dark",
-      "similarity": 0.55,
-      "category_id": 23,
-      "source_title": "NET NEUTRALITY MEMES",
-      "target_title": "Memes V",
-      "source_date": "2017-12-24",
-      "target_date": "2018-01-04"
-    },
-    {
-      "source": "TheAngryGrandpaShow",
-      "target": "KidBehindACamera",
-      "similarity": 0.58,
-      "category_id": 22,
-      "source_title": "ANGRY GRANDPA TRIBUTE VIDEO",
-      "target_title": "GOODBYE ANGRY GRANDPA",
-      "source_date": "2017-12-14",
-      "target_date": "2017-12-16"
+      "target": "DailyTop10s",
+      "similarity": 0.53,
+      "source_category_id": 20,
+      "target_category_id": 27,
+      "source_title": "WHAT WENT . . . . . WRONG?",
+      "target_title": "Top 10 School Trips That Went Horribly Wrong!",
+      "source_date": "2017-12-22",
+      "target_date": "2017-12-25"
     },
     {
       "source": "The Late Show with Stephen Colbert",
       "target": "Linus Tech Tips",
-      "similarity": 0.52,
-      "category_id": 22,
+      "similarity": 0.54,
+      "source_category_id": 22,
+      "target_category_id": 2,
       "source_title": "'Fox & Friends' Couldn't Get Trump Off The Phone",
       "target_title": "The Phone Apple Couldn't Make...",
       "source_date": "2018-04-28",
       "target_date": "2018-05-06"
     },
     {
-      "source": "ComedyShortsGamer",
-      "target": "WillNE",
-      "similarity": 0.72,
-      "category_id": 22,
-      "source_title": "THE BEST NIGHT OF MY LIFE (KSI vs Joe Weller)",
-      "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
-      "source_date": "2018-02-05",
-      "target_date": "2018-02-06"
+      "source": "Samsung",
+      "target": "Marques Brownlee",
+      "similarity": 0.7,
+      "source_category_id": 28,
+      "target_category_id": 28,
+      "source_title": "Samsung Galaxy S9 and S9+: Official Introduction",
+      "target_title": "Samsung Galaxy S9 Camera: What's New!",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "Samsung",
+      "target": "Dave Lee",
+      "similarity": 0.51,
+      "source_category_id": 28,
+      "target_category_id": 28,
+      "source_title": "Samsung Galaxy S9 and S9+: Official Introduction",
+      "target_title": "Samsung S9 - I'm Switching Phones",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-02"
+    },
+    {
+      "source": "Samsung",
+      "target": "EverythingApplePro",
+      "similarity": 0.59,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Samsung Galaxy S9 and S9+: Official Introduction",
+      "target_title": "Samsung Galaxy S9 Plus vs iPhone X Drop Test!",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-08"
+    },
+    {
+      "source": "Markiplier",
+      "target": "Smosh Games",
+      "similarity": 0.54,
+      "source_category_id": 23,
+      "target_category_id": 20,
+      "source_title": "Try Not To Laugh Challenge #12",
+      "target_title": "TRY NOT TO LAUGH: CHRISTMAS EDITION",
+      "source_date": "2017-12-18",
+      "target_date": "2017-12-24"
     },
     {
       "source": "Markiplier",
       "target": "Smosh Pit",
-      "similarity": 0.54,
-      "category_id": 23,
+      "similarity": 0.55,
+      "source_category_id": 23,
+      "target_category_id": 22,
       "source_title": "Try Not To Laugh Challenge #13",
       "target_title": "TRY NOT TO LAUGH CHALLENGE #5 w/ GUS JOHNSON",
       "source_date": "2018-03-21",
       "target_date": "2018-03-28"
     },
     {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.68,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki's SCARIEST Monster is Hiding in Plain Sight (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: The L Word - PART 20 - Game Grumps",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-22"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.63,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki's SCARIEST Monster is Hiding in Plain Sight (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: Finally, Some Emotion! - PART 18 - Game Grumps",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-18"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.64,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki's SCARIEST Monster is Hiding in Plain Sight (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: Girl Choices - PART 17 - Game Grumps",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-17"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.63,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki's SCARIEST Monster is Hiding in Plain Sight (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: I'll Be Your Beach - PART 16 - Game Grumps",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "The Late Show with Stephen Colbert",
+      "target": "Comedy Central UK",
+      "similarity": 0.54,
+      "source_category_id": 24,
+      "target_category_id": 23,
+      "source_title": "The 'Sh*thole Countries' Have One Thing Going For Them",
+      "target_title": "Fallout Continues Over Trump\u2019s \u201cSh*thole Countries\u201d Remark | The Daily Show",
+      "source_date": "2018-01-13",
+      "target_date": "2018-01-17"
+    },
+    {
+      "source": "RiceGum",
+      "target": "LE ROI DES RATS",
+      "similarity": 0.51,
+      "source_category_id": 24,
+      "target_category_id": 25,
+      "source_title": "2017 YouTube Rewind Rant! (Diss Track?)",
+      "target_title": "LE VRAI YOUTUBE REWIND 2017",
+      "source_date": "2017-12-09",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "HollywoodLife",
+      "target": "Steve TV Show",
+      "similarity": 0.64,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Kylie Jenner Reacts To Tristan Thompson Cheating On Khloe Kardashian | Hollywoodlife",
+      "target_title": "Can Khloe Kardashian Really Forgive Tristan Thompson For Cheating?",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-21"
+    },
+    {
+      "source": "Marques Brownlee",
+      "target": "EverythingApplePro",
+      "similarity": 0.62,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Samsung Galaxy S9 Impressions!",
+      "target_title": "Samsung Galaxy S9 Plus vs iPhone X Drop Test!",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-08"
+    },
+    {
       "source": "Amixem",
       "target": "Montreux Comedy",
-      "similarity": 0.69,
-      "category_id": 23,
+      "similarity": 0.7,
+      "source_category_id": 23,
+      "target_category_id": 23,
       "source_title": "LES PIRES ANNONCES SUR LEBONCOIN ! #8",
       "target_title": "Amixem et Pierre Croce - Les pires annonces LeBonCoin !",
       "source_date": "2017-12-04",
       "target_date": "2017-12-14"
     },
     {
+      "source": "Marques Brownlee",
+      "target": "iJustine",
+      "similarity": 0.6,
+      "source_category_id": 28,
+      "target_category_id": 28,
+      "source_title": "Samsung Galaxy S9 Review: The Perfect... Samsung!",
+      "target_title": "Samsung S9+ Underwater Test!",
+      "source_date": "2018-03-21",
+      "target_date": "2018-03-28"
+    },
+    {
+      "source": "Unbox Therapy",
+      "target": "EverythingApplePro",
+      "similarity": 0.53,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Apple Is Deliberately Slowing Down Your iPhone",
+      "target_title": "Apple Apologizes For Slowing Down Your iPhone! iOS 11.3 Incoming!",
+      "source_date": "2017-12-24",
+      "target_date": "2017-12-29"
+    },
+    {
+      "source": "Jimmy Kimmel Live",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.5,
+      "source_category_id": 24,
+      "target_category_id": 29,
+      "source_title": "Cast of Avengers: Infinity War Reveals Least Trustworthy Avenger",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-25",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "JoanJetsetter",
+      "target": "liisataylor",
+      "similarity": 0.58,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Beyonc\u00e9 Epic Coachella Opening - Crazy in Love",
+      "target_title": "BEYONC\u00c9 LIVE @ COACHELLA 2018!!",
+      "source_date": "2018-04-16",
+      "target_date": "2018-04-19"
+    },
+    {
       "source": "Blossom",
       "target": "Smosh",
-      "similarity": 0.6,
-      "category_id": 26,
+      "similarity": 0.59,
+      "source_category_id": 26,
+      "target_category_id": 23,
       "source_title": "Valentines Day Special | Valentine Hacks & Adorable Gift Ideas For Your Valentine by Blossom",
       "target_title": "EVERY VALENTINE'S DAY EVER",
       "source_date": "2018-02-11",
@@ -193,28 +2397,53 @@
     {
       "source": "SaraBeautyCorner - DIY, Comedy, Makeup, Nail Art",
       "target": "Troom Troom",
-      "similarity": 0.53,
-      "category_id": 26,
+      "similarity": 0.55,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "DIY Edible Makeup Pranks! DIY Makeup Tutorial with 10 Funny Pranks and Life Hacks",
       "target_title": "7 DIY Weird Makeup Ideas / Christmas Pranks!",
       "source_date": "2017-12-10",
       "target_date": "2017-12-20"
     },
     {
-      "source": "Meet Arnold",
-      "target": "Smosh",
-      "similarity": 0.54,
-      "category_id": 22,
-      "source_title": "If You Jump In A Free-Falling Elevator",
-      "target_title": "EVERY ELEVATOR EVER",
-      "source_date": "2018-01-28",
-      "target_date": "2018-01-30"
+      "source": "BBC",
+      "target": "FBE",
+      "similarity": 0.55,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Netta (Israel 'Toy') wins Eurovision after dramatic public vote! - Eurovision Song Contest 2018",
+      "target_title": "ADULTS REACT TO EUROVISION SONG CONTEST 2018",
+      "source_date": "2018-05-13",
+      "target_date": "2018-05-20"
+    },
+    {
+      "source": "Alex Van",
+      "target": "liisataylor",
+      "similarity": 0.56,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "BEYONC\u00c9 AND DESTINY\u2019S CHILD REUNION COACHELLA 2018 PERFORMANCE",
+      "target_title": "BEYONC\u00c9 LIVE @ COACHELLA 2018!!",
+      "source_date": "2018-04-16",
+      "target_date": "2018-04-19"
+    },
+    {
+      "source": "The Star Online",
+      "target": "What's Trending",
+      "similarity": 0.63,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Chinese daredevil's final stunt",
+      "target_title": "Chinese Daredevil Dies During Skyscraper Stunt | What's Trending Now!",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-15"
     },
     {
       "source": "5-Minute Crafts",
       "target": "Troom Troom SELECT",
-      "similarity": 0.6,
-      "category_id": 26,
+      "similarity": 0.62,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "35 EPIC GLUE GUN LIFE HACKS || HOT GLUE CRAFTS COMPILATION",
       "target_title": "14 Hot Glue Gun Life Hacks For Crafting",
       "source_date": "2018-02-12",
@@ -223,88 +2452,262 @@
     {
       "source": "Troom Troom SELECT",
       "target": "Troom Troom",
-      "similarity": 0.51,
-      "category_id": 26,
+      "similarity": 0.55,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "13 Funny Student Pranks On Teacher! School Pranks!",
       "target_title": "16 Funny School Pranks And Life Hacks",
       "source_date": "2018-05-29",
       "target_date": "2018-06-01"
     },
     {
-      "source": "NikkieTutorials",
-      "target": "Alissa Ashley",
-      "similarity": 0.8,
-      "category_id": 26,
-      "source_title": "TARTE SHAPE TAPE FOUNDATION?! First Impressions + Demo",
-      "target_title": "NEW Tarte Shape Tape Foundation..Are They Serious?",
-      "source_date": "2018-01-17",
-      "target_date": "2018-01-18"
+      "source": "BOOMPANOT.COM",
+      "target": "ABS-CBN News",
+      "similarity": 0.53,
+      "source_category_id": 22,
+      "target_category_id": 25,
+      "source_title": "Last Video of Hashtag Franco Before He Died",
+      "target_title": "Rated K: The untold story of the death of Hashtag Franco",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-21"
     },
     {
       "source": "NikkieTutorials",
       "target": "Patricia Bright",
       "similarity": 0.59,
-      "category_id": 26,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "TARTE SHAPE TAPE FOUNDATION?! First Impressions + Demo",
       "target_title": "REACTING TO THE NEW TARTE SHAPE TAPE FOUNDATION...I DIDNT EXPECT THIS!",
       "source_date": "2018-01-17",
       "target_date": "2018-01-21"
     },
     {
-      "source": "Eh Bee Family",
-      "target": "Elvis the Alien",
-      "similarity": 0.59,
-      "category_id": 22,
-      "source_title": "DEAR LOGAN PAUL...",
-      "target_title": "I Do Not Like Logan Paul",
-      "source_date": "2018-01-03",
-      "target_date": "2018-01-04"
+      "source": "MoreWolfie",
+      "target": "ItsYeBoi",
+      "similarity": 0.9,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "WolfieRaps - Check the Statistics Feat. Ricegum (Official Music Video) (Big Shaq Diss Track)",
+      "target_title": "REACTING TO WolfieRaps Check the Statistics FT. Ricegum (Official Music Video) (Big Shaq Diss Track)",
+      "source_date": "2017-11-27",
+      "target_date": "2017-11-30"
     },
     {
-      "source": "Eh Bee Family",
-      "target": "ImAllexx",
+      "source": "EasyTech",
+      "target": "RWANDA5 TV",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Evening Reception of Prince Harry & Meghan Markle's Royal Wedding",
+      "target_title": "30 things went wrong from royal wedding //  Prince Harry and Meghan Markle weeding",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-25"
+    },
+    {
+      "source": "EasyTech",
+      "target": "Royal Insider",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 25,
+      "source_title": "Evening Reception of Prince Harry & Meghan Markle's Royal Wedding",
+      "target_title": "Sweet way Meghan & Harry named their wedding table at the Intimate evening reception",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-28"
+    },
+    {
+      "source": "EasyTech",
+      "target": "Meghan Markle & Prince Harry News",
       "similarity": 0.5,
-      "category_id": 22,
-      "source_title": "DEAR LOGAN PAUL...",
-      "target_title": "Defending Logan Paul",
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Evening Reception of Prince Harry & Meghan Markle's Royal Wedding",
+      "target_title": "Meghan Markle & Prince Harry Are On Honeymoon In CANADA / Latest Royal News",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-29"
+    },
+    {
+      "source": "Lost Pause",
+      "target": "We The Unicorns",
+      "similarity": 0.56,
+      "source_category_id": 20,
+      "target_category_id": 24,
+      "source_title": "This is too much - Logan Paul Dead Body in Suicide Forest Reply",
+      "target_title": "Logan Paul's 'Suicide Forest' Video And Everything That Followed",
       "source_date": "2018-01-03",
       "target_date": "2018-01-06"
     },
     {
-      "source": "Liza Koshy Too",
-      "target": "Draw with Jazza",
-      "similarity": 0.67,
-      "category_id": 23,
-      "source_title": "GINGERBREAD HOUSE WITH NO HANDS CHALLENGE!!",
-      "target_title": "EPIC GINGERBREAD HOUSE CHALLENGE!!",
-      "source_date": "2017-12-11",
+      "source": "IGN",
+      "target": "justdenise",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Avengers: Infinity War Ending Explained (SPOILERS)",
+      "target_title": "TOM HOLLAND CANT STOP HIS SPOILERS | AVENGERS: INFINITY WAR 2018",
+      "source_date": "2018-04-28",
+      "target_date": "2018-05-03"
+    },
+    {
+      "source": "We Got This Covered",
+      "target": "PopBuzz",
+      "similarity": 0.58,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "DEADPOOL 2 Beating Avengers: Infinity War Trailer [HD] Ryan Reynolds, Zazie Beetz, Josh Brolin",
+      "target_title": "Ryan Reynolds Reveals What Deadpool Would Have Done In \u2018Avengers: Infinity War\u2019",
+      "source_date": "2018-05-15",
+      "target_date": "2018-05-20"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "Markiplier",
+      "similarity": 0.69,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)",
+      "target_title": "A TOTALLY NORMAL GAME... NOTHING SUSPICIOUS AT ALL... | Doki Doki Literature Club - Part 1",
+      "source_date": "2017-12-15",
       "target_date": "2017-12-25"
     },
     {
-      "source": "Lolywood",
-      "target": "Pat la r\u00e9alisation",
-      "similarity": 0.77,
-      "category_id": 23,
-      "source_title": "L'oral du Bac (vu par un Prof)",
-      "target_title": "L'ORAL DU BAC VU PAR UN \u00c9L\u00c9VE",
-      "source_date": "2018-06-10",
-      "target_date": "2018-06-11"
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.8,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: WHAT?! - PART 21 - Game Grumps",
+      "source_date": "2017-12-15",
+      "target_date": "2017-12-23"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.8,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: Even More WHAT?! - PART 22 - Game Grumps",
+      "source_date": "2017-12-15",
+      "target_date": "2017-12-24"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.76,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: The L Word - PART 20 - Game Grumps",
+      "source_date": "2017-12-15",
+      "target_date": "2017-12-22"
+    },
+    {
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.7,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)",
+      "target_title": "Doki Doki Literature Club!: Finally, Some Emotion! - PART 18 - Game Grumps",
+      "source_date": "2017-12-15",
+      "target_date": "2017-12-18"
+    },
+    {
+      "source": "Sony Pictures Entertainment",
+      "target": "FilmSelect Trailer",
+      "similarity": 0.6,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "HOTEL TRANSYLVANIA 3: SUMMER VACATION - Official Trailer (HD)",
+      "target_title": "HOTEL TRANSYLVANIA 3 Extended Trailer (2018)",
+      "source_date": "2018-03-22",
+      "target_date": "2018-03-25"
+    },
+    {
+      "source": "BuzzFeedVideo",
+      "target": "FBE",
+      "similarity": 0.63,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "We Mastered The Invisible Box Challenge",
+      "target_title": "YOUTUBERS REACT TO INVISIBLE BOX CHALLENGE",
+      "source_date": "2017-12-09",
+      "target_date": "2017-12-15"
+    },
+    {
+      "source": "Troom Troom SELECT",
+      "target": "BRIGHT SIDE",
+      "similarity": 0.53,
+      "source_category_id": 26,
+      "target_category_id": 26,
+      "source_title": "18 Magic Tricks That You Can Do",
+      "target_title": "7 Famous Magic Tricks Finally Revealed and Explained",
+      "source_date": "2018-04-22",
+      "target_date": "2018-04-30"
     },
     {
       "source": "The Verge",
       "target": "Elon Musk Viral Videos",
-      "similarity": 0.54,
-      "category_id": 28,
+      "similarity": 0.56,
+      "source_category_id": 28,
+      "target_category_id": 22,
       "source_title": "Elon Musk on how Falcon Heavy will change space travel",
       "target_title": "Elon Musk Extremely Emotional Reaction To Falcon Heavy Launch",
       "source_date": "2018-02-08",
       "target_date": "2018-02-12"
     },
     {
+      "source": "The Verge",
+      "target": "Melvin F.",
+      "similarity": 0.5,
+      "source_category_id": 28,
+      "target_category_id": 22,
+      "source_title": "Elon Musk on how Falcon Heavy will change space travel",
+      "target_title": "Exclusive behind-the-scenes-footage follows Elon Musk in the moments before the Falcon Heavy launch",
+      "source_date": "2018-02-08",
+      "target_date": "2018-02-12"
+    },
+    {
+      "source": "What's Inside?",
+      "target": "Marques Brownlee",
+      "similarity": 0.52,
+      "source_category_id": 28,
+      "target_category_id": 28,
+      "source_title": "What's inside Apple HomePod?",
+      "target_title": "Apple HomePod Review: The Dumbest Smart Speaker?",
+      "source_date": "2018-02-14",
+      "target_date": "2018-02-17"
+    },
+    {
+      "source": "5-Minute Crafts",
+      "target": "HouseholdHacker",
+      "similarity": 0.52,
+      "source_category_id": 26,
+      "target_category_id": 26,
+      "source_title": "20 AWESOME PAINT HACKS FOR EVERYONE",
+      "target_title": "7 Awesome Life Hacks For Your Cat",
+      "source_date": "2018-02-25",
+      "target_date": "2018-03-06"
+    },
+    {
+      "source": "Looper",
+      "target": "Garebear Gaming",
+      "similarity": 0.74,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "It's Time To Talk About That Spider-Man Scene In Avengers: Infinity War",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-03",
+      "target_date": "2018-05-07"
+    },
+    {
       "source": "I Hate Everything",
       "target": "jacksfilms",
-      "similarity": 0.59,
-      "category_id": 23,
+      "similarity": 0.55,
+      "source_category_id": 23,
+      "target_category_id": 23,
       "source_title": "I HATE YOUTUBE REWIND 2017",
       "target_title": "I fixed YouTube Rewind",
       "source_date": "2017-12-08",
@@ -312,69 +2715,98 @@
     },
     {
       "source": "I Hate Everything",
-      "target": "ComradeWarbear",
-      "similarity": 0.53,
-      "category_id": 23,
+      "target": "LE ROI DES RATS",
+      "similarity": 0.66,
+      "source_category_id": 23,
+      "target_category_id": 25,
       "source_title": "I HATE YOUTUBE REWIND 2017",
-      "target_title": "Youtube Rewind 2017 (A more accurate remake)",
+      "target_title": "LE VRAI YOUTUBE REWIND 2017",
       "source_date": "2017-12-08",
-      "target_date": "2017-12-10"
+      "target_date": "2017-12-16"
     },
     {
-      "source": "Jimmy Kimmel Live",
-      "target": "Marvel Studios Movies",
-      "similarity": 0.6,
-      "category_id": 23,
-      "source_title": "Cast of Avengers: Infinity War Draws Their Characters",
-      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
-      "source_date": "2018-04-28",
-      "target_date": "2018-04-29"
+      "source": "The Game Theorists",
+      "target": "GameGrumps",
+      "similarity": 0.66,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Getting Over It's IMPOSSIBLE PHYSICS! | The SCIENCE!...of Getting Over It with Bennett Foddy",
+      "target_title": "Getting Over It w/ Bennett Foddy - Game Grumps",
+      "source_date": "2018-01-05",
+      "target_date": "2018-01-13"
     },
     {
-      "source": "consumer",
-      "target": "Royal Wedding",
-      "similarity": 0.54,
-      "category_id": 23,
-      "source_title": "John Oliver - Royal Wedding",
-      "target_title": "Yes, Meghan Did Curtsy for Queen at the Royal Wedding | by Royal Wedding",
-      "source_date": "2018-05-22",
-      "target_date": "2018-05-23"
+      "source": "jacksepticeye",
+      "target": "MM7Games",
+      "similarity": 0.63,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "TRY NOT TO CRINGE: DATING GAME | Super Seducer",
+      "target_title": "I AM A SUPER SEDUCER!",
+      "source_date": "2018-03-15",
+      "target_date": "2018-03-20"
+    },
+    {
+      "source": "DanTDM",
+      "target": "NellyGotBored",
+      "similarity": 0.51,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "THE HARDEST GAME EVER MADE.... (Getting Over It)",
+      "target_title": "World's Hardest Game: CAPTCHA",
+      "source_date": "2017-12-10",
+      "target_date": "2017-12-14"
     },
     {
       "source": "NikkieTutorials",
       "target": "Nicol Concilio",
-      "similarity": 0.65,
-      "category_id": 26,
+      "similarity": 0.67,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "DOING NICOLE RICHIE'S MAKEUP?!",
       "target_title": "BLINDFOLDED MAKEUP CHALLENGE WITH NICOLE RICHIE",
       "source_date": "2018-02-09",
       "target_date": "2018-02-17"
     },
     {
-      "source": "Smosh",
-      "target": "jackisanerd",
-      "similarity": 0.56,
-      "category_id": 23,
-      "source_title": "EVERY VALENTINE'S DAY EVER",
-      "target_title": "Day 0",
-      "source_date": "2018-02-15",
-      "target_date": "2018-02-28"
+      "source": "CNET",
+      "target": "EverythingApplePro",
+      "similarity": 0.58,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Galaxy S9 Plus unboxing: Everything you get",
+      "target_title": "Samsung Galaxy S9 Plus vs iPhone X Drop Test!",
+      "source_date": "2018-02-28",
+      "target_date": "2018-03-08"
     },
     {
-      "source": "#Mind Warehouse",
-      "target": "Jordan B Peterson",
-      "similarity": 0.52,
-      "category_id": 27,
-      "source_title": "APRIL 18TH, 2018. WHAT WILL HAPPEN?",
-      "target_title": "April 2018 Q & A",
-      "source_date": "2018-04-18",
-      "target_date": "2018-04-29"
+      "source": "INSIDER",
+      "target": "ZIAS!",
+      "similarity": 0.64,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Hidden Meanings Behind Childish Gambino's 'This Is America' Video",
+      "target_title": "Childish Gambino - This Is America (Official Video)- REACTION",
+      "source_date": "2018-05-10",
+      "target_date": "2018-05-16"
+    },
+    {
+      "source": "INSIDER",
+      "target": "Rachel Kim",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Hidden Meanings Behind Childish Gambino's 'This Is America' Video",
+      "target_title": "Koreans React to \u201cThis Is America\u201d by Childish Gambino",
+      "source_date": "2018-05-10",
+      "target_date": "2018-05-14"
     },
     {
       "source": "Google Developers",
       "target": "IISuperwomanII",
-      "similarity": 0.54,
-      "category_id": 28,
+      "similarity": 0.56,
+      "source_category_id": 28,
+      "target_category_id": 23,
       "source_title": "Google I/O'18: Google Keynote",
       "target_title": "Why You Should Never Google Your Date",
       "source_date": "2018-05-09",
@@ -382,79 +2814,351 @@
     },
     {
       "source": "ComedyShortsGamer",
+      "target": "JMX",
+      "similarity": 0.52,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "KSI VS JOE WELLER LEAKED FOOTAGE",
+      "target_title": "Calling Out KSI. - Reacting to KSI vs Joe Weller Boxing Fight",
+      "source_date": "2018-01-28",
+      "target_date": "2018-02-05"
+    },
+    {
+      "source": "ComedyShortsGamer",
       "target": "WillNE",
-      "similarity": 0.66,
-      "category_id": 22,
+      "similarity": 0.64,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "KSI VS JOE WELLER LEAKED FOOTAGE",
       "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
       "source_date": "2018-01-28",
       "target_date": "2018-02-06"
     },
     {
-      "source": "FailArmy",
-      "target": "Jordan B Peterson",
-      "similarity": 0.52,
-      "category_id": 23,
-      "source_title": "Out Of Nowhere: Didn't See That Coming!!! (April 2018) | FailArmy",
-      "target_title": "April 2018 Q & A",
-      "source_date": "2018-04-18",
-      "target_date": "2018-04-29"
+      "source": "ComedyShortsGamer",
+      "target": "Uosof Ahmadi",
+      "similarity": 0.57,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "KSI VS JOE WELLER LEAKED FOOTAGE",
+      "target_title": "*UNSEEN BACKSTAGE FOOTAGE* KSI VS JOE WELLER WEIGH IN AND FACE OFF!",
+      "source_date": "2018-01-28",
+      "target_date": "2018-02-03"
     },
     {
-      "source": "Troom Troom",
-      "target": "Troom Troom SELECT",
-      "similarity": 0.61,
-      "category_id": 26,
-      "source_title": "9 Funny Edible Pranks! / Pranks Wars!",
-      "target_title": "15 Morning Routine Pranks! Funny Pranks!",
-      "source_date": "2018-04-25",
-      "target_date": "2018-04-27"
-    },
-    {
-      "source": "The ACE Family",
-      "target": "Philly D",
+      "source": "jacksfilms",
+      "target": "LE ROI DES RATS",
       "similarity": 0.55,
-      "category_id": 22,
-      "source_title": "IM SORRY CATHERINE!!!",
-      "target_title": "Very Sorry.",
-      "source_date": "2018-01-20",
-      "target_date": "2018-01-28"
+      "source_category_id": 23,
+      "target_category_id": 25,
+      "source_title": "I fixed YouTube Rewind",
+      "target_title": "LE VRAI YOUTUBE REWIND 2017",
+      "source_date": "2017-12-11",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "Domics",
+      "target": "Linus Tech Tips",
+      "similarity": 0.53,
+      "source_category_id": 23,
+      "target_category_id": 28,
+      "source_title": "Buying Used Things 2",
+      "target_title": "Why is EVERYONE Buying this TV??",
+      "source_date": "2018-05-24",
+      "target_date": "2018-06-01"
+    },
+    {
+      "source": "TheEllenShow",
+      "target": "Desus & Mero",
+      "similarity": 0.77,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Steve Harvey Dishes on the Kardashian/West 'Family Feud' Episode",
+      "target_title": "Steve Harvey Talks Kardashian Family Feud",
+      "source_date": "2018-04-18",
+      "target_date": "2018-04-23"
+    },
+    {
+      "source": "VOA News",
+      "target": "RWANDA5 TV",
+      "similarity": 0.55,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "Prince Harry and Meghan Markle's wedding cake",
+      "target_title": "30 things went wrong from royal wedding //  Prince Harry and Meghan Markle weeding",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-25"
+    },
+    {
+      "source": "VOA News",
+      "target": "Meghan Markle & Prince Harry News",
+      "similarity": 0.51,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Prince Harry and Meghan Markle's wedding cake",
+      "target_title": "Meghan Markle & Prince Harry Are On Honeymoon In CANADA / Latest Royal News",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-29"
+    },
+    {
+      "source": "VOA News",
+      "target": "City Dreamer",
+      "similarity": 0.59,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Prince Harry and Meghan Markle's wedding cake",
+      "target_title": "Meghan Markle: A look Inside her new life with Prince Harry",
+      "source_date": "2018-05-21",
+      "target_date": "2018-05-30"
+    },
+    {
+      "source": "IGN",
+      "target": "Annoying Orange",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Slender Man Trailer (2018) Exclusive - IGN First",
+      "target_title": "Slender Man: The Movie Trailer Trashed",
+      "source_date": "2018-01-04",
+      "target_date": "2018-01-09"
+    },
+    {
+      "source": "Linus Tech Tips",
+      "target": "Sierra and Alex",
+      "similarity": 0.58,
+      "source_category_id": 28,
+      "target_category_id": 22,
+      "source_title": "Why is EVERYONE Buying this TV??",
+      "target_title": "BUYING EACH OTHER'S OUTFITS!!!",
+      "source_date": "2018-06-01",
+      "target_date": "2018-06-10"
+    },
+    {
+      "source": "Team Edge",
+      "target": "Cow Chop",
+      "similarity": 0.54,
+      "source_category_id": 23,
+      "target_category_id": 20,
+      "source_title": "SODA Bottle Flip Challenge!!",
+      "target_title": "FLIP THE BOTTLE CHALLENGE GOES WRONG \u2022 AMAZON PRIME TIME",
+      "source_date": "2018-01-18",
+      "target_date": "2018-01-21"
+    },
+    {
+      "source": "Tech Insider",
+      "target": "FBE",
+      "similarity": 0.58,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "'Avengers: Infinity War' Trailer: 10 Things You Missed",
+      "target_title": "ELDERS REACT TO AVENGERS: INFINITY WAR TRAILER",
+      "source_date": "2017-12-01",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "Zoella",
+      "target": "emilynoel83",
+      "similarity": 0.53,
+      "source_category_id": 26,
+      "target_category_id": 26,
+      "source_title": "Best of Beauty 2017 | Zoella",
+      "target_title": "BEST IN BEAUTY: January 2018",
+      "source_date": "2018-01-24",
+      "target_date": "2018-02-02"
+    },
+    {
+      "source": "Dani Ochoa",
+      "target": "TheCubician",
+      "similarity": 0.62,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Cantina Theme played by a pencil and a girl with too much time on her hands",
+      "target_title": "Cantina Theme Played By Rubik's Cube Whilst Being Solved | Pencil Girl Parody",
+      "source_date": "2018-01-12",
+      "target_date": "2018-01-16"
+    },
+    {
+      "source": "Markiplier",
+      "target": "Bijuu Mike",
+      "similarity": 0.64,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "A TOTALLY NORMAL GAME... NOTHING SUSPICIOUS AT ALL... | Doki Doki Literature Club - Part 1",
+      "target_title": "Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club",
+      "source_date": "2017-12-25",
+      "target_date": "2017-12-28"
+    },
+    {
+      "source": "Chris Stuckmann",
+      "target": "Jeremy Jahns",
+      "similarity": 0.77,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - Movie Review",
+      "target_title": "Star Wars: The Last Jedi - SPOILER Review",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-18"
+    },
+    {
+      "source": "Chris Stuckmann",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.63,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - Movie Review",
+      "target_title": "Quickie: Star Wars: The Last Jedi",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-23"
+    },
+    {
+      "source": "Jaclyn Hill",
+      "target": "Cow Chop",
+      "similarity": 0.58,
+      "source_category_id": 26,
+      "target_category_id": 20,
+      "source_title": "HOLIDAY GIFT GUIDE 2017 | Jaclyn Hill",
+      "target_title": "HOLIDAY GIFT GUIDE 2017 : PART ONE \u2022 AMAZON PRIME TIME",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-22"
+    },
+    {
+      "source": "Jaclyn Hill",
+      "target": "Cow Chop",
+      "similarity": 0.58,
+      "source_category_id": 26,
+      "target_category_id": 20,
+      "source_title": "HOLIDAY GIFT GUIDE 2017 | Jaclyn Hill",
+      "target_title": "HOLIDAY GIFT GUIDE 2017 : PART TWO \u2022 AMAZON PRIME TIME",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-24"
+    },
+    {
+      "source": "USA TODAY",
+      "target": "FBE",
+      "similarity": 0.61,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Laurel vs. Yanny - what do you hear?",
+      "target_title": "YOUTUBERS REACT TO YANNY or LAUREL",
+      "source_date": "2018-05-17",
+      "target_date": "2018-05-23"
+    },
+    {
+      "source": "Markiplier",
+      "target": "jacksepticeye",
+      "similarity": 0.73,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "CLICK HERE TO RESET YOUR LIFE | Will You Press The Button #11",
+      "target_title": "CLICK HERE TO CHANGE YOUR LIFE | Will You Press The Button? #6",
+      "source_date": "2017-12-28",
+      "target_date": "2018-01-06"
+    },
+    {
+      "source": "Netflix",
+      "target": "FoundFlix",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "THE CLOVERFIELD PARADOX | WATCH NOW | NETFLIX",
+      "target_title": "THE CLOVERFIELD PARADOX (2018) Ending + Series Multiverse Explained",
+      "source_date": "2018-02-05",
+      "target_date": "2018-02-08"
+    },
+    {
+      "source": "The Verge",
+      "target": "Marques Brownlee",
+      "similarity": 0.73,
+      "source_category_id": 28,
+      "target_category_id": 28,
+      "source_title": "Samsung Galaxy S9 hands-on",
+      "target_title": "Samsung Galaxy S9 Camera: What's New!",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-01"
+    },
+    {
+      "source": "The Verge",
+      "target": "EverythingApplePro",
+      "similarity": 0.61,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Samsung Galaxy S9 hands-on",
+      "target_title": "Samsung Galaxy S9 Plus vs iPhone X Drop Test!",
+      "source_date": "2018-02-26",
+      "target_date": "2018-03-08"
+    },
+    {
+      "source": "Breakfast Club Power 105.1 FM",
+      "target": "Power 106 Los Angeles",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Pusha T Talks Daytona And The Mind Of Kanye West, Lil Wayne, Drake + More",
+      "target_title": "Pusha T on Defeating Drake, Meaning of Surgical Summer, Daytona & Kanye West",
+      "source_date": "2018-05-26",
+      "target_date": "2018-06-01"
+    },
+    {
+      "source": "Breakfast Club Power 105.1 FM",
+      "target": "BigBoyTV",
+      "similarity": 0.62,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Pusha T Talks Daytona And The Mind Of Kanye West, Lil Wayne, Drake + More",
+      "target_title": "Pusha T on Beef w/ Drake, Daytona, Kanye West & A Lot More!",
+      "source_date": "2018-05-26",
+      "target_date": "2018-06-01"
+    },
+    {
+      "source": "Marques Brownlee",
+      "target": "EverythingApplePro",
+      "similarity": 0.61,
+      "source_category_id": 28,
+      "target_category_id": 24,
+      "source_title": "Samsung Galaxy S9 Camera: What's New!",
+      "target_title": "Samsung Galaxy S9 Plus vs iPhone X Drop Test!",
+      "source_date": "2018-03-01",
+      "target_date": "2018-03-08"
     },
     {
       "source": "Marques Brownlee",
       "target": "CollegeHumor",
-      "similarity": 0.51,
-      "category_id": 28,
+      "similarity": 0.55,
+      "source_category_id": 28,
+      "target_category_id": 23,
       "source_title": "What's On My Phone: 2018!",
       "target_title": "Your Phone Is Dying",
       "source_date": "2018-02-06",
       "target_date": "2018-02-09"
     },
     {
-      "source": "The Tonight Show Starring Jimmy Fallon",
-      "target": "Kyle Exum",
-      "similarity": 0.55,
-      "category_id": 23,
-      "source_title": "Offset & Metro Boomin Perform Ric Flair Drip with the Real Ric Flair",
-      "target_title": "Mr. Drip (Ric Flair Drip Parody) #PREEXUMSEASON",
-      "source_date": "2018-04-19",
-      "target_date": "2018-05-03"
+      "source": "TheEllenShow",
+      "target": "Watch What Happens Live with Andy Cohen",
+      "similarity": 0.66,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Olympian Adam Rippon Has Been Sleeping on Shawn Mendes",
+      "target_title": "Adam Rippon On Meeting Shawn Mendes | WWHL",
+      "source_date": "2018-03-02",
+      "target_date": "2018-03-08"
     },
     {
-      "source": "Great Big Story",
-      "target": "secureteam10",
-      "similarity": 0.55,
-      "category_id": 22,
-      "source_title": "The Most Famous Actor You\u2019ve Never Seen",
-      "target_title": "I've Never Seen Anything Like This..",
-      "source_date": "2018-03-04",
-      "target_date": "2018-03-06"
+      "source": "Looper",
+      "target": "Tasty",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 26,
+      "source_title": "The Ending Of Black Panther Explained",
+      "target_title": "What Would They Eat In Black Panther?",
+      "source_date": "2018-02-19",
+      "target_date": "2018-03-01"
     },
     {
       "source": "Troom Troom",
       "target": "Cracked",
-      "similarity": 0.51,
-      "category_id": 26,
+      "similarity": 0.55,
+      "source_category_id": 26,
+      "target_category_id": 23,
       "source_title": "14 Back To School Life Hacks",
       "target_title": "4 Life Hacks that Will Ruin Your Life",
       "source_date": "2017-11-25",
@@ -463,38 +3167,174 @@
     {
       "source": "Alissa Ashley",
       "target": "Patricia Bright",
-      "similarity": 0.74,
-      "category_id": 26,
+      "similarity": 0.75,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "NEW Tarte Shape Tape Foundation..Are They Serious?",
       "target_title": "REACTING TO THE NEW TARTE SHAPE TAPE FOUNDATION...I DIDNT EXPECT THIS!",
       "source_date": "2018-01-18",
       "target_date": "2018-01-21"
     },
     {
+      "source": "Jeremy Jahns",
+      "target": "Chris Stuckmann",
+      "similarity": 0.92,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Top 10 WORST Movies 2017",
+      "target_title": "The Worst Movies of 2017",
+      "source_date": "2017-12-28",
+      "target_date": "2017-12-31"
+    },
+    {
+      "source": "Rich Ferguson",
+      "target": "FBE",
+      "similarity": 0.58,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Yanny vs Laurel Challenge! WHAT DO YOU HEAR!?",
+      "target_title": "YOUTUBERS REACT TO YANNY or LAUREL",
+      "source_date": "2018-05-17",
+      "target_date": "2018-05-23"
+    },
+    {
+      "source": "NBA on TNT",
+      "target": "Cavaliers Webmaster",
+      "similarity": 0.52,
+      "source_category_id": 17,
+      "target_category_id": 22,
+      "source_title": "Inside The NBA: Cavaliers vs. Raptors Game 2 Analysis",
+      "target_title": "Game 4 Postgame: Cavaliers vs. Raptors - May 7, 2018",
+      "source_date": "2018-05-05",
+      "target_date": "2018-05-08"
+    },
+    {
+      "source": "Media Muse",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.53,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "A Dwight Place - A Quiet Place/The Office Parody Trailer",
+      "target_title": "A Quiet Place Review - YMS",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-19"
+    },
+    {
+      "source": "Star Wars",
+      "target": "Chris Stuckmann",
+      "similarity": 0.54,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Live From The Red Carpet Of Star Wars: The Last Jedi",
+      "target_title": "Star Wars: The Last Jedi - Spoiler Review",
+      "source_date": "2017-12-11",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "Star Wars",
+      "target": "Jeremy Jahns",
+      "similarity": 0.54,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Live From The Red Carpet Of Star Wars: The Last Jedi",
+      "target_title": "Star Wars: The Last Jedi - SPOILER Review",
+      "source_date": "2017-12-11",
+      "target_date": "2017-12-18"
+    },
+    {
       "source": "secureteam10",
-      "target": "Lenarr Young",
-      "similarity": 0.51,
-      "category_id": 28,
+      "target": "G-Eazy",
+      "similarity": 0.72,
+      "source_category_id": 28,
+      "target_category_id": 24,
       "source_title": "SOMETHING Happened While He Was In Space..",
-      "target_title": "What just happened",
+      "target_title": "These Things Happened - Q&A (Live from the YouTube Space)",
       "source_date": "2018-03-16",
       "target_date": "2018-03-20"
     },
     {
-      "source": "Manny Mua",
-      "target": "Jenn Im",
-      "similarity": 0.73,
-      "category_id": 26,
-      "source_title": "FEBRUARY FAVORITES AND FLOPS! February you did THAT!",
-      "target_title": "February Favorites 2018",
-      "source_date": "2018-02-27",
-      "target_date": "2018-03-02"
+      "source": "Tibo InShape",
+      "target": "Wass Freestyle",
+      "similarity": 0.57,
+      "source_category_id": 17,
+      "target_category_id": 17,
+      "source_title": "MON NOUVEAU M\u00c9TIER !!",
+      "target_title": "JE VOUS MONTRE MON VRAI M\u00c9TIER!",
+      "source_date": "2017-12-13",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "Good Morning America",
+      "target": "RDCworld1",
+      "similarity": 0.56,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Chris Evans opens up about 'Avengers: Infinity War'",
+      "target_title": "BLACK AVENGERS 3: INFINITY WAR",
+      "source_date": "2018-04-24",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Good Morning America",
+      "target": "Smosh Games",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "Chris Evans opens up about 'Avengers: Infinity War'",
+      "target_title": "AVENGERS INFINITY WAR THE GAME",
+      "source_date": "2018-04-24",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "True Geordie",
+      "target": "WillNE",
+      "similarity": 0.57,
+      "source_category_id": 17,
+      "target_category_id": 22,
+      "source_title": "KSI vs JOE WELLER - True Geordie Preview",
+      "target_title": "KSI VS JOE WELLER IN 5 MINUTES",
+      "source_date": "2018-02-02",
+      "target_date": "2018-02-06"
+    },
+    {
+      "source": "Washington Post",
+      "target": "The Late Late Show with James Corden",
+      "similarity": 0.52,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Here\u2019s what you missed at the 2018 Grammy Awards",
+      "target_title": "James Corden's Parents Take Over the GRAMMY Awards",
+      "source_date": "2018-01-30",
+      "target_date": "2018-02-03"
+    },
+    {
+      "source": "Mashed",
+      "target": "Nicki Swift",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "The Untold Truth Of Five Guys",
+      "target_title": "The Untold Truth Of Kate Middleton",
+      "source_date": "2018-02-14",
+      "target_date": "2018-02-22"
+    },
+    {
+      "source": "Arica Hutton",
+      "target": "SuperLuigiLogan",
+      "similarity": 0.8,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "SML Movie: Evil Chef Pee Pee!",
+      "target_title": "SML Reacts: Chef Pee Pee Quits",
+      "source_date": "2018-05-20",
+      "target_date": "2018-05-26"
     },
     {
       "source": "Late Night with Seth Meyers",
       "target": "Comedy Central UK",
-      "similarity": 0.5,
-      "category_id": 23,
+      "similarity": 0.51,
+      "source_category_id": 23,
+      "target_category_id": 23,
       "source_title": "The Women's March and the Government Shutdown: A Closer Look",
       "target_title": "The Daily Show | Who Won The Government Shutdown?",
       "source_date": "2018-01-23",
@@ -502,149 +3342,483 @@
     },
     {
       "source": "LawTWINZ",
-      "target": "Jnel Comedy",
-      "similarity": 0.52,
-      "category_id": 22,
+      "target": "Rachel Kim",
+      "similarity": 0.6,
+      "source_category_id": 22,
+      "target_category_id": 24,
       "source_title": "Childish Gambino - This Is America (Official Video) - REACTION",
-      "target_title": "Childish Gambino This Is America PARODY (This Is Jamaica) @JnelComedy",
+      "target_title": "Koreans React to \u201cThis Is America\u201d by Childish Gambino",
       "source_date": "2018-05-10",
-      "target_date": "2018-05-24"
+      "target_date": "2018-05-14"
+    },
+    {
+      "source": "EA Star Wars",
+      "target": "Jeremy Jahns",
+      "similarity": 0.58,
+      "source_category_id": 20,
+      "target_category_id": 24,
+      "source_title": "Star Wars Battlefront 2 The Last Jedi Season",
+      "target_title": "Star Wars: The Last Jedi - Movie Review",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-13"
+    },
+    {
+      "source": "EA Star Wars",
+      "target": "Chris Stuckmann",
+      "similarity": 0.55,
+      "source_category_id": 20,
+      "target_category_id": 24,
+      "source_title": "Star Wars Battlefront 2 The Last Jedi Season",
+      "target_title": "Star Wars: The Last Jedi - Spoiler Review",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "EA Star Wars",
+      "target": "Jeremy Jahns",
+      "similarity": 0.55,
+      "source_category_id": 20,
+      "target_category_id": 24,
+      "source_title": "Star Wars Battlefront 2 The Last Jedi Season",
+      "target_title": "Star Wars: The Last Jedi - SPOILER Review",
+      "source_date": "2017-12-08",
+      "target_date": "2017-12-18"
     },
     {
       "source": "Kim Kardashian West",
       "target": "Carli Bybel",
-      "similarity": 0.57,
-      "category_id": 22,
+      "similarity": 0.59,
+      "source_category_id": 22,
+      "target_category_id": 26,
       "source_title": "KKW BEAUTY: Conceal, Bake, Brighten with Mario Dedivanovic",
       "target_title": "TRYING THE NEW KKW CONCEAL, BAKE & BRIGHTEN! Carli Bybel",
       "source_date": "2018-03-24",
       "target_date": "2018-04-02"
     },
     {
-      "source": "The Infographics Show",
-      "target": "MatthewSantoro",
-      "similarity": 0.51,
-      "category_id": 27,
-      "source_title": "What Are The Weirdest Unsolved Internet Mysteries?",
-      "target_title": "10 Strangest Mysteries That Remain Unsolved",
-      "source_date": "2018-02-13",
-      "target_date": "2018-02-18"
-    },
-    {
-      "source": "MIN MIN",
-      "target": "Jung Hyun Ran",
-      "similarity": 0.9,
-      "category_id": 22,
-      "source_title": "[ENGSUB] RUN BTS! EP. 49",
-      "target_title": "[ENGSUB] Run BTS! - EP.49 Behind the scene",
-      "source_date": "2018-04-18",
-      "target_date": "2018-04-20"
-    },
-    {
-      "source": "Drake",
-      "target": "OfficialDjMurda",
-      "similarity": 0.75,
-      "category_id": 22,
-      "source_title": "Drake - God's Plan (Official Audio)",
-      "target_title": "Drake - Gods Plan (Official Audio)",
-      "source_date": "2018-01-26",
-      "target_date": "2018-02-07"
-    },
-    {
       "source": "Tasty",
-      "target": "BuzzFeedVideo",
-      "similarity": 0.51,
-      "category_id": 22,
+      "target": "CaptainSparklez",
+      "similarity": 0.54,
+      "source_category_id": 22,
+      "target_category_id": 24,
       "source_title": "Homemade Vs. Fast Food: Fried Chicken",
-      "target_title": "What Is Indian Fried Chicken?",
+      "target_title": "Now That's What I Call Fast Food",
       "source_date": "2018-03-05",
-      "target_date": "2018-03-18"
+      "target_date": "2018-03-11"
+    },
+    {
+      "source": "Caspar",
+      "target": "vlogbrothers",
+      "similarity": 0.64,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Let's talk... YOUTUBE-MONEY, ZOELLA & PEOPLE CHANGING",
+      "target_title": "Let's Talk about Money",
+      "source_date": "2017-11-21",
+      "target_date": "2017-11-29"
+    },
+    {
+      "source": "TheEllenShow",
+      "target": "Desus & Mero",
+      "similarity": 0.54,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Michael B. Jordan Barely Had a Social Life During 'Black Panther'",
+      "target_title": "Black Panther's Michael B. Jordan (Extended Cut)",
+      "source_date": "2018-02-07",
+      "target_date": "2018-02-15"
+    },
+    {
+      "source": "ASMR Darling",
+      "target": "Christen Dominique",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 26,
+      "source_title": "ASMR My Makeup Routine (No Talking)",
+      "target_title": "MY GO TO GLAM MAKEUP ROUTINE",
+      "source_date": "2018-01-23",
+      "target_date": "2018-01-26"
+    },
+    {
+      "source": "Skip and Shannon: UNDISPUTED",
+      "target": "Motion Station",
+      "similarity": 0.5,
+      "source_category_id": 22,
+      "target_category_id": 17,
+      "source_title": "Chris Broussard on LeBron's Cleveland Cavaliers losing Game 1 to the Indiana Pacers | UNDISPUTED",
+      "target_title": "2nd Quarter, One Box Video: Cleveland Cavaliers vs. Indiana Pacers",
+      "source_date": "2018-04-17",
+      "target_date": "2018-04-26"
+    },
+    {
+      "source": "Skip and Shannon: UNDISPUTED",
+      "target": "Motion Station",
+      "similarity": 0.5,
+      "source_category_id": 22,
+      "target_category_id": 17,
+      "source_title": "Chris Broussard on LeBron's Cleveland Cavaliers losing Game 1 to the Indiana Pacers | UNDISPUTED",
+      "target_title": "3rd Quarter, One Box Video: Indiana Pacers vs. Cleveland Cavaliers",
+      "source_date": "2018-04-17",
+      "target_date": "2018-04-23"
     },
     {
       "source": "Manny Mua",
       "target": "Christen Dominique",
       "similarity": 0.54,
-      "category_id": 26,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "FULL FACE USING LOWEST RATED SEPHORA MAKEUP!",
       "target_title": "TESTING LOW RATED VS HIGH RATED SEPHORA MAKEUP!",
       "source_date": "2018-02-15",
       "target_date": "2018-02-25"
     },
     {
-      "source": "Team Edge",
-      "target": "FLuffeeTalks",
-      "similarity": 0.62,
-      "category_id": 23,
-      "source_title": "Shoot The Elf On A Shelf!!",
-      "target_title": "Horrible Elf on the Shelf Ideas!",
-      "source_date": "2017-12-19",
-      "target_date": "2017-12-20"
+      "source": "Chris Stuckmann",
+      "target": "Jeremy Jahns",
+      "similarity": 0.56,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "Avengers: Infinity War - SPOILER Talk",
+      "source_date": "2018-04-26",
+      "target_date": "2018-04-30"
     },
     {
-      "source": "Marques Brownlee",
-      "target": "Christine Sydelko",
-      "similarity": 0.5,
-      "category_id": 28,
-      "source_title": "New Year New MKBHD!",
-      "target_title": "NEW YEAR NEW ME (w/ Colleen Ballinger)",
-      "source_date": "2018-01-03",
-      "target_date": "2018-01-16"
+      "source": "Chris Stuckmann",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "Quickie: Avengers: Infinity War",
+      "source_date": "2018-04-26",
+      "target_date": "2018-04-30"
     },
     {
-      "source": "CYRIL /SUPERKONAR",
-      "target": "WillNE",
-      "similarity": 0.8,
-      "category_id": 23,
-      "source_title": "LE YOUTUBE SHOW",
-      "target_title": "YOUTUBE 2017...",
-      "source_date": "2017-12-22",
+      "source": "Chris Stuckmann",
+      "target": "Smosh Games",
+      "similarity": 0.71,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "AVENGERS INFINITY WAR THE GAME",
+      "source_date": "2018-04-26",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Chris Stuckmann",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 29,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-26",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "Smosh",
+      "target": "Chris Stuckmann",
+      "similarity": 0.64,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "THE BEST AND WORST OF 2017",
+      "target_title": "The Worst Movies of 2017",
+      "source_date": "2017-12-28",
+      "target_date": "2017-12-31"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Khamoshi Episode 20 HUM TV Drama 17 February 2018",
+      "target_title": "De Ijazat Episode #16 HUM TV Drama 27 February 2018",
+      "source_date": "2018-02-18",
+      "target_date": "2018-02-28"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Khamoshi Episode 20 HUM TV Drama 17 February 2018",
+      "target_title": "De Ijazat Episode #15 HUM TV Drama 26 February 2018",
+      "source_date": "2018-02-18",
+      "target_date": "2018-02-27"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.54,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Khamoshi Episode 20 HUM TV Drama 17 February 2018",
+      "target_title": "Parchayee Episode #10 HUM TV Drama   23 February 2018",
+      "source_date": "2018-02-18",
+      "target_date": "2018-02-24"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "Chris Stuckmann",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Top 10 BEST Movies 2017",
+      "target_title": "The Worst Movies of 2017",
+      "source_date": "2017-12-27",
+      "target_date": "2017-12-31"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "Chris Stuckmann",
+      "similarity": 0.9,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Top 10 BEST Movies 2017",
+      "target_title": "The Best Movies of 2017",
+      "source_date": "2017-12-27",
       "target_date": "2017-12-30"
     },
     {
-      "source": "MIN MIN",
-      "target": "Jung Hyun Ran",
+      "source": "jacksfilms",
+      "target": "FBE",
+      "similarity": 0.65,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "Reacting to Avengers: Infinity War trailer",
+      "target_title": "ELDERS REACT TO AVENGERS: INFINITY WAR TRAILER",
+      "source_date": "2017-11-30",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "Sorrow TV",
+      "target": "Slazo",
+      "similarity": 0.58,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "r/crappydesign Top Posts of All Time [2]",
+      "target_title": "r/crappydesign Top Posts | Worst Designers on Reddit",
+      "source_date": "2018-04-16",
+      "target_date": "2018-04-21"
+    },
+    {
+      "source": "CNNMoney",
+      "target": "Melvin F.",
+      "similarity": 0.58,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "Elon Musk: Falcon Heavy will be 'great' launch or 'best fireworks'",
+      "target_title": "Exclusive behind-the-scenes-footage follows Elon Musk in the moments before the Falcon Heavy launch",
+      "source_date": "2018-02-07",
+      "target_date": "2018-02-12"
+    },
+    {
+      "source": "Sargon of Akkad",
+      "target": "Dose of Truth",
       "similarity": 0.72,
-      "category_id": 22,
-      "source_title": "[ENGSUB] RUN BTS! EP. 43",
-      "target_title": "[ENGSUB] Run BTS! - EP.45",
-      "source_date": "2018-03-07",
-      "target_date": "2018-03-21"
+      "source_category_id": 25,
+      "target_category_id": 27,
+      "source_title": "Why Did Cathy Newman Lose to Jordan Peterson?",
+      "target_title": "Jordan Peterson analyzes Cathy newman",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-24"
     },
     {
-      "source": "Marques Brownlee",
-      "target": "iJustine",
+      "source": "Sargon of Akkad",
+      "target": "The Liberty Hound",
+      "similarity": 0.6,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "Why Did Cathy Newman Lose to Jordan Peterson?",
+      "target_title": "Tucker Carlson and Jordan Peterson REACT to the VIRAL Cathy Newman Interview",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-26"
+    },
+    {
+      "source": "Sargon of Akkad",
+      "target": "50 Stars",
+      "similarity": 0.69,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "Why Did Cathy Newman Lose to Jordan Peterson?",
+      "target_title": "Best reactions to Jordan Peterson and Cathy Newman's debate",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-26"
+    },
+    {
+      "source": "MuchDank",
+      "target": "Rachel Kim",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Childish Gambino Ruins EVERYTHING",
+      "target_title": "Koreans React to \u201cThis Is America\u201d by Childish Gambino",
+      "source_date": "2018-05-10",
+      "target_date": "2018-05-14"
+    },
+    {
+      "source": "The Fumble",
+      "target": "Steve TV Show",
       "similarity": 0.61,
-      "category_id": 28,
-      "source_title": "iMac Pro Setup Tour 2018!",
-      "target_title": "Which iMac Pro did I get?",
-      "source_date": "2018-01-05",
-      "target_date": "2018-01-17"
+      "source_category_id": 17,
+      "target_category_id": 24,
+      "source_title": "Tristan Thompson Gets BOOED During Cavs Game For Khloe Kardashian Cheating Scandal!",
+      "target_title": "Can Khloe Kardashian Really Forgive Tristan Thompson For Cheating?",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-21"
     },
     {
-      "source": "CollegeHumor",
-      "target": "Jordan B Peterson",
-      "similarity": 0.5,
-      "category_id": 23,
-      "source_title": "Tips for a Fun New Year\u2019s Eve",
-      "target_title": "New Year's Q and A",
-      "source_date": "2017-12-31",
-      "target_date": "2018-01-02"
+      "source": "NPK Channel",
+      "target": "Happy Win",
+      "similarity": 0.55,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "CNN DON LEMON TONIGHT March 22, 2018 | PRESIDENT TRUMP BREAKING NEWS TODAY March 22, 2018",
+      "target_title": "DON LEMON 4/01/2018 \u2605 [NEW] CNN Breaking News 2018",
+      "source_date": "2018-03-23",
+      "target_date": "2018-04-02"
     },
     {
-      "source": "La Mezzanine",
-      "target": "SootHouse",
-      "similarity": 0.56,
-      "category_id": 23,
-      "source_title": "STOCK 3",
-      "target_title": "Captioning Stock Images",
+      "source": "GameGrumps",
+      "target": "Smosh Games",
+      "similarity": 0.71,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: Finale - PART 32 - Game Grumps",
+      "target_title": "DOKI DOKI LITERATURE CLUB! (Honest Game Trailers)",
+      "source_date": "2018-01-19",
+      "target_date": "2018-01-24"
+    },
+    {
+      "source": "WillNE",
+      "target": "WildSpartanz",
+      "similarity": 0.51,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "LOGAN PAUL GETS NEW HAIRCUT (TWOTI) - Logan Paul Returns",
+      "target_title": "Logan Paul: I'm A Good Guy Who Made A Bad Decision - (Logan Paul Interview)",
+      "source_date": "2018-01-29",
+      "target_date": "2018-02-02"
+    },
+    {
+      "source": "GameGrumps",
+      "target": "Smosh Games",
+      "similarity": 0.72,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: Another Space - PART 30 - Game Grumps",
+      "target_title": "DOKI DOKI LITERATURE CLUB! (Honest Game Trailers)",
       "source_date": "2018-01-17",
-      "target_date": "2018-01-22"
+      "target_date": "2018-01-24"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "Chris Stuckmann",
+      "similarity": 0.77,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - Movie Review",
+      "target_title": "Star Wars: The Last Jedi - Spoiler Review",
+      "source_date": "2017-12-13",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.63,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - Movie Review",
+      "target_title": "Quickie: Star Wars: The Last Jedi",
+      "source_date": "2017-12-13",
+      "target_date": "2017-12-23"
+    },
+    {
+      "source": "GameGrumps",
+      "target": "Bijuu Mike",
+      "similarity": 0.74,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: WHAT?! - PART 21 - Game Grumps",
+      "target_title": "Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club",
+      "source_date": "2017-12-23",
+      "target_date": "2017-12-28"
+    },
+    {
+      "source": "Pics Tube",
+      "target": "Scoop",
+      "similarity": 0.93,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "50+ People Who Deeply Regret Shopping Online",
+      "target_title": "People Who Deeply Regret Shopping Online (Part 2)",
+      "source_date": "2018-03-15",
+      "target_date": "2018-03-19"
+    },
+    {
+      "source": "GameGrumps",
+      "target": "Smosh Games",
+      "similarity": 0.65,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: Technical Issues - PART 29 - Game Grumps",
+      "target_title": "DOKI DOKI LITERATURE CLUB! (Honest Game Trailers)",
+      "source_date": "2018-01-16",
+      "target_date": "2018-01-24"
+    },
+    {
+      "source": "Chris Stuckmann",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.6,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - Spoiler Review",
+      "target_title": "Quickie: Star Wars: The Last Jedi",
+      "source_date": "2017-12-16",
+      "target_date": "2017-12-23"
+    },
+    {
+      "source": "Star Wars",
+      "target": "AsapSCIENCE",
+      "similarity": 0.64,
+      "source_category_id": 24,
+      "target_category_id": 28,
+      "source_title": "Star Wars: The Last Jedi Back (:15)",
+      "target_title": "Could The Jedi Exist? (Star Wars Science)",
+      "source_date": "2017-11-24",
+      "target_date": "2017-11-29"
+    },
+    {
+      "source": "Sorrow TV",
+      "target": "Slazo",
+      "similarity": 0.6,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "r/oopsdidntmeanto Top Posts of All Time [4]",
+      "target_title": "r/oopsdidntmeanto Reddit Top Posts | OOPSIE... WAS THAT ME??!",
+      "source_date": "2018-04-06",
+      "target_date": "2018-04-14"
+    },
+    {
+      "source": "Good Mythical Morning",
+      "target": "Sugar Pine 7",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Demi Lovato's Sorry Not Sorry in 30 Seconds",
+      "target_title": "I am so sorry.",
+      "source_date": "2018-01-18",
+      "target_date": "2018-01-27"
     },
     {
       "source": "Graham The Christian",
       "target": "Charisma on Command",
-      "similarity": 0.55,
-      "category_id": 23,
+      "similarity": 0.53,
+      "source_category_id": 23,
+      "target_category_id": 26,
       "source_title": "Mark Zuckerberg Memes Galore",
       "target_title": "Why Mark Zuckerberg Seems Evil",
       "source_date": "2018-04-14",
@@ -652,19 +3826,10 @@
     },
     {
       "source": "BuzzFeed Celeb",
-      "target": "Tasty",
-      "similarity": 0.56,
-      "category_id": 22,
-      "source_title": "The Cast Of Black Panther Plays Would You Rather",
-      "target_title": "What Would They Eat In Black Panther?",
-      "source_date": "2018-02-17",
-      "target_date": "2018-03-01"
-    },
-    {
-      "source": "BuzzFeed Celeb",
       "target": "justdenise",
-      "similarity": 0.63,
-      "category_id": 22,
+      "similarity": 0.64,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "The Cast Of Black Panther Plays Would You Rather",
       "target_title": "Black Panther Cast | Funny Moments 2018",
       "source_date": "2018-02-17",
@@ -673,8 +3838,9 @@
     {
       "source": "Row Network",
       "target": "Todd in the Shadows",
-      "similarity": 0.59,
-      "category_id": 22,
+      "similarity": 0.6,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "Drake   God's Plan \u26a1 Lyrics",
       "target_title": "POP SONG REVIEW: God's Plan by Drake",
       "source_date": "2018-04-06",
@@ -683,8 +3849,9 @@
     {
       "source": "How To Cake It",
       "target": "Man About Cake",
-      "similarity": 0.52,
-      "category_id": 26,
+      "similarity": 0.55,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "Giant Cakesicle Cake | How To Cake It",
       "target_title": "Smoothie Bowl Cake | Man About Cake",
       "source_date": "2018-06-07",
@@ -693,302 +3860,1256 @@
     {
       "source": "secureteam10",
       "target": "StevenCrowder",
-      "similarity": 0.54,
-      "category_id": 28,
+      "similarity": 0.53,
+      "source_category_id": 28,
+      "target_category_id": 23,
       "source_title": "Nothing You See Here Is Real",
       "target_title": "REAL CONVERSATIONS: Kwanzaa Isn't Real | Change My Mind",
       "source_date": "2017-12-15",
       "target_date": "2017-12-19"
     },
     {
+      "source": "GameGrumps",
+      "target": "Bijuu Mike",
+      "similarity": 0.74,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: Even More WHAT?! - PART 22 - Game Grumps",
+      "target_title": "Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club",
+      "source_date": "2017-12-24",
+      "target_date": "2017-12-28"
+    },
+    {
       "source": "Elvis the Alien",
-      "target": "ImAllexx",
-      "similarity": 0.58,
-      "category_id": 22,
+      "target": "Ian Kung",
+      "similarity": 0.76,
+      "source_category_id": 22,
+      "target_category_id": 24,
       "source_title": "I Do Not Like Logan Paul",
-      "target_title": "Defending Logan Paul",
+      "target_title": "How To Get Views Like Logan Paul",
       "source_date": "2018-01-04",
-      "target_date": "2018-01-06"
+      "target_date": "2018-01-12"
+    },
+    {
+      "source": "Elvis the Alien",
+      "target": "MessYourself",
+      "similarity": 0.67,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "I Do Not Like Logan Paul",
+      "target_title": "Would You Rather Be Logan Paul or Jake Paul ? (Would You Rather)",
+      "source_date": "2018-01-04",
+      "target_date": "2018-01-14"
     },
     {
       "source": "Joe Rogan Fan Page",
       "target": "JRE Clips",
       "similarity": 0.81,
-      "category_id": 22,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "Joe Rogan on Brendan Schaub's Controversial Comments - I can't defend him",
       "target_title": "Joe Rogan - Brendan Schaub Apologizes For Controversial Comments",
       "source_date": "2018-03-30",
       "target_date": "2018-04-05"
     },
     {
-      "source": "Comedy Central UK",
-      "target": "Charisma on Command",
-      "similarity": 0.51,
-      "category_id": 23,
-      "source_title": "Mark Zuckerberg Is Very, Very Sorry | The Daily Show With Trevor Noah",
-      "target_title": "Why Mark Zuckerberg Seems Evil",
-      "source_date": "2018-04-15",
-      "target_date": "2018-04-17"
-    },
-    {
       "source": "WillNE",
       "target": "Smosh Pit",
       "similarity": 0.55,
-      "category_id": 22,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
       "target_title": "WE RUINED CHRISTMAS! (The Show w/ No Name)",
       "source_date": "2017-12-05",
       "target_date": "2017-12-14"
     },
     {
-      "source": "WillNE",
-      "target": "Eddy Burback",
-      "similarity": 0.55,
-      "category_id": 22,
-      "source_title": "JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)",
-      "target_title": "This is Why My Christmas is Ruined",
-      "source_date": "2017-12-05",
-      "target_date": "2017-12-19"
+      "source": "Team Edge",
+      "target": "JustKiddingParty",
+      "similarity": 0.58,
+      "source_category_id": 23,
+      "target_category_id": 24,
+      "source_title": "The Last Jedi Escape Room!!",
+      "target_title": "Escaping from... ESCAPE ROOM THE GAME!?",
+      "source_date": "2017-12-14",
+      "target_date": "2017-12-17"
     },
     {
-      "source": "GamingWithJen",
-      "target": "vlogbrothers",
-      "similarity": 0.67,
-      "category_id": 22,
-      "source_title": "THIS HOUSE COST 1 BILLION DOLLARS?!?",
-      "target_title": "What Can't a Billion Dollars Buy?",
-      "source_date": "2018-02-02",
-      "target_date": "2018-02-14"
+      "source": "GameGrumps",
+      "target": "Bijuu Mike",
+      "similarity": 0.7,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: The L Word - PART 20 - Game Grumps",
+      "target_title": "Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club",
+      "source_date": "2017-12-22",
+      "target_date": "2017-12-28"
     },
     {
-      "source": "consumer",
-      "target": "MercerReport",
-      "similarity": 0.51,
-      "category_id": 23,
-      "source_title": "John Oliver - Trudeau in India",
-      "target_title": "Rick's Rant - Trudeau in India",
-      "source_date": "2018-02-27",
-      "target_date": "2018-03-01"
+      "source": "News Room",
+      "target": "callumandbrandonvids",
+      "similarity": 0.78,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN Live Stream HD",
+      "target_title": "CNN News Live Stream - Ultra HD",
+      "source_date": "2017-12-13",
+      "target_date": "2017-12-20"
     },
     {
-      "source": "PowerfulJRE",
-      "target": "Cody Ko",
-      "similarity": 0.54,
-      "category_id": 22,
-      "source_title": "Joe Rogan Experience - 2017 Year in Review",
-      "target_title": "2017 In Review",
-      "source_date": "2018-01-01",
-      "target_date": "2018-01-02"
+      "source": "News Room",
+      "target": "Trisha Meury",
+      "similarity": 0.92,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN Live Stream HD",
+      "target_title": "CNN News Live Stream HD",
+      "source_date": "2017-12-13",
+      "target_date": "2017-12-16"
+    },
+    {
+      "source": "HUM TV Dramas",
+      "target": "HUM TV",
+      "similarity": 0.64,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "De Ijazat Episode #32 HUM TV Drama 24 April 2018",
+      "target_title": "De Ijazat Episode #34 HUM TV Drama 1 May 2018",
+      "source_date": "2018-04-25",
+      "target_date": "2018-05-02"
+    },
+    {
+      "source": "HUM TV Dramas",
+      "target": "HUM TV",
+      "similarity": 0.66,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "De Ijazat Episode #32 HUM TV Drama 24 April 2018",
+      "target_title": "De Ijazat Episode #33 HUM TV Drama 30 April 2018",
+      "source_date": "2018-04-25",
+      "target_date": "2018-05-01"
+    },
+    {
+      "source": "JayBlac",
+      "target": "Rachel Kim",
+      "similarity": 0.6,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "Childish Gambino - This Is America (Official Video) - REACTION",
+      "target_title": "Koreans React to \u201cThis Is America\u201d by Childish Gambino",
+      "source_date": "2018-05-07",
+      "target_date": "2018-05-14"
+    },
+    {
+      "source": "ABS-CBN Entertainment",
+      "target": "Kapamilya Trending",
+      "similarity": 0.56,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "GGV: Daniel Padilla can't answer Vice Ganda's funny question",
+      "target_title": "McCoy can't answer Vice Ganda's question",
+      "source_date": "2017-12-18",
+      "target_date": "2017-12-22"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.6,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Star Wars: The Last Jedi - SPOILER Review",
+      "target_title": "Quickie: Star Wars: The Last Jedi",
+      "source_date": "2017-12-18",
+      "target_date": "2017-12-23"
     },
     {
       "source": "The Food Ranger",
       "target": "Mark Wiens",
-      "similarity": 0.56,
-      "category_id": 19,
+      "similarity": 0.58,
+      "source_category_id": 19,
+      "target_category_id": 19,
       "source_title": "Mexican STREET FOOD Tour in Oaxaca, Mexico | BEST Street Food in Mexico + HUGE Mexican Breakfast!",
       "target_title": "Extreme MEXICO CITY STREET FOOD TOUR with 5 Mexican Guys CDMX!",
       "source_date": "2018-03-04",
       "target_date": "2018-03-12"
     },
     {
-      "source": "Christen Dominique",
-      "target": "KathleenLights",
-      "similarity": 0.77,
-      "category_id": 26,
-      "source_title": "Holiday Glam Makeup & Hair Tutorial",
-      "target_title": "EASY GLAM | Holiday Makeup Tutorial",
-      "source_date": "2017-12-11",
-      "target_date": "2017-12-23"
+      "source": "HUM TV Dramas",
+      "target": "HUM TV",
+      "similarity": 0.67,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "De Ijazat Episode #31 HUM TV Drama 23 April 2018",
+      "target_title": "De Ijazat Episode #33 HUM TV Drama 30 April 2018",
+      "source_date": "2018-04-24",
+      "target_date": "2018-05-01"
     },
     {
-      "source": "jacksfilms",
-      "target": "CNET",
+      "source": "GameGrumps",
+      "target": "Bijuu Mike",
+      "similarity": 0.65,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "Doki Doki Literature Club!: Finally, Some Emotion! - PART 18 - Game Grumps",
+      "target_title": "Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club",
+      "source_date": "2017-12-18",
+      "target_date": "2017-12-28"
+    },
+    {
+      "source": "MMA WORLD",
+      "target": "MMA and More",
+      "similarity": 0.5,
+      "source_category_id": 17,
+      "target_category_id": 17,
+      "source_title": "Conor McGregor finally reacts to Ferguson vs Khabib getting cancelled,Khabib still wants Tony,Dana",
+      "target_title": "Dana White I'm Done With Conor McGregor - If You Don't Like Khabib Fight Him - It's The Most...",
+      "source_date": "2018-04-03",
+      "target_date": "2018-04-06"
+    },
+    {
+      "source": "callumandbrandonvids",
+      "target": "MaddyxDoll",
+      "similarity": 0.94,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN News Live Stream - Ultra HD",
+      "target_title": "CNN Live Stream - Ultra HD",
+      "source_date": "2017-12-20",
+      "target_date": "2017-12-29"
+    },
+    {
+      "source": "callumandbrandonvids",
+      "target": "ELFluv13",
+      "similarity": 0.78,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN News Live Stream - Ultra HD",
+      "target_title": "CNN Live Stream HD",
+      "source_date": "2017-12-20",
+      "target_date": "2017-12-28"
+    },
+    {
+      "source": "Mark Wiens",
+      "target": "The Food Ranger",
+      "similarity": 0.52,
+      "source_category_id": 19,
+      "target_category_id": 19,
+      "source_title": "Extreme MEXICO CITY STREET FOOD TOUR with 5 Mexican Guys CDMX!",
+      "target_title": "MONSTER Street Food in Mexico \ud83c\udf64SATISFYING Street Food Tour Of The BEST Mexican Street Food! AMAZING",
+      "source_date": "2018-03-12",
+      "target_date": "2018-03-18"
+    },
+    {
+      "source": "The View",
+      "target": "Rachel Kim",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Meaning Behind Childish Gambino's 'This Is America' | The View",
+      "target_title": "Koreans React to \u201cThis Is America\u201d by Childish Gambino",
+      "source_date": "2018-05-10",
+      "target_date": "2018-05-14"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "YourMovieSucksDOTorg",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "Quickie: Avengers: Infinity War",
+      "source_date": "2018-04-25",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "Smosh Games",
+      "similarity": 0.71,
+      "source_category_id": 24,
+      "target_category_id": 20,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "AVENGERS INFINITY WAR THE GAME",
+      "source_date": "2018-04-25",
+      "target_date": "2018-04-30"
+    },
+    {
+      "source": "Jeremy Jahns",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 29,
+      "source_title": "Avengers: Infinity War - Movie Review",
+      "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
+      "source_date": "2018-04-25",
+      "target_date": "2018-04-29"
+    },
+    {
+      "source": "Star Wars",
+      "target": "AsapSCIENCE",
       "similarity": 0.53,
-      "category_id": 23,
-      "source_title": "SOLVED: Yanny or Laurel",
-      "target_title": "Yanny vs Laurel debate explained",
-      "source_date": "2018-05-16",
-      "target_date": "2018-05-17"
+      "source_category_id": 24,
+      "target_category_id": 28,
+      "source_title": "Star Wars: The Last Jedi Heroes (:30)",
+      "target_title": "Could The Jedi Exist? (Star Wars Science)",
+      "source_date": "2017-11-19",
+      "target_date": "2017-11-29"
     },
     {
-      "source": "jacksfilms",
-      "target": "98.7 The Bull",
-      "similarity": 0.55,
-      "category_id": 23,
-      "source_title": "SOLVED: Yanny or Laurel",
-      "target_title": "Yanny or Laurel?  Hear it the other way!",
-      "source_date": "2018-05-16",
-      "target_date": "2018-05-17"
+      "source": "Eat Bulaga!",
+      "target": "AlDUB",
+      "similarity": 0.62,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Juan For All, All For Juan | November 11, 2017",
+      "target_title": "Eat Bulaga  November 20, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-21"
+    },
+    {
+      "source": "Eat Bulaga!",
+      "target": "AlDUB",
+      "similarity": 0.63,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Juan For All, All For Juan | November 11, 2017",
+      "target_title": "Eat Bulaga  November 18, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-19"
+    },
+    {
+      "source": "AzzyLand",
+      "target": "REACT",
+      "similarity": 0.59,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "What We See VS. What Kids See!",
+      "target_title": "KIDS EAT FOREIGN CHRISTMAS FOOD | Kids Vs. Food",
+      "source_date": "2017-12-06",
+      "target_date": "2017-12-15"
+    },
+    {
+      "source": "Furious Trailer",
+      "target": "Chris Stuckmann",
+      "similarity": 0.66,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "FIFTY SHADES FREED Movie Clip Anastasia Threatens Gia (New Movie Trailer 2018) 50 Shades Movie HD",
+      "target_title": "Fifty Shades Freed - Movie Review",
+      "source_date": "2018-02-02",
+      "target_date": "2018-02-10"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "De Ijazat Episode 13 HUM TV Drama 19 February 2018",
+      "target_title": "Parchayee Episode #10 HUM TV Drama   23 February 2018",
+      "source_date": "2018-02-20",
+      "target_date": "2018-02-24"
     },
     {
       "source": "The Key of Awesome",
       "target": "TheSorryGirls",
-      "similarity": 0.55,
-      "category_id": 23,
+      "similarity": 0.53,
+      "source_category_id": 23,
+      "target_category_id": 26,
       "source_title": "THE LAST KEY OF AWESOME",
       "target_title": "LOW-KEY + HIGH-KEY VALENTINE'S DAY IDEAS",
       "source_date": "2018-02-05",
       "target_date": "2018-02-12"
     },
     {
-      "source": "JRE Clips",
-      "target": "Tasty",
-      "similarity": 0.56,
-      "category_id": 22,
-      "source_title": "Joe Rogan on the Black Panther Controversy",
-      "target_title": "What Would They Eat In Black Panther?",
-      "source_date": "2018-02-16",
-      "target_date": "2018-03-01"
+      "source": "CaptainSparklez",
+      "target": "Brand Sins",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Can You Spot What's Wrong Here?",
+      "target_title": "Everything Wrong With 2017 Part 2",
+      "source_date": "2018-01-02",
+      "target_date": "2018-01-06"
+    },
+    {
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.75,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/15/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 15, 2018",
+      "target_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "source_date": "2018-01-16",
+      "target_date": "2018-01-23"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.81,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Parchayee Episode 9 HUM TV Drama 16 February 2018",
+      "target_title": "Parchayee Episode #10 HUM TV Drama   23 February 2018",
+      "source_date": "2018-02-17",
+      "target_date": "2018-02-24"
+    },
+    {
+      "source": "HUM TV",
+      "target": "HUM TV Dramas",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Tabeer Episode  #1 HUM TV Drama 20 February 2018",
+      "target_title": "Parchayee Episode #10 HUM TV Drama   23 February 2018",
+      "source_date": "2018-02-21",
+      "target_date": "2018-02-24"
+    },
+    {
+      "source": "Donald J. Trump Topic",
+      "target": "Trump Latest News Tonight",
+      "similarity": 0.52,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "Jimmy Kimmel monologue - Jan 18, 2018 | Trump's Fake News Awards",
+      "target_title": "Jimmy Kimmel Monologue 1/22/18 - Trump Praises Women's March Jan 22,2018",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-24"
+    },
+    {
+      "source": "Daily Mail",
+      "target": "Steve TV Show",
+      "similarity": 0.53,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Tristan Thompson is booed during Knicks game for cheating on Khloe - Daily Mail",
+      "target_title": "Can Khloe Kardashian Really Forgive Tristan Thompson For Cheating?",
+      "source_date": "2018-04-14",
+      "target_date": "2018-04-21"
+    },
+    {
+      "source": "rishie",
+      "target": "LIVEKellyandRyan",
+      "similarity": 0.81,
+      "source_category_id": 17,
+      "target_category_id": 24,
+      "source_title": "Red Gerard's gold medal run in snowboard slopestyle 2018 Winter Olympics",
+      "target_title": "Red Gerard on His Gold Medal Snowboard Run",
+      "source_date": "2018-02-12",
+      "target_date": "2018-02-16"
+    },
+    {
+      "source": "BUILD Series",
+      "target": "MsMojo",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "The Cast of 13 Reasons Why Speaks On Season 2",
+      "target_title": "Top 10 Most Heartbreaking Moments from 13 Reasons Why Season 2",
+      "source_date": "2018-05-24",
+      "target_date": "2018-05-27"
+    },
+    {
+      "source": "Federica Balsamo",
+      "target": "Stephen Fanz",
+      "similarity": 0.6,
+      "source_category_id": 17,
+      "target_category_id": 24,
+      "source_title": "Stephen Colbert monologue 11/13/17 : Too Much Moore !",
+      "target_title": "Stephen Colbert Monologue 11/16/17 - Al Franken",
+      "source_date": "2017-11-15",
+      "target_date": "2017-11-18"
+    },
+    {
+      "source": "MM7Games",
+      "target": "UberHaxorNova",
+      "similarity": 0.62,
+      "source_category_id": 20,
+      "target_category_id": 20,
+      "source_title": "I AM A SUPER SEDUCER!",
+      "target_title": "CAN I GET YOUR NUMBER? *CRINGE WARNING* - Super Seducer",
+      "source_date": "2018-03-20",
+      "target_date": "2018-03-26"
     },
     {
       "source": "24 Oras News GMA",
       "target": "24 Oras News",
-      "similarity": 0.63,
-      "category_id": 22,
+      "similarity": 0.69,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "24 Oras January 28, 2018",
       "target_title": "24 Oras February 2, 2018",
       "source_date": "2018-01-28",
       "target_date": "2018-02-02"
     },
     {
-      "source": "Jenna Julien",
-      "target": "H3 Podcast Highlights",
-      "similarity": 0.51,
-      "category_id": 23,
-      "source_title": "Podcast #169 - Logan Paul",
-      "target_title": "Logan Paul Fan Calls Into the H3 Podcast",
-      "source_date": "2018-01-09",
-      "target_date": "2018-01-20"
+      "source": "Donald J. Trump Topic",
+      "target": "MR.World Updates",
+      "similarity": 0.56,
+      "source_category_id": 22,
+      "target_category_id": 24,
+      "source_title": "Jimmy Kimmel Monologue - Feb 12, 2018 | Kimmel Mocks Trump and Trump. Jr",
+      "target_title": "Jimmy Kimmel Monologue 2-17-2018 - Trump responds to Mueller",
+      "source_date": "2018-02-14",
+      "target_date": "2018-02-19"
     },
     {
-      "source": "Smosh Pit",
-      "target": "SuperMega",
-      "similarity": 0.53,
-      "category_id": 22,
-      "source_title": "DRAWING POKEMON FROM MEMORY (Squad Vlogs)",
-      "target_title": "DRUNK DRAWING POKEMON",
-      "source_date": "2018-06-08",
-      "target_date": "2018-06-14"
-    },
-    {
-      "source": "Team Coco",
-      "target": "Marvel Studios Movies",
+      "source": "The View",
+      "target": "Comedy Central UK",
       "similarity": 0.55,
-      "category_id": 23,
-      "source_title": "The Avengers: Infinity War Cast Spoils The Movie  - CONAN on TBS",
+      "source_category_id": 25,
+      "target_category_id": 23,
+      "source_title": "Who's To Blame For The Government Shutdown? | The View",
+      "target_title": "The Daily Show | Who Won The Government Shutdown?",
+      "source_date": "2018-01-23",
+      "target_date": "2018-01-26"
+    },
+    {
+      "source": "Mark Dice",
+      "target": "Quang Tran",
+      "similarity": 0.62,
+      "source_category_id": 25,
+      "target_category_id": 24,
+      "source_title": "Not Mother's Day Too",
+      "target_title": "How to cook a MOTHER DAY FEAST",
+      "source_date": "2018-05-11",
+      "target_date": "2018-05-15"
+    },
+    {
+      "source": "MTV News",
+      "target": "Marvel Studios Movies",
+      "similarity": 0.5,
+      "source_category_id": 24,
+      "target_category_id": 29,
+      "source_title": "The 'Avengers: Infinity War' Cast Play Marvel Trivia | MTV News",
       "target_title": "Avengers: Infinity War cast plays 'Friends For Infinity'",
-      "source_date": "2018-04-27",
+      "source_date": "2018-04-26",
       "target_date": "2018-04-29"
     },
     {
-      "source": "Eh Bee Family",
-      "target": "Jordan B Peterson",
+      "source": "BRISxLIFE",
+      "target": "Form of Therapy",
+      "similarity": 0.75,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "BTS | LOVE YOURSELF | Tear 'Singularity' Comeback Trailer | REACTION!!! \ubc29\ud0c4\uc18c\ub144\ub2e8 \u8f49",
+      "target_title": "Producer Reacts to BTS LOVE YOURSELF \u8f49 Tear Singularity Comeback Trailer",
+      "source_date": "2018-05-07",
+      "target_date": "2018-05-10"
+    },
+    {
+      "source": "TheaaaMC",
+      "target": "TheKeriandThorneshow",
+      "similarity": 0.81,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN Live Stream HD - CNN News Live 24/7",
+      "target_title": "CNN News Live Stream HD - President Trump News Live",
+      "source_date": "2018-02-09",
+      "target_date": "2018-02-18"
+    },
+    {
+      "source": "Gorkhaland 24x7",
+      "target": "Garebear Gaming",
+      "similarity": 0.53,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Avenger Infinity war spiderman's death scene, Scene: Spiderman Death,thor new Hammer",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-01",
+      "target_date": "2018-05-04"
+    },
+    {
+      "source": "Gorkhaland 24x7",
+      "target": "Garebear Gaming",
+      "similarity": 0.53,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Avenger Infinity war spiderman's death scene, Scene: Spiderman Death,thor new Hammer",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-01",
+      "target_date": "2018-05-07"
+    },
+    {
+      "source": "Gorkhaland 24x7",
+      "target": "Garebear Gaming",
+      "similarity": 0.53,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Avenger Infinity war spiderman's death scene, Scene: Spiderman Death,thor new Hammer",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-01",
+      "target_date": "2018-05-05"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.68,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 27, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 5, 2017",
+      "source_date": "2017-11-28",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.68,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 27, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 7, 2017",
+      "source_date": "2017-11-28",
+      "target_date": "2017-12-08"
+    },
+    {
+      "source": "USA News",
+      "target": "Alex Sanchez",
+      "similarity": 0.57,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "Sean Hannity 12/3/17 - President Trump's Exclusive Interview, December 3, 2017",
+      "target_title": "Sean Hannity 12/13/17 - Hannity Fox News Today December 13, 2017",
+      "source_date": "2017-12-05",
+      "target_date": "2017-12-14"
+    },
+    {
+      "source": "CaptainSparklez",
+      "target": "Philly D",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "They didn't think that one through",
+      "target_title": "It's Not As Easy As You Think...",
+      "source_date": "2017-12-19",
+      "target_date": "2017-12-28"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.81,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  December 2, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 5, 2017",
+      "source_date": "2017-12-03",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.81,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  December 2, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 7, 2017",
+      "source_date": "2017-12-03",
+      "target_date": "2017-12-08"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.68,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 28, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 5, 2017",
+      "source_date": "2017-11-29",
+      "target_date": "2017-12-06"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.68,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 28, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | December 7, 2017",
+      "source_date": "2017-11-29",
+      "target_date": "2017-12-08"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
       "similarity": 0.73,
-      "category_id": 22,
-      "source_title": "HAPPY NEW YEAR!!",
-      "target_title": "New Year's Q and A",
-      "source_date": "2018-01-01",
-      "target_date": "2018-01-02"
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 20, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 23, 2017",
+      "source_date": "2017-11-21",
+      "target_date": "2017-11-24"
     },
     {
-      "source": "ABC Television Stations",
-      "target": "CNET",
-      "similarity": 0.56,
-      "category_id": 22,
-      "source_title": "Do you hear Yanny or Laurel?",
-      "target_title": "Yanny vs Laurel debate explained",
-      "source_date": "2018-05-16",
-      "target_date": "2018-05-17"
+      "source": "axrevolution",
+      "target": "John Kuckian",
+      "similarity": 0.66,
+      "source_category_id": 22,
+      "target_category_id": 25,
+      "source_title": "#ScamLifeGuru Tati Halo Beauty Review | The TRUTH about Halo Beauty & Tati Westbrook | Tati Vitamin",
+      "target_title": "TATI INGREDIENTS BREAKDOWN!! HALO BEAUTY COSMETICS BY TATI, EPI.5",
+      "source_date": "2018-03-03",
+      "target_date": "2018-03-07"
     },
     {
-      "source": "ABC Television Stations",
-      "target": "98.7 The Bull",
-      "similarity": 0.88,
-      "category_id": 22,
-      "source_title": "Do you hear Yanny or Laurel?",
-      "target_title": "Yanny or Laurel?  Hear it the other way!",
-      "source_date": "2018-05-16",
-      "target_date": "2018-05-17"
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.6,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/16/18 - CNN CUOMO PRIME TIME - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 16, 2018",
+      "target_title": "BREAKING NEWS 1/27/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 27, 2018",
+      "source_date": "2018-01-18",
+      "target_date": "2018-01-28"
+    },
+    {
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.61,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/16/18 - CNN CUOMO PRIME TIME - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 16, 2018",
+      "target_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "source_date": "2018-01-18",
+      "target_date": "2018-01-23"
+    },
+    {
+      "source": "Shine On Media",
+      "target": "MsMojo",
+      "similarity": 0.53,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "13 REASONS WHY Season 2 Ending Explained",
+      "target_title": "Top 10 Most Heartbreaking Moments from 13 Reasons Why Season 2",
+      "source_date": "2018-05-24",
+      "target_date": "2018-05-27"
+    },
+    {
+      "source": "ikawikawikawikaw",
+      "target": "Alff Batt",
+      "similarity": 0.58,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Judge Judy Amazing Episodes - 159",
+      "target_title": "Judge Judy Best Cases Episodes 2018   50 part 1",
+      "source_date": "2018-03-21",
+      "target_date": "2018-03-30"
+    },
+    {
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.65,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/19/18 - CNN NEW DAY - TRUMP WHITE HOUSE LATEST NEWS TODAY JANUARY 19, 2018",
+      "target_title": "BREAKING NEWS 1/27/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 27, 2018",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-28"
+    },
+    {
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.66,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/19/18 - CNN NEW DAY - TRUMP WHITE HOUSE LATEST NEWS TODAY JANUARY 19, 2018",
+      "target_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "source_date": "2018-01-20",
+      "target_date": "2018-01-23"
+    },
+    {
+      "source": "Jesse Roach",
+      "target": "MrTigresa",
+      "similarity": 0.65,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "Real Time with Bill Maher 5/4/18",
+      "target_title": "Real Time with Bill Maher: May 11, 2018 (HBO) FULL VIDEO",
+      "source_date": "2018-05-06",
+      "target_date": "2018-05-12"
+    },
+    {
+      "source": "Asa Medina",
+      "target": "TvLive Fun",
+      "similarity": 0.64,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Les Marseillais Australia - \u00c9pisode 52 HD - 07 Mai 2018",
+      "target_title": "Les Marseillais Australia \u00c9pisode 57   14 Mai 2018",
+      "source_date": "2018-05-08",
+      "target_date": "2018-05-15"
     },
     {
       "source": "Casey Holmes",
       "target": "KathleenLights",
-      "similarity": 0.6,
-      "category_id": 26,
+      "similarity": 0.61,
+      "source_category_id": 26,
+      "target_category_id": 26,
       "source_title": "CURRENT FULL COVERAGE / DRUGSTORE FOUNDATION ROUTINE |  Casey Holmes",
       "target_title": "CURRENT GO TO MAKEUP ROUTINE  (No Foundation)",
       "source_date": "2018-03-12",
       "target_date": "2018-03-20"
     },
     {
-      "source": "US Military News",
-      "target": "US Defense News",
-      "similarity": 0.96,
-      "category_id": 28,
-      "source_title": "Alert: Scientists ALARMED as Drone Reveals Mysterious CRACKS in Hawaii Kilauea Volcano",
-      "target_title": "Hawaii Volcano: Scientists ALARMED as Drone Reveals Mysterious CRACKS in Kilauea",
-      "source_date": "2018-06-03",
-      "target_date": "2018-06-04"
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 14, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 21, 2017",
+      "source_date": "2017-11-15",
+      "target_date": "2017-11-22"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 14, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 23, 2017",
+      "source_date": "2017-11-15",
+      "target_date": "2017-11-24"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 14, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Eat Bulaga! (November 18, 2017)",
+      "source_date": "2017-11-15",
+      "target_date": "2017-11-18"
+    },
+    {
+      "source": "Erin Nelson",
+      "target": "Lanki Thuy",
+      "similarity": 0.53,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "Rachel Maddow Show 12/16/2017|Maddow Show TRMS Law School December 16, 2017",
+      "target_title": "Rachel Maddow Show December 22, 2017 | Rachel Maddow MSNBC Today 12/22/17 DONALD TRUMP",
+      "source_date": "2017-12-17",
+      "target_date": "2017-12-23"
     },
     {
       "source": "Xue Zhang",
-      "target": "Indah 412",
-      "similarity": 0.52,
-      "category_id": 22,
+      "target": "Radio-Canada Sports",
+      "similarity": 0.62,
+      "source_category_id": 22,
+      "target_category_id": 17,
       "source_title": "Scott Moir and Tessa Virtue 2018 PyeongChang Short Dance World Record",
-      "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "target_title": "Tessa Virtue et Scott Moir - Long Time Running - Pyeongchang 2018",
       "source_date": "2018-02-20",
-      "target_date": "2018-02-22"
+      "target_date": "2018-02-26"
     },
     {
       "source": "aakshi mehra",
-      "target": "Lucifer's Angel",
-      "similarity": 0.54,
-      "category_id": 22,
+      "target": "Garebear Gaming",
+      "similarity": 0.68,
+      "source_category_id": 22,
+      "target_category_id": 20,
       "source_title": "Spiderman death scene in infinity war",
-      "target_title": "Spider-Man\u2019s death- Infinity War",
+      "target_title": "Spider Man Death Scene (Infinity War)",
       "source_date": "2018-04-30",
-      "target_date": "2018-05-02"
+      "target_date": "2018-05-04"
     },
     {
-      "source": "New Channel",
-      "target": "black bull",
-      "similarity": 0.64,
-      "category_id": 22,
-      "source_title": "Judge \u2022 Judy \u2022 February 2018 \u2708 11",
-      "target_title": "Judge Judy February 2018 Top Amazing Cases \u2708 94",
-      "source_date": "2018-02-19",
-      "target_date": "2018-03-01"
+      "source": "aakshi mehra",
+      "target": "Garebear Gaming",
+      "similarity": 0.68,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Spiderman death scene in infinity war",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-04-30",
+      "target_date": "2018-05-07"
     },
     {
-      "source": "hazy horizons",
-      "target": "Indah 412",
+      "source": "aakshi mehra",
+      "target": "Garebear Gaming",
+      "similarity": 0.68,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Spiderman death scene in infinity war",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-04-30",
+      "target_date": "2018-05-05"
+    },
+    {
+      "source": "Asa Medina",
+      "target": "TvLive Fun",
+      "similarity": 0.7,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Les Marseillais Australia - \u00c9pisode 56 - 11 Mai 2018",
+      "target_title": "Les Marseillais Australia \u00c9pisode 57   14 Mai 2018",
+      "source_date": "2018-05-12",
+      "target_date": "2018-05-15"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 13, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 21, 2017",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-22"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 13, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 23, 2017",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-24"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.57,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 13, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Eat Bulaga! (November 18, 2017)",
+      "source_date": "2017-11-14",
+      "target_date": "2017-11-18"
+    },
+    {
+      "source": "Conservatism",
+      "target": "Conservative Network",
       "similarity": 0.54,
-      "category_id": 22,
-      "source_title": "Tessa Virtue & Scott Moir - OG IE interview BBC",
-      "target_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "source_category_id": 22,
+      "target_category_id": 25,
+      "source_title": "Jordan Peterson - I May Run Against Justin Trudeau",
+      "target_title": "He Hasn't Grown Up Jordan Peterson WRECKS Justin Trudeau",
+      "source_date": "2018-03-26",
+      "target_date": "2018-03-30"
+    },
+    {
+      "source": "Elhiwar Ettounsi",
+      "target": "Labes Ettounsia",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Omour Jedia S02 Episode 35 08-05-2018 Partie 01",
+      "target_title": "Omour Jedia S02 Episode 36 15-05-2018 Partie 01",
+      "source_date": "2018-05-09",
+      "target_date": "2018-05-16"
+    },
+    {
+      "source": "Stefan Molyneux",
+      "target": "Power & Politics",
+      "similarity": 0.57,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "THE MEMO HAS BEEN RELEASED",
+      "target_title": "SECOND MEMO SENATE MEMO Just Released HITS THE DEEP STATE HARD!! Here Are The Findings",
+      "source_date": "2018-02-03",
+      "target_date": "2018-02-07"
+    },
+    {
+      "source": "CBC Sports",
+      "target": "Radio-Canada Sports",
+      "similarity": 0.62,
+      "source_category_id": 17,
+      "target_category_id": 17,
+      "source_title": "Tessa Virtue, Scott Moir Free Dance at Winter Olympics | Pyeongchang 2018",
+      "target_title": "Tessa Virtue et Scott Moir - Long Time Running - Pyeongchang 2018",
       "source_date": "2018-02-21",
-      "target_date": "2018-02-22"
+      "target_date": "2018-02-26"
+    },
+    {
+      "source": "Anonymous Official",
+      "target": "Jason A",
+      "similarity": 0.66,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "Anonymous - Something Biblical is Happening Worldwide... (2018-2019)",
+      "target_title": "Something Biblical is Happening in 2018!",
+      "source_date": "2018-05-03",
+      "target_date": "2018-05-07"
+    },
+    {
+      "source": "Politics News",
+      "target": "Breaking Political News",
+      "similarity": 0.62,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/14/18 - CNN INSIDE POLITICS - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 14, 2018",
+      "target_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "source_date": "2018-01-15",
+      "target_date": "2018-01-23"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.74,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 18, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 21, 2017",
+      "source_date": "2017-11-19",
+      "target_date": "2017-11-22"
+    },
+    {
+      "source": "AlDUB",
+      "target": "Eat Bulaga!",
+      "similarity": 0.74,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Eat Bulaga  November 18, 2017 (FULL) Juan for All - All for Juan Sugod Bahay HD",
+      "target_title": "Juan For All, All For Juan Sugod Bahay | November 23, 2017",
+      "source_date": "2017-11-19",
+      "target_date": "2017-11-24"
+    },
+    {
+      "source": "CBC News",
+      "target": "680 NEWS",
+      "similarity": 0.67,
+      "source_category_id": 25,
+      "target_category_id": 22,
+      "source_title": "Tessa Virtue and Scott Moir win Olympic ice dance gold",
+      "target_title": "Olympic gold medalists Tessa Virtue and Scott Moir return home",
+      "source_date": "2018-02-21",
+      "target_date": "2018-02-27"
+    },
+    {
+      "source": "Good Mythical MORE",
+      "target": "Jordan B Peterson",
+      "similarity": 0.52,
+      "source_category_id": 24,
+      "target_category_id": 27,
+      "source_title": "5 Real New Year's Day Traditions",
+      "target_title": "New Year's Q and A",
+      "source_date": "2017-12-23",
+      "target_date": "2018-01-02"
+    },
+    {
+      "source": "Lucifer's Angel",
+      "target": "Garebear Gaming",
+      "similarity": 0.89,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Spider-Man\u2019s death- Infinity War",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-02",
+      "target_date": "2018-05-07"
+    },
+    {
+      "source": "Lucifer's Angel",
+      "target": "Garebear Gaming",
+      "similarity": 0.89,
+      "source_category_id": 22,
+      "target_category_id": 20,
+      "source_title": "Spider-Man\u2019s death- Infinity War",
+      "target_title": "Spider Man Death Scene (Infinity War)",
+      "source_date": "2018-05-02",
+      "target_date": "2018-05-05"
+    },
+    {
+      "source": "SKY NEWS",
+      "target": "Breaking Political News",
+      "similarity": 0.59,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN New Day Jake Tapper 01/14/18 - CNN PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 14, 2018",
+      "target_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "source_date": "2018-01-16",
+      "target_date": "2018-01-23"
+    },
+    {
+      "source": "Breaking Political News",
+      "target": "Nickelodeon US",
+      "similarity": 0.57,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/27/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 27, 2018",
+      "target_title": "CNN News Live HD - Trump Breaking News Today",
+      "source_date": "2018-01-28",
+      "target_date": "2018-02-02"
+    },
+    {
+      "source": "Alff Batt",
+      "target": "Saner Sone",
+      "similarity": 0.61,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Judge Judy Best Cases Episodes 2018   50 part 1",
+      "target_title": "Judge Judy Amazing Episodes 2018 February - 19",
+      "source_date": "2018-03-30",
+      "target_date": "2018-04-06"
+    },
+    {
+      "source": "Alff Batt",
+      "target": "M\u00fcge ile Her\u015fey",
+      "similarity": 0.59,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Judge Judy Best Cases Episodes 2018   50 part 1",
+      "target_title": "Judge Judy Quickest Cases 2018 - April 2",
+      "source_date": "2018-03-30",
+      "target_date": "2018-04-02"
+    },
+    {
+      "source": "Cesur D\u00fc\u015f\u00fcnce",
+      "target": "Michael Wertham",
+      "similarity": 0.55,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Judge Judy Amazing Cases Episodes 34",
+      "target_title": "Judge Judy Best Cases 2017 - 42",
+      "source_date": "2017-11-26",
+      "target_date": "2017-12-05"
+    },
+    {
+      "source": "Cesur D\u00fc\u015f\u00fcnce",
+      "target": "Michael Wertham",
+      "similarity": 0.55,
+      "source_category_id": 22,
+      "target_category_id": 22,
+      "source_title": "Judge Judy Amazing Cases Episodes 34",
+      "target_title": "Judge Judy Best Cases 2017 - 41",
+      "source_date": "2017-11-26",
+      "target_date": "2017-12-04"
+    },
+    {
+      "source": "Lingyin",
+      "target": "Radio-Canada Sports",
+      "similarity": 0.53,
+      "source_category_id": 22,
+      "target_category_id": 17,
+      "source_title": "Tessa Virtue Scott Moir PyeongChang Olympics Short Dance Practice 18/02/18",
+      "target_title": "Tessa Virtue et Scott Moir - Long Time Running - Pyeongchang 2018",
+      "source_date": "2018-02-19",
+      "target_date": "2018-02-26"
+    },
+    {
+      "source": "Elhiwar Ettounsi",
+      "target": "Labes Ettounsia",
+      "similarity": 0.67,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Dimanche Tout Est Permis S01 Episode 14 24-12-2017 Partie 01",
+      "target_title": "Dimanche Tout Est permis Saison 01 Episode 15 31-12-2017 Partie 03",
+      "source_date": "2017-12-25",
+      "target_date": "2018-01-02"
+    },
+    {
+      "source": "Breaking Political News",
+      "target": "Nickelodeon US",
+      "similarity": 0.58,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "BREAKING NEWS 1/22/18 - CNN NEW DAY - PRESIDENT TRUMP LATEST NEWS TODAY JANUARY 22, 2018",
+      "target_title": "CNN News Live HD - Trump Breaking News Today",
+      "source_date": "2018-01-23",
+      "target_date": "2018-02-02"
+    },
+    {
+      "source": "Labes Ettounsia",
+      "target": "Elhiwar Ettounsi",
+      "similarity": 0.76,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "Dimanche Tout Est Permis S01 Episode 26 18-03-2018 Partie 02",
+      "target_title": "Dimanche Tout Est Permis S01 Episode 27 25-03-2018 Partie 01",
+      "source_date": "2018-03-19",
+      "target_date": "2018-03-26"
+    },
+    {
+      "source": "UNiTEDDK",
+      "target": "MrTigresa",
+      "similarity": 0.63,
+      "source_category_id": 2,
+      "target_category_id": 25,
+      "source_title": "[FULL SHOW] Real Time with Bill Maher May 04, 2018",
+      "target_title": "Real Time with Bill Maher: May 11, 2018 (HBO) FULL VIDEO",
+      "source_date": "2018-05-05",
+      "target_date": "2018-05-12"
+    },
+    {
+      "source": "Entertainment Tonight",
+      "target": "LIVEKellyandRyan",
+      "similarity": 0.73,
+      "source_category_id": 24,
+      "target_category_id": 24,
+      "source_title": "'Bachelorette' Becca Kufrin Admits She Fell in Love With Two Men During Her Season (Exclusive)",
+      "target_title": "Bachelorette Becca Kufrin Says She Fell in Love with Two People",
+      "source_date": "2018-05-25",
+      "target_date": "2018-05-30"
+    },
+    {
+      "source": "Leninhatop",
+      "target": "Ellen Blum",
+      "similarity": 0.9,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "CNN Live Stream HD - CNN News Live 24/7",
+      "target_title": "CNN News Live Stream HD",
+      "source_date": "2018-02-15",
+      "target_date": "2018-02-20"
+    },
+    {
+      "source": "MrRexOG",
+      "target": "starr jones",
+      "similarity": 0.87,
+      "source_category_id": 25,
+      "target_category_id": 25,
+      "source_title": "The Last Word With Lawrence O'Donnell December 11, 2017| Lawrence O'Donnell MSNBC Today 12/11/2017",
+      "target_title": "The Last Word With Lawrence O'Donnell December 20, 2017| Lawrence O'Donnell MSNBC Today 12/20/2017",
+      "source_date": "2017-12-12",
+      "target_date": "2017-12-21"
     },
     {
       "source": "OfficialDjMurda",
       "target": "Cloudy",
-      "similarity": 0.75,
-      "category_id": 22,
+      "similarity": 0.73,
+      "source_category_id": 22,
+      "target_category_id": 22,
       "source_title": "Drake - Gods Plan (Official Audio)",
       "target_title": "Drake - God's Plan (Official Audio)",
       "source_date": "2018-02-07",
       "target_date": "2018-02-10"
     },
     {
-      "source": "Indah 412",
+      "source": "ET Canada",
       "target": "Slicky59",
       "similarity": 0.52,
-      "category_id": 22,
-      "source_title": "2018 Tessa Virtue & Scott Moir - Roxanne Documentary",
+      "source_category_id": 24,
+      "target_category_id": 23,
+      "source_title": "Tessa Virtue And Scott Moir Win Gold At 2018 Olympics",
       "target_title": "Jay and Dan's Side Seats with Tessa Virtue & Scott Moir - February 20, 2018",
-      "source_date": "2018-02-22",
+      "source_date": "2018-02-21",
       "target_date": "2018-02-27"
+    },
+    {
+      "source": "ET Canada",
+      "target": "680 NEWS",
+      "similarity": 0.61,
+      "source_category_id": 24,
+      "target_category_id": 22,
+      "source_title": "Tessa Virtue And Scott Moir Win Gold At 2018 Olympics",
+      "target_title": "Olympic gold medalists Tessa Virtue and Scott Moir return home",
+      "source_date": "2018-02-21",
+      "target_date": "2018-02-27"
+    },
+    {
+      "source": "NDTV",
+      "target": "22 Minutes",
+      "similarity": 0.65,
+      "source_category_id": 25,
+      "target_category_id": 23,
+      "source_title": "Has Justin Trudeau's India Visit Been A Disaster?",
+      "target_title": "Justin Trudeau's trip to India was a disaster | 22 Minutes",
+      "source_date": "2018-02-23",
+      "target_date": "2018-02-28"
     }
   ]
 }
