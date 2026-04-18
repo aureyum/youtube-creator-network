@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#cff529", "font": {"color": "white"}, "id": "WildSpartanz", "label": "WildSpartanz", "shape": "dot", "title": "WildSpartanz\nCategory: 24"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Markiplier", "label": "Markiplier", "shape": "dot", "title": "Markiplier\nCategory: 23"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "UberHaxorNova", "label": "UberHaxorNova", "shape": "dot", "title": "UberHaxorNova\nCategory: 20"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "jacksepticeye", "label": "jacksepticeye", "shape": "dot", "title": "jacksepticeye\nCategory: 20"}, {"color": "#cff529", "font": {"color": "white"}, "id": "KSI", "label": "KSI", "shape": "dot", "title": "KSI\nCategory: 24"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "GameGrumps", "label": "GameGrumps", "shape": "dot", "title": "GameGrumps\nCategory: 20"}, {"color": "#cff529", "font": {"color": "white"}, "id": "We Got This Covered", "label": "We Got This Covered", "shape": "dot", "title": "We Got This Covered\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Uosof Ahmadi", "label": "Uosof Ahmadi", "shape": "dot", "title": "Uosof Ahmadi\nCategory: 24"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "WillNE", "label": "WillNE", "shape": "dot", "title": "WillNE\nCategory: 23"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "JMX", "label": "JMX", "shape": "dot", "title": "JMX\nCategory: 20"}, {"color": "#cff529", "font": {"color": "white"}, "id": "PopBuzz", "label": "PopBuzz", "shape": "dot", "title": "PopBuzz\nCategory: 24"}, {"color": "#3498db", "font": {"color": "white"}, "id": "ComedyShortsGamer", "label": "ComedyShortsGamer", "shape": "dot", "title": "ComedyShortsGamer\nCategory: 22"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "Bijuu Mike", "label": "Bijuu Mike", "shape": "dot", "title": "Bijuu Mike\nCategory: 20"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "AlexRamiGaming", "label": "AlexRamiGaming", "shape": "dot", "title": "AlexRamiGaming\nCategory: 20"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Smosh Pit", "label": "Smosh Pit", "shape": "dot", "title": "Smosh Pit\nCategory: 22"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "MM7Games", "label": "MM7Games", "shape": "dot", "title": "MM7Games\nCategory: 20"}, {"color": "#ff56da", "font": {"color": "white"}, "id": "True Geordie", "label": "True Geordie", "shape": "dot", "title": "True Geordie\nCategory: 17"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "The Game Theorists", "label": "The Game Theorists", "shape": "dot", "title": "The Game Theorists\nCategory: 20"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Markiplier", "title": "Similarity: 0.55\nSource: Try Not To Laugh Challenge #13\nTarget: TRY NOT TO LAUGH CHALLENGE #5 w/ GUS JOHNSON\nDate: 2018-03-21 \u2192 2018-03-28", "to": "Smosh Pit"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Markiplier", "title": "Similarity: 0.64\nSource: A TOTALLY NORMAL GAME... NOTHING SUSPICIOUS AT ALL... | Doki Doki Literature Club - Part 1\nTarget: Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club\nDate: 2017-12-25 \u2192 2017-12-28", "to": "Bijuu Mike"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Markiplier", "title": "Similarity: 0.73\nSource: CLICK HERE TO RESET YOUR LIFE | Will You Press The Button #11\nTarget: CLICK HERE TO CHANGE YOUR LIFE | Will You Press The Button? #6\nDate: 2017-12-28 \u2192 2018-01-06", "to": "jacksepticeye"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "jacksepticeye", "title": "Similarity: 0.65\nSource: Playing Deadpool With Ryan Reynolds!\nTarget: Ryan Reynolds Reveals What Deadpool Would Have Done In \u2018Avengers: Infinity War\u2019\nDate: 2018-05-16 \u2192 2018-05-20", "to": "PopBuzz"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "jacksepticeye", "title": "Similarity: 0.63\nSource: TRY NOT TO CRINGE: DATING GAME | Super Seducer\nTarget: I AM A SUPER SEDUCER!\nDate: 2018-03-15 \u2192 2018-03-20", "to": "MM7Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "KSI", "title": "Similarity: 0.57\nSource: KSI VS JOE WELLER PRESS CONFERENCE/FACE OFF/WEIGH IN\nTarget: KSI VS JOE WELLER IN 5 MINUTES\nDate: 2018-02-03 \u2192 2018-02-06", "to": "WillNE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "GameGrumps", "title": "Similarity: 0.65\nSource: Doki Doki Literature Club!: Finally, Some Emotion! - PART 18 - Game Grumps\nTarget: Natsuki talks about her dad... | Doki Doki New END! | Doki Doki Literature Club\nDate: 2017-12-18 \u2192 2017-12-28", "to": "Bijuu Mike"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "We Got This Covered", "title": "Similarity: 0.58\nSource: DEADPOOL 2 Beating Avengers: Infinity War Trailer [HD] Ryan Reynolds, Zazie Beetz, Josh Brolin\nTarget: Ryan Reynolds Reveals What Deadpool Would Have Done In \u2018Avengers: Infinity War\u2019\nDate: 2018-05-15 \u2192 2018-05-20", "to": "PopBuzz"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WillNE", "title": "Similarity: 0.51\nSource: LOGAN PAUL GETS NEW HAIRCUT (TWOTI) - Logan Paul Returns\nTarget: Logan Paul: I\u0027m A Good Guy Who Made A Bad Decision - (Logan Paul Interview)\nDate: 2018-01-29 \u2192 2018-02-02", "to": "WildSpartanz"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WillNE", "title": "Similarity: 0.55\nSource: JAKE PAUL LITMAS HAS RUINED CHRISTMAS (TWOTI)\nTarget: WE RUINED CHRISTMAS! (The Show w/ No Name)\nDate: 2017-12-05 \u2192 2017-12-14", "to": "Smosh Pit"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ComedyShortsGamer", "title": "Similarity: 0.52\nSource: KSI VS JOE WELLER LEAKED FOOTAGE\nTarget: Calling Out KSI. - Reacting to KSI vs Joe Weller Boxing Fight\nDate: 2018-01-28 \u2192 2018-02-05", "to": "JMX"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ComedyShortsGamer", "title": "Similarity: 0.64\nSource: KSI VS JOE WELLER LEAKED FOOTAGE\nTarget: KSI VS JOE WELLER IN 5 MINUTES\nDate: 2018-01-28 \u2192 2018-02-06", "to": "WillNE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ComedyShortsGamer", "title": "Similarity: 0.57\nSource: KSI VS JOE WELLER LEAKED FOOTAGE\nTarget: *UNSEEN BACKSTAGE FOOTAGE* KSI VS JOE WELLER WEIGH IN AND FACE OFF!\nDate: 2018-01-28 \u2192 2018-02-03", "to": "Uosof Ahmadi"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "MM7Games", "title": "Similarity: 0.62\nSource: I AM A SUPER SEDUCER!\nTarget: CAN I GET YOUR NUMBER? *CRINGE WARNING* - Super Seducer\nDate: 2018-03-20 \u2192 2018-03-26", "to": "UberHaxorNova"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "True Geordie", "title": "Similarity: 0.57\nSource: KSI vs JOE WELLER - True Geordie Preview\nTarget: KSI VS JOE WELLER IN 5 MINUTES\nDate: 2018-02-02 \u2192 2018-02-06", "to": "WillNE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Game Theorists", "title": "Similarity: 0.53\nSource: Game Theory: Did I Find Fortnite\u0027s SECRET Lore (Fortnite Battle Royale)\nTarget: FORTNITE WORLD RECORD 2,732 SOLO WINS - New Fortnite Skins (Fortnite Battle Royale) Fortnite Live\nDate: 2018-03-26 \u2192 2018-04-05", "to": "AlexRamiGaming"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Game Theorists", "title": "Similarity: 0.66\nSource: Getting Over It\u0027s IMPOSSIBLE PHYSICS! | The SCIENCE!...of Getting Over It with Bennett Foddy\nTarget: Getting Over It w/ Bennett Foddy - Game Grumps\nDate: 2018-01-05 \u2192 2018-01-13", "to": "GameGrumps"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Game Theorists", "title": "Similarity: 0.69\nSource: Game Theory: Doki Doki Decoded! (Doki Doki Literature Club)\nTarget: A TOTALLY NORMAL GAME... NOTHING SUSPICIOUS AT ALL... | Doki Doki Literature Club - Part 1\nDate: 2017-12-15 \u2192 2017-12-25", "to": "Markiplier"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

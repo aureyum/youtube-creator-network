@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#8e44ad", "font": {"color": "white"}, "id": "The View", "label": "The View", "shape": "dot", "title": "The View\nCategory: 25"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "JennaMarbles", "label": "JennaMarbles", "shape": "dot", "title": "JennaMarbles\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "Sierra and Alex", "label": "Sierra and Alex", "shape": "dot", "title": "Sierra and Alex\nCategory: 22"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Domics", "label": "Domics", "shape": "dot", "title": "Domics\nCategory: 23"}, {"color": "#f82424", "font": {"color": "white"}, "id": "Linus Tech Tips", "label": "Linus Tech Tips", "shape": "dot", "title": "Linus Tech Tips\nCategory: 28"}, {"color": "#cff529", "font": {"color": "white"}, "id": "ZIAS!", "label": "ZIAS!", "shape": "dot", "title": "ZIAS!\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "MuchDank", "label": "MuchDank", "shape": "dot", "title": "MuchDank\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Rachel Kim", "label": "Rachel Kim", "shape": "dot", "title": "Rachel Kim\nCategory: 24"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Late Night with Seth Meyers", "label": "Late Night with Seth Meyers", "shape": "dot", "title": "Late Night with Seth Meyers\nCategory: 23"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Comedy Central UK", "label": "Comedy Central UK", "shape": "dot", "title": "Comedy Central UK\nCategory: 23"}, {"color": "#3498db", "font": {"color": "white"}, "id": "LawTWINZ", "label": "LawTWINZ", "shape": "dot", "title": "LawTWINZ\nCategory: 22"}, {"color": "#3498db", "font": {"color": "white"}, "id": "JayBlac", "label": "JayBlac", "shape": "dot", "title": "JayBlac\nCategory: 22"}, {"color": "#cff529", "font": {"color": "white"}, "id": "The Late Show with Stephen Colbert", "label": "The Late Show with Stephen Colbert", "shape": "dot", "title": "The Late Show with Stephen Colbert\nCategory: 24"}, {"color": "#f82424", "font": {"color": "white"}, "id": "INSIDER", "label": "INSIDER", "shape": "dot", "title": "INSIDER\nCategory: 28"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The View", "title": "Similarity: 0.59\nSource: Meaning Behind Childish Gambino\u0027s \u0027This Is America\u0027 | The View\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The View", "title": "Similarity: 0.55\nSource: Who\u0027s To Blame For The Government Shutdown? | The View\nTarget: The Daily Show | Who Won The Government Shutdown?\nDate: 2018-01-23 \u2192 2018-01-26", "to": "Comedy Central UK"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "JennaMarbles", "title": "Similarity: 0.55\nSource: We Bought A House\nTarget: I can SEE what you Bought Online!\nDate: 2018-05-18 \u2192 2018-05-22", "to": "Linus Tech Tips"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Domics", "title": "Similarity: 0.53\nSource: Buying Used Things 2\nTarget: Why is EVERYONE Buying this TV??\nDate: 2018-05-24 \u2192 2018-06-01", "to": "Linus Tech Tips"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Linus Tech Tips", "title": "Similarity: 0.58\nSource: Why is EVERYONE Buying this TV??\nTarget: BUYING EACH OTHER\u0027S OUTFITS!!!\nDate: 2018-06-01 \u2192 2018-06-10", "to": "Sierra and Alex"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "MuchDank", "title": "Similarity: 0.52\nSource: Childish Gambino Ruins EVERYTHING\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Late Night with Seth Meyers", "title": "Similarity: 0.51\nSource: The Women\u0027s March and the Government Shutdown: A Closer Look\nTarget: The Daily Show | Who Won The Government Shutdown?\nDate: 2018-01-23 \u2192 2018-01-26", "to": "Comedy Central UK"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "LawTWINZ", "title": "Similarity: 0.6\nSource: Childish Gambino - This Is America (Official Video) - REACTION\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "JayBlac", "title": "Similarity: 0.6\nSource: Childish Gambino - This Is America (Official Video) - REACTION\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-07 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Late Show with Stephen Colbert", "title": "Similarity: 0.54\nSource: \u0027Fox \u0026 Friends\u0027 Couldn\u0027t Get Trump Off The Phone\nTarget: The Phone Apple Couldn\u0027t Make...\nDate: 2018-04-28 \u2192 2018-05-06", "to": "Linus Tech Tips"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Late Show with Stephen Colbert", "title": "Similarity: 0.54\nSource: The \u0027Sh*thole Countries\u0027 Have One Thing Going For Them\nTarget: Fallout Continues Over Trump\u2019s \u201cSh*thole Countries\u201d Remark | The Daily Show\nDate: 2018-01-13 \u2192 2018-01-17", "to": "Comedy Central UK"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "INSIDER", "title": "Similarity: 0.64\nSource: Hidden Meanings Behind Childish Gambino\u0027s \u0027This Is America\u0027 Video\nTarget: Childish Gambino - This Is America (Official Video)- REACTION\nDate: 2018-05-10 \u2192 2018-05-16", "to": "ZIAS!"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "INSIDER", "title": "Similarity: 0.53\nSource: Hidden Meanings Behind Childish Gambino\u0027s \u0027This Is America\u0027 Video\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

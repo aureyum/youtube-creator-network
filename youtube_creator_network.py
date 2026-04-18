@@ -278,6 +278,7 @@ os.makedirs("graphs/categories", exist_ok=True)
 #building visualization with pyvis
 net = Network(height="950px", width="100%", directed=True, bgcolor="#1a1a2e", font_color="white")
 
+## CORE NETWORK
 for node in G.nodes():
     cat = category_map.get(node, 0)
     color = category_colors.get(cat, '#cccccc')
@@ -303,6 +304,7 @@ net.show_buttons(filter_=['physics'])
 net.save_graph("graphs/youtube_network.html")
 print("Saved to youtube_network.html")
 
+## COMMUNITY SUBGRAPHS
 #get community subgraphs and visualize separately
 print(f"\n=== Louvain Communities ===")
 G_undirected = G.to_undirected()
@@ -334,6 +336,7 @@ for i, comm in enumerate(communities):
     comm_net.save_graph(filename)
     print(f"Saved to {filename}")
 
+## CATEGORY SUBGRAPHS
 #plot per category graph
 for cat_id, cat_name in categories_to_plot.items():
     cat_nodes = [node for node in G.nodes() if category_map.get(node) == cat_id]
