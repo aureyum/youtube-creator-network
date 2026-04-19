@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#cff529", "font": {"color": "white"}, "id": "WatchMojo.com", "label": "WatchMojo.com", "shape": "dot", "title": "WatchMojo.com\nCategory: 24"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "RAP DAILY", "label": "RAP DAILY", "shape": "dot", "title": "RAP DAILY\nCategory: 10"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Breakfast Club Power 105.1 FM", "label": "Breakfast Club Power 105.1 FM", "shape": "dot", "title": "Breakfast Club Power 105.1 FM\nCategory: 24"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "WORLDSTARHIPHOP", "label": "WORLDSTARHIPHOP", "shape": "dot", "title": "WORLDSTARHIPHOP\nCategory: 10"}, {"color": "#ec9191", "font": {"color": "white"}, "id": "Brave Wilderness", "label": "Brave Wilderness", "shape": "dot", "title": "Brave Wilderness\nCategory: 15"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "J. Cole", "label": "J. Cole", "shape": "dot", "title": "J. Cole\nCategory: 10"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "Uprise", "label": "Uprise", "shape": "dot", "title": "Uprise\nCategory: 10"}, {"color": "#cff529", "font": {"color": "white"}, "id": "BigBoyTV", "label": "BigBoyTV", "shape": "dot", "title": "BigBoyTV\nCategory: 24"}, {"color": "#3498db", "font": {"color": "white"}, "id": "LawTWINZ", "label": "LawTWINZ", "shape": "dot", "title": "LawTWINZ\nCategory: 22"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "LyricalHub", "label": "LyricalHub", "shape": "dot", "title": "LyricalHub\nCategory: 10"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "OVO Sound", "label": "OVO Sound", "shape": "dot", "title": "OVO Sound\nCategory: 10"}, {"color": "#cff529", "font": {"color": "white"}, "id": "ZIAS!", "label": "ZIAS!", "shape": "dot", "title": "ZIAS!\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Rachel Kim", "label": "Rachel Kim", "shape": "dot", "title": "Rachel Kim\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Power 106 Los Angeles", "label": "Power 106 Los Angeles", "shape": "dot", "title": "Power 106 Los Angeles\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "MuchDank", "label": "MuchDank", "shape": "dot", "title": "MuchDank\nCategory: 24"}, {"color": "#3498db", "font": {"color": "white"}, "id": "JayBlac", "label": "JayBlac", "shape": "dot", "title": "JayBlac\nCategory: 22"}, {"color": "#cff529", "font": {"color": "white"}, "id": "CUFBOYS", "label": "CUFBOYS", "shape": "dot", "title": "CUFBOYS\nCategory: 24"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "Lil pump", "label": "Lil pump", "shape": "dot", "title": "Lil pump\nCategory: 10"}, {"color": "#f82424", "font": {"color": "white"}, "id": "INSIDER", "label": "INSIDER", "shape": "dot", "title": "INSIDER\nCategory: 28"}, {"color": "#8f4c16", "font": {"color": "white"}, "id": "ChildishGambinoVEVO", "label": "ChildishGambinoVEVO", "shape": "dot", "title": "ChildishGambinoVEVO\nCategory: 10"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "RAP DAILY", "title": "Similarity: 0.51\nSource: Mase - The Oracle (Cam\u0027Ron Diss)\nTarget: Cam\u0027ron Breaks Down The Mase Beef, Says There\u0027s More Stories To Be Told\nDate: 2017-11-26 \u2192 2017-12-01", "to": "Breakfast Club Power 105.1 FM"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Breakfast Club Power 105.1 FM", "title": "Similarity: 0.51\nSource: Pusha T Talks Daytona And The Mind Of Kanye West, Lil Wayne, Drake + More\nTarget: Pusha T on Defeating Drake, Meaning of Surgical Summer, Daytona \u0026 Kanye West\nDate: 2018-05-26 \u2192 2018-06-01", "to": "Power 106 Los Angeles"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Breakfast Club Power 105.1 FM", "title": "Similarity: 0.62\nSource: Pusha T Talks Daytona And The Mind Of Kanye West, Lil Wayne, Drake + More\nTarget: Pusha T on Beef w/ Drake, Daytona, Kanye West \u0026 A Lot More!\nDate: 2018-05-26 \u2192 2018-06-01", "to": "BigBoyTV"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WORLDSTARHIPHOP", "title": "Similarity: 0.94\nSource: 6IX9INE Kooda (WSHH Exclusive - Official Music Video)\nTarget: 6IX9INE Kooda (WSHH Exclusive - Official Music Video)- REACTION\nDate: 2017-12-08 \u2192 2017-12-12", "to": "ZIAS!"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WORLDSTARHIPHOP", "title": "Similarity: 0.59\nSource: 6IX9INE Billy (WSHH Exclusive - Official Music Video)\nTarget: Mom REACTS to 6IX9INE Billy (Official Music Video) [TRIGGERED]\nDate: 2018-03-05 \u2192 2018-03-10", "to": "CUFBOYS"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "WORLDSTARHIPHOP", "title": "Similarity: 0.59\nSource: Drake Duppy Freestyle (Kanye West \u0026 Pusha T Diss) (WSHH Exclusive - Official Audio)\nTarget: Drake Fires Back At Pusha T On Duppy Freestyle\nDate: 2018-05-26 \u2192 2018-05-30", "to": "Breakfast Club Power 105.1 FM"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Brave Wilderness", "title": "Similarity: 0.5\nSource: Best Animal Videos of 2017!\nTarget: Top 10 Music Videos of 2017\nDate: 2017-12-28 \u2192 2018-01-02", "to": "WatchMojo.com"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "J. Cole", "title": "Similarity: 0.66\nSource: J. Cole x Lil Pump Interview at The Sheltuh\nTarget: How The J. Cole x Lil Pump Interview Should\u0027ve Gone\nDate: 2018-05-26 \u2192 2018-05-29", "to": "MuchDank"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Uprise", "title": "Similarity: 0.69\nSource: Drake - Duppy Freestyle (Pusha T \u0026 Kanye West Diss)\nTarget: Drake Fires Back At Pusha T On Duppy Freestyle\nDate: 2018-05-26 \u2192 2018-05-30", "to": "Breakfast Club Power 105.1 FM"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "LawTWINZ", "title": "Similarity: 0.61\nSource: Childish Gambino - This Is America (Official Video) - REACTION\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "LyricalHub", "title": "Similarity: 0.52\nSource: The REAL Meaning of Childish Gambino - This Is America Will Shock You!\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-09 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "LyricalHub", "title": "Similarity: 0.55\nSource: The Drake \u0026 Pusha T Beef Explained\nTarget: Pusha T on Beef w/ Drake, Daytona, Kanye West \u0026 A Lot More!\nDate: 2018-05-27 \u2192 2018-06-01", "to": "BigBoyTV"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "OVO Sound", "title": "Similarity: 0.76\nSource: Drake - Duppy Freestyle\nTarget: Drake Fires Back At Pusha T On Duppy Freestyle\nDate: 2018-05-26 \u2192 2018-05-30", "to": "Breakfast Club Power 105.1 FM"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "MuchDank", "title": "Similarity: 0.51\nSource: Childish Gambino Ruins EVERYTHING\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "JayBlac", "title": "Similarity: 0.61\nSource: Childish Gambino - This Is America (Official Video) - REACTION\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-07 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Lil pump", "title": "Similarity: 0.78\nSource: Lil Pump - ESSKEETIT (Official Music Video)\nTarget: Mom REACTS to Lil Pump - ESSKEETIT (Official Music Video) LOL\nDate: 2018-04-14 \u2192 2018-04-19", "to": "CUFBOYS"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "INSIDER", "title": "Similarity: 0.63\nSource: Hidden Meanings Behind Childish Gambino\u0027s \u0027This Is America\u0027 Video\nTarget: Childish Gambino - This Is America (Official Video)- REACTION\nDate: 2018-05-10 \u2192 2018-05-16", "to": "ZIAS!"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "INSIDER", "title": "Similarity: 0.52\nSource: Hidden Meanings Behind Childish Gambino\u0027s \u0027This Is America\u0027 Video\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-10 \u2192 2018-05-14", "to": "Rachel Kim"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.91\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Childish Gambino - This Is America (Official Video) - REACTION\nDate: 2018-05-06 \u2192 2018-05-10", "to": "LawTWINZ"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.52\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Canadian YouTuber Remakes Childish Gambino\u0027s \u0027This Is America\u0027 In The Worst Way\nDate: 2018-05-06 \u2192 2018-05-16", "to": "Breakfast Club Power 105.1 FM"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.91\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Childish Gambino - This Is America (Official Video)- REACTION\nDate: 2018-05-06 \u2192 2018-05-16", "to": "ZIAS!"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.6\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Childish Gambino Ruins EVERYTHING\nDate: 2018-05-06 \u2192 2018-05-10", "to": "MuchDank"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.69\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Top 5 Things You Didn\u2019t Notice in Childish Gambino\u2019s \u201cThis Is America\u201d Video\nDate: 2018-05-06 \u2192 2018-05-09", "to": "WatchMojo.com"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ChildishGambinoVEVO", "title": "Similarity: 0.68\nSource: Childish Gambino - This Is America (Official Video)\nTarget: Koreans React to \u201cThis Is America\u201d by Childish Gambino\nDate: 2018-05-06 \u2192 2018-05-14", "to": "Rachel Kim"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

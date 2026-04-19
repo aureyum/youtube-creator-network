@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 950px;
+                 background-color: #1a1a2e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#17159b", "font": {"color": "white"}, "id": "HeyUGuys", "label": "HeyUGuys", "shape": "dot", "title": "HeyUGuys\nCategory: 1"}, {"color": "#f82424", "font": {"color": "white"}, "id": "AsapSCIENCE", "label": "AsapSCIENCE", "shape": "dot", "title": "AsapSCIENCE\nCategory: 28"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Media Muse", "label": "Media Muse", "shape": "dot", "title": "Media Muse\nCategory: 23"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "Smosh Games", "label": "Smosh Games", "shape": "dot", "title": "Smosh Games\nCategory: 20"}, {"color": "#cff529", "font": {"color": "white"}, "id": "YourMovieSucksDOTorg", "label": "YourMovieSucksDOTorg", "shape": "dot", "title": "YourMovieSucksDOTorg\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Chris Stuckmann", "label": "Chris Stuckmann", "shape": "dot", "title": "Chris Stuckmann\nCategory: 24"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "EA Star Wars", "label": "EA Star Wars", "shape": "dot", "title": "EA Star Wars\nCategory: 20"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Smosh", "label": "Smosh", "shape": "dot", "title": "Smosh\nCategory: 23"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "ashish chanchlani vines", "label": "ashish chanchlani vines", "shape": "dot", "title": "ashish chanchlani vines\nCategory: 23"}, {"color": "#80f751", "font": {"color": "white"}, "id": "Blossom", "label": "Blossom", "shape": "dot", "title": "Blossom\nCategory: 26"}, {"color": "#F7F32D", "font": {"color": "white"}, "id": "Jimmy Kimmel Live", "label": "Jimmy Kimmel Live", "shape": "dot", "title": "Jimmy Kimmel Live\nCategory: 23"}, {"color": "#17159b", "font": {"color": "white"}, "id": "Screen Junkies", "label": "Screen Junkies", "shape": "dot", "title": "Screen Junkies\nCategory: 1"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Good Morning America", "label": "Good Morning America", "shape": "dot", "title": "Good Morning America\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "RDCworld1", "label": "RDCworld1", "shape": "dot", "title": "RDCworld1\nCategory: 24"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Star Wars", "label": "Star Wars", "shape": "dot", "title": "Star Wars\nCategory: 24"}, {"color": "#17159b", "font": {"color": "white"}, "id": "The Film Theorists", "label": "The Film Theorists", "shape": "dot", "title": "The Film Theorists\nCategory: 1"}, {"color": "#cff529", "font": {"color": "white"}, "id": "Jeremy Jahns", "label": "Jeremy Jahns", "shape": "dot", "title": "Jeremy Jahns\nCategory: 24"}, {"color": "#0e4d08", "font": {"color": "white"}, "id": "TheGamingBeaver", "label": "TheGamingBeaver", "shape": "dot", "title": "TheGamingBeaver\nCategory: 20"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "HeyUGuys", "title": "Similarity: 0.64\nSource: Avengers: Infinity War Press Conference\nTarget: BLACK AVENGERS 3: INFINITY WAR\nDate: 2018-04-24 \u2192 2018-04-30", "to": "RDCworld1"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "HeyUGuys", "title": "Similarity: 0.52\nSource: Avengers: Infinity War Press Conference\nTarget: Avengers: Infinity War - SPOILER Talk\nDate: 2018-04-24 \u2192 2018-04-30", "to": "Jeremy Jahns"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "HeyUGuys", "title": "Similarity: 0.55\nSource: Avengers: Infinity War Press Conference\nTarget: Quickie: Avengers: Infinity War\nDate: 2018-04-24 \u2192 2018-04-30", "to": "YourMovieSucksDOTorg"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "HeyUGuys", "title": "Similarity: 0.66\nSource: Avengers: Infinity War Press Conference\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-24 \u2192 2018-04-30", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Media Muse", "title": "Similarity: 0.53\nSource: A Dwight Place - A Quiet Place/The Office Parody Trailer\nTarget: A Quiet Place Review - YMS\nDate: 2018-04-14 \u2192 2018-04-19", "to": "YourMovieSucksDOTorg"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Chris Stuckmann", "title": "Similarity: 0.57\nSource: Avengers: Infinity War - Movie Review\nTarget: Avengers: Infinity War - SPOILER Talk\nDate: 2018-04-26 \u2192 2018-04-30", "to": "Jeremy Jahns"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Chris Stuckmann", "title": "Similarity: 0.59\nSource: Star Wars: The Last Jedi - Spoiler Review\nTarget: Quickie: Star Wars: The Last Jedi\nDate: 2017-12-16 \u2192 2017-12-23", "to": "YourMovieSucksDOTorg"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Chris Stuckmann", "title": "Similarity: 0.72\nSource: Avengers: Infinity War - Movie Review\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-26 \u2192 2018-04-30", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "EA Star Wars", "title": "Similarity: 0.55\nSource: Star Wars Battlefront 2 The Last Jedi Season\nTarget: Star Wars: The Last Jedi - SPOILER Review\nDate: 2017-12-08 \u2192 2017-12-18", "to": "Jeremy Jahns"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "EA Star Wars", "title": "Similarity: 0.55\nSource: Star Wars Battlefront 2 The Last Jedi Season\nTarget: Star Wars: The Last Jedi - Spoiler Review\nDate: 2017-12-08 \u2192 2017-12-16", "to": "Chris Stuckmann"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Smosh", "title": "Similarity: 0.65\nSource: THE BEST AND WORST OF 2017\nTarget: The Worst Movies of 2017\nDate: 2017-12-28 \u2192 2017-12-31", "to": "Chris Stuckmann"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ashish chanchlani vines", "title": "Similarity: 0.54\nSource: Avengers Infinity War with Ashish Chanchlani\nTarget: BLACK AVENGERS 3: INFINITY WAR\nDate: 2018-04-22 \u2192 2018-04-30", "to": "RDCworld1"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "ashish chanchlani vines", "title": "Similarity: 0.57\nSource: Avengers Infinity War with Ashish Chanchlani\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-22 \u2192 2018-04-30", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Blossom", "title": "Similarity: 0.58\nSource: Valentines Day Special | Valentine Hacks \u0026 Adorable Gift Ideas For Your Valentine by Blossom\nTarget: EVERY VALENTINE\u0027S DAY EVER\nDate: 2018-02-11 \u2192 2018-02-15", "to": "Smosh"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jimmy Kimmel Live", "title": "Similarity: 0.5\nSource: Avengers: Infinity War Cast Reveals What They Stole from the Set\nTarget: BLACK AVENGERS 3: INFINITY WAR\nDate: 2018-04-27 \u2192 2018-04-30", "to": "RDCworld1"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jimmy Kimmel Live", "title": "Similarity: 0.52\nSource: Avengers: Infinity War Cast Reveals What They Stole from the Set\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-27 \u2192 2018-04-30", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Screen Junkies", "title": "Similarity: 0.54\nSource: Honest Trailers - The Room\nTarget: LA NOIRE (Honest Game Trailers)\nDate: 2017-11-29 \u2192 2017-12-06", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Good Morning America", "title": "Similarity: 0.56\nSource: Chris Evans opens up about \u0027Avengers: Infinity War\u0027\nTarget: BLACK AVENGERS 3: INFINITY WAR\nDate: 2018-04-24 \u2192 2018-04-30", "to": "RDCworld1"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Good Morning America", "title": "Similarity: 0.59\nSource: Chris Evans opens up about \u0027Avengers: Infinity War\u0027\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-24 \u2192 2018-04-30", "to": "Smosh Games"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Star Wars", "title": "Similarity: 0.53\nSource: Live From The Red Carpet Of Star Wars: The Last Jedi\nTarget: Star Wars: The Last Jedi - Spoiler Review\nDate: 2017-12-11 \u2192 2017-12-16", "to": "Chris Stuckmann"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Star Wars", "title": "Similarity: 0.53\nSource: Live From The Red Carpet Of Star Wars: The Last Jedi\nTarget: Star Wars: The Last Jedi - SPOILER Review\nDate: 2017-12-11 \u2192 2017-12-18", "to": "Jeremy Jahns"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Star Wars", "title": "Similarity: 0.53\nSource: Star Wars: The Last Jedi Heroes (:30)\nTarget: Could The Jedi Exist? (Star Wars Science)\nDate: 2017-11-19 \u2192 2017-11-29", "to": "AsapSCIENCE"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Film Theorists", "title": "Similarity: 0.51\nSource: Film Theory: Is Deadpool Trolling Us? (Deadpool 2)\nTarget: Deadpool 2 - Movie Review\nDate: 2018-05-09 \u2192 2018-05-16", "to": "Chris Stuckmann"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "The Film Theorists", "title": "Similarity: 0.6\nSource: Film Theory: Jurassic World Was An INSIDE JOB! (Jurassic World)\nTarget: JURASSIC WORLD 2 TRAILER REACTION! (2018)\nDate: 2017-12-06 \u2192 2017-12-09", "to": "TheGamingBeaver"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jeremy Jahns", "title": "Similarity: 0.78\nSource: Star Wars: The Last Jedi - Movie Review\nTarget: Star Wars: The Last Jedi - Spoiler Review\nDate: 2017-12-13 \u2192 2017-12-16", "to": "Chris Stuckmann"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jeremy Jahns", "title": "Similarity: 0.59\nSource: Avengers: Infinity War - Movie Review\nTarget: Quickie: Avengers: Infinity War\nDate: 2018-04-25 \u2192 2018-04-30", "to": "YourMovieSucksDOTorg"}, {"arrows": "to", "color": "rgba(255,255,255,0.3)", "from": "Jeremy Jahns", "title": "Similarity: 0.72\nSource: Avengers: Infinity War - Movie Review\nTarget: AVENGERS INFINITY WAR THE GAME\nDate: 2018-04-25 \u2192 2018-04-30", "to": "Smosh Games"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
